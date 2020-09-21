@@ -4,7 +4,7 @@
 :nofooter: 
 
 // tag::description[]
-This feature enables the Liberty server to process client modules and support remote client containers.
+This feature enables the Liberty server to process client modules and support remote client containers DEMO1 TEST.
 
 // end::description[]
 // tag::enable[]
