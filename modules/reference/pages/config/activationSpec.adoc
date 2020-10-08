@@ -3,7 +3,7 @@
 :page-layout: config
 :nofooter: 
 
-+Defines an activation specification configuration. ELLEN TEST+
++Defines an activation specification configuration.+
 
 [cols="a,a,a,a",width="100%"]
 |===
