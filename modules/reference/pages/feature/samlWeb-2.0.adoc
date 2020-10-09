@@ -7,6 +7,9 @@
 This feature enables web applications to use SAML web single sign-on version 2.0 function.
 
 // end::description[]
+
+include::./samlWeb-2.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the SAML Web Single Sign-On 2.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the SAML Web Single Sign-On 2.0 feature, add the following element dec
 <feature>samlWeb-2.0</feature>
 ----
 // end::enable[]
+
+include::./samlWeb-2.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

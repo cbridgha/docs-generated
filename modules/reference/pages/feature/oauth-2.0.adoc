@@ -7,6 +7,9 @@
 This feature enables web applications to integrate OAuth 2.0 for authenticating and authorizing users.
 
 // end::description[]
+
+include::./oauth-2.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the OAuth 2.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the OAuth 2.0 feature, add the following element declaration into your
 <feature>oauth-2.0</feature>
 ----
 // end::enable[]
+
+include::./oauth-2.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

@@ -7,6 +7,9 @@
 The Eclipse MicroProfile OpenTracing specification provides a mechanism to access an opentracing.io Tracer.
 
 // end::description[]
+
+include::./mpOpenTracing-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the MicroProfile OpenTracing 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the MicroProfile OpenTracing 1.0 feature, add the following element de
 <feature>mpOpenTracing-1.0</feature>
 ----
 // end::enable[]
+
+include::./mpOpenTracing-1.0/examples.adoc[]
+
 // tag::apis[]
 
 == Stable API packages provided by this feature

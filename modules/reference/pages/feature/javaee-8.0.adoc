@@ -7,6 +7,9 @@
 This feature combines the Liberty features that support the Java EE 8.0 Full Platform.
 
 // end::description[]
+
+include::./javaee-8.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Java EE Full Platform 8.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Java EE Full Platform 8.0 feature, add the following element decla
 <feature>javaee-8.0</feature>
 ----
 // end::enable[]
+
+include::./javaee-8.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

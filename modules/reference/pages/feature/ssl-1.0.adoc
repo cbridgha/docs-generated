@@ -7,6 +7,9 @@
 This feature enables support for Secure Sockets Layer (SSL) connections. The secure HTTPS listener is not started unless the ssl-1.0 feature is enabled and a keystore is configured.
 
 // end::description[]
+
+include::./ssl-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Secure Socket Layer 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Secure Socket Layer 1.0 feature, add the following element declara
 <feature>ssl-1.0</feature>
 ----
 // end::enable[]
+
+include::./ssl-1.0/examples.adoc[]
+
 // tag::superceeded[]
 
 == Features that this feature is superseded by

@@ -7,6 +7,9 @@
 This feature enables support for HTTP Servlets written to the Java Servlet 3.1 specification. You can package servlets in Java EE specified WAR or EAR files.  If servlet security is required, you should also configure an appSecurity feature. Without a security feature, any security constraints for the application are ignored.
 
 // end::description[]
+
+include::./servlet-3.1/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Java Servlets 3.1 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Java Servlets 3.1 feature, add the following element declaration i
 <feature>servlet-3.1</feature>
 ----
 // end::enable[]
+
+include::./servlet-3.1/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

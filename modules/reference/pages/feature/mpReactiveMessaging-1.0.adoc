@@ -7,6 +7,9 @@
 The Eclipse MicroProfile Reactive Messaging specification provides asynchronous messaging support based on Reactive Streams for MicroProfile.
 
 // end::description[]
+
+include::./mpReactiveMessaging-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the MicroProfile Reactive Messaging 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the MicroProfile Reactive Messaging 1.0 feature, add the following ele
 <feature>mpReactiveMessaging-1.0</feature>
 ----
 // end::enable[]
+
+include::./mpReactiveMessaging-1.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

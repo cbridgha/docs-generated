@@ -7,6 +7,9 @@
 This feature enables support for Java Server Pages (JSPs) that are written to the JSP 2.3 specification. This framework simplifies the construction of user interfaces. Enabling this feature also enables the Expression Language (EL) version 3.0 feature.  
 
 // end::description[]
+
+include::./jsp-2.3/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the JavaServer Pages 2.3 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the JavaServer Pages 2.3 feature, add the following element declaratio
 <feature>jsp-2.3</feature>
 ----
 // end::enable[]
+
+include::./jsp-2.3/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

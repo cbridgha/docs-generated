@@ -7,6 +7,9 @@
 Logs a record of events, such as JDBC requests and servlet requests, and their durations.
 
 // end::description[]
+
+include::./eventLogging-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Event Logging 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Event Logging 1.0 feature, add the following element declaration i
 <feature>eventLogging-1.0</feature>
 ----
 // end::enable[]
+
+include::./eventLogging-1.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

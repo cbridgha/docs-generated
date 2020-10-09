@@ -7,6 +7,9 @@
 This feature enables support for applications that use application-managed and container-managed JPA. This feature includes Java Persistence API 2.2 specification interfaces and container-managed JPA integration. EclipseLink is also included as the default JPA provider implementation.
 
 // end::description[]
+
+include::./jpa-2.2/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Java Persistence API 2.2 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Java Persistence API 2.2 feature, add the following element declar
 <feature>jpa-2.2</feature>
 ----
 // end::enable[]
+
+include::./jpa-2.2/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

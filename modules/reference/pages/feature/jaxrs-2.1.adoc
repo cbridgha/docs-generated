@@ -7,6 +7,9 @@
 This feature enables support for Java API for RESTful Web Services v2.1.  JAX-RS annotations can be used to define web service clients and endpoints that comply with the REST architectural style. Endpoints are accessed through a common interface that is based on the HTTP standard methods.
 
 // end::description[]
+
+include::./jaxrs-2.1/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Java RESTful Services 2.1 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Java RESTful Services 2.1 feature, add the following element decla
 <feature>jaxrs-2.1</feature>
 ----
 // end::enable[]
+
+include::./jaxrs-2.1/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

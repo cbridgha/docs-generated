@@ -7,6 +7,9 @@
 This feature is superseded by mdb-3.2. Both features provide identical function; only the feature names are different. mdb-3.2 is the preferred feature name.
 
 // end::description[]
+
+include::./jmsMdb-3.2/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the JMS Message-Driven Beans 3.2 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the JMS Message-Driven Beans 3.2 feature, add the following element de
 <feature>jmsMdb-3.2</feature>
 ----
 // end::enable[]
+
+include::./jmsMdb-3.2/examples.adoc[]
+
 // tag::superceeded[]
 
 == Features that this feature is superseded by

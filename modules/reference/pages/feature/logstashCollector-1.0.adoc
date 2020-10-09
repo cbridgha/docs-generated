@@ -7,6 +7,9 @@
 Logstash collector gathers data from various sources and forwards the data to a Logstash server using Lumberjack protocol.
 
 // end::description[]
+
+include::./logstashCollector-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Logstash Collector 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Logstash Collector 1.0 feature, add the following element declarat
 <feature>logstashCollector-1.0</feature>
 ----
 // end::enable[]
+
+include::./logstashCollector-1.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

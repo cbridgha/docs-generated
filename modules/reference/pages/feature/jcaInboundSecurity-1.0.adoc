@@ -7,6 +7,9 @@
 This feature enables security inflow for resource adapters.
 
 // end::description[]
+
+include::./jcaInboundSecurity-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Java Connector Architecture Security Inflow 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Java Connector Architecture Security Inflow 1.0 feature, add the f
 <feature>jcaInboundSecurity-1.0</feature>
 ----
 // end::enable[]
+
+include::./jcaInboundSecurity-1.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

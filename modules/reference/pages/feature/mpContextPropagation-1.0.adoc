@@ -7,6 +7,9 @@
 This feature implements the MicroProfile Context Propagation 1.0 specification, which allows you to obtain class instances of CompletableFuture that are backed by an instance of ManagedExecutor and provides the ability to contextualize CompletableFuture actions.
 
 // end::description[]
+
+include::./mpContextPropagation-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the MicroProfile Context Propagation 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the MicroProfile Context Propagation 1.0 feature, add the following el
 <feature>mpContextPropagation-1.0</feature>
 ----
 // end::enable[]
+
+include::./mpContextPropagation-1.0/examples.adoc[]
+
 // tag::apis[]
 
 == Stable API packages provided by this feature

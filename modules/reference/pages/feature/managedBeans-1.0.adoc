@@ -7,6 +7,9 @@
 This feature enables support for the Managed Beans 1.0 specification. Managed Beans provide a common foundation for different Java EE components types that are managed by a container.  Common services provided to Managed Beans include resource injection, lifecycle management and the use of interceptors.
 
 // end::description[]
+
+include::./managedBeans-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Java EE Managed Bean 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Java EE Managed Bean 1.0 feature, add the following element declar
 <feature>managedBeans-1.0</feature>
 ----
 // end::enable[]
+
+include::./managedBeans-1.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

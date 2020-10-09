@@ -7,6 +7,9 @@
 The Java API for JSON Processing (JSON-P) feature provides a standardized method for constructing and manipulating data to be rendered in JavaScript Object Notation (JSON).
 
 // end::description[]
+
+include::./jsonp-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the JavaScript Object Notation Processing 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the JavaScript Object Notation Processing 1.0 feature, add the followi
 <feature>jsonp-1.0</feature>
 ----
 // end::enable[]
+
+include::./jsonp-1.0/examples.adoc[]
+
 // tag::apis[]
 
 == Standard API packages provided by this feature

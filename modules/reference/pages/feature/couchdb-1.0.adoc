@@ -7,6 +7,9 @@
 This feature has been stabilized. The strategic alternative to this feature is the cloudant-1.0 feature. This feature enables connections to CouchDB by providing a connector instance configured in the server configuration, which can be injected or accessed through JNDI.  Applications use the ektorp client library to utilize the connector instance to work with CouchDB.
 
 // end::description[]
+
+include::./couchdb-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the CouchDB Integration 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the CouchDB Integration 1.0 feature, add the following element declara
 <feature>couchdb-1.0</feature>
 ----
 // end::enable[]
+
+include::./couchdb-1.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

@@ -7,6 +7,9 @@
 This feature enables support for Java Authorization Contract for Containers (JACC) version 1.5 In order to add the jacc-1.5 feature to your server, you need to add the third party JACC provider which is not a part of the WebSphere Application Server Liberty profile.
 
 // end::description[]
+
+include::./jacc-1.5/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Java Authorization Contract for Containers 1.5 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Java Authorization Contract for Containers 1.5 feature, add the fo
 <feature>jacc-1.5</feature>
 ----
 // end::enable[]
+
+include::./jacc-1.5/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

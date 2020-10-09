@@ -7,6 +7,9 @@
 This feature enables support for the Java Architecture for XML Binding 2.2 specification, which provides easy mapping of Java classes to XML documents.
 
 // end::description[]
+
+include::./jaxb-2.2/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Java XML Bindings 2.2 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Java XML Bindings 2.2 feature, add the following element declarati
 <feature>jaxb-2.2</feature>
 ----
 // end::enable[]
+
+include::./jaxb-2.2/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

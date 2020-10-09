@@ -7,6 +7,9 @@
 A secure, REST administrative connector that can be used locally or remotely using any Java developer kit. This connector enables remote access from a Java client or directly through an HTTPS call. The administrator and reader roles protect the connector. The connector requires TLS to keep the communication confidential. The HTTPS port used by the connector is defined through the default HTTP endpoint. This feature supersedes the restConnector-1.0 feature. It enables the REST handler configuration APIs. When this feature is combined with features supporting configuration validation, the corresponding REST handler validation APIs are enabled.
 
 // end::description[]
+
+include::./restConnector-2.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Admin REST Connector 2.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Admin REST Connector 2.0 feature, add the following element declar
 <feature>restConnector-2.0</feature>
 ----
 // end::enable[]
+
+include::./restConnector-2.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

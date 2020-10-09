@@ -7,6 +7,9 @@
 This feature enables connections to Cloudant by providing a connector instance configured in the server configuration, which can be injected or accessed through JNDI.  Applications use the Cloudant client library to utilize the connector instance.
 
 // end::description[]
+
+include::./cloudant-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Cloudant Integration 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Cloudant Integration 1.0 feature, add the following element declar
 <feature>cloudant-1.0</feature>
 ----
 // end::enable[]
+
+include::./cloudant-1.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

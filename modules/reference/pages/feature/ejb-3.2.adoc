@@ -7,6 +7,9 @@
 This feature enables support for Enterprise JavaBeans written to the EJB 3.2 specification.
 
 // end::description[]
+
+include::./ejb-3.2/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Enterprise JavaBeans 3.2 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Enterprise JavaBeans 3.2 feature, add the following element declar
 <feature>ejb-3.2</feature>
 ----
 // end::enable[]
+
+include::./ejb-3.2/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

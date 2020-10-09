@@ -7,6 +7,9 @@
 This feature provides access to the JavaScript Object Notation (JSON4J) library. The JSON4J library provides a simple Java model for constructing and manipulating data to be rendered as JSON data.
 
 // end::description[]
+
+include::./json-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the JavaScript Object Notation for Java 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the JavaScript Object Notation for Java 1.0 feature, add the following
 <feature>json-1.0</feature>
 ----
 // end::enable[]
+
+include::./json-1.0/examples.adoc[]
+
 // tag::apis[]
 
 == Liberty API packages provided by this feature

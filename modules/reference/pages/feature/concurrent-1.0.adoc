@@ -7,6 +7,9 @@
 This feature enables the creation of managed executors that allow applications to submit tasks to run concurrently, with thread context that is managed by the application server.It also enables the creation of managed thread factories to create threads that run with the threadcontext of the component that looks up the managed thread factory.
 
 // end::description[]
+
+include::./concurrent-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Concurrency Utilities for Java EE 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Concurrency Utilities for Java EE 1.0 feature, add the following e
 <feature>concurrent-1.0</feature>
 ----
 // end::enable[]
+
+include::./concurrent-1.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

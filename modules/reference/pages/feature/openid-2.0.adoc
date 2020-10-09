@@ -7,6 +7,9 @@
 This feature enables web applications to integrate OpenID 2.0 for authenticating users instead of, or in addition to, the configured user registry.
 
 // end::description[]
+
+include::./openid-2.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the OpenID 2.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the OpenID 2.0 feature, add the following element declaration into you
 <feature>openid-2.0</feature>
 ----
 // end::enable[]
+
+include::./openid-2.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

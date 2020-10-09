@@ -7,6 +7,9 @@
 This feature provides managed batch support for the Java batch container. This includes the Batch REST management interface, job logging support, and a command line utility for external scheduler integration.
 
 // end::description[]
+
+include::./batchManagement-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Batch Management 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Batch Management 1.0 feature, add the following element declaratio
 <feature>batchManagement-1.0</feature>
 ----
 // end::enable[]
+
+include::./batchManagement-1.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

@@ -7,6 +7,9 @@
 This feature enables support for Java API for XML-Based Web Services 2.2. JAX-WS web services and clients communicate using XML. Annotations can be used to simplify the development of JAX-WS clients and endpoints.
 
 // end::description[]
+
+include::./jaxws-2.2/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Java Web Services 2.2 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Java Web Services 2.2 feature, add the following element declarati
 <feature>jaxws-2.2</feature>
 ----
 // end::enable[]
+
+include::./jaxws-2.2/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

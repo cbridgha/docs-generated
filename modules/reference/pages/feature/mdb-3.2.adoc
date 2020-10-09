@@ -7,6 +7,9 @@
 This feature enables the use of Message-Driven Enterprise JavaBeans written to the EJB 3.2 specification. MDBs allow asynchronous processing of messages within a Java EE component.
 
 // end::description[]
+
+include::./mdb-3.2/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Message-Driven Beans 3.2 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Message-Driven Beans 3.2 feature, add the following element declar
 <feature>mdb-3.2</feature>
 ----
 // end::enable[]
+
+include::./mdb-3.2/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

@@ -7,6 +7,9 @@
 This feature enables support for Java EE 7 Application Client.
 
 // end::description[]
+
+include::./javaeeClient-7.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Java EE 7 Application Client feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Java EE 7 Application Client feature, add the following element de
 <feature>javaeeClient-7.0</feature>
 ----
 // end::enable[]
+
+include::./javaeeClient-7.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

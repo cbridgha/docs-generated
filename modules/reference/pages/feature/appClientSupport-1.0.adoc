@@ -7,6 +7,9 @@
 This feature enables the Liberty server to process client modules and support remote client containers.
 
 // end::description[]
+
+include::./appClientSupport-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Application Client Support for Server 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Application Client Support for Server 1.0 feature, add the followi
 <feature>appClientSupport-1.0</feature>
 ----
 // end::enable[]
+
+include::./appClientSupport-1.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

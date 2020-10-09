@@ -7,6 +7,9 @@
 This feature enables support for securing the server runtime environment and applications using Security-1.0 as defined in JSR-375.
 
 // end::description[]
+
+include::./appSecurity-3.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Application Security 3.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Application Security 3.0 feature, add the following element declar
 <feature>appSecurity-3.0</feature>
 ----
 // end::enable[]
+
+include::./appSecurity-3.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

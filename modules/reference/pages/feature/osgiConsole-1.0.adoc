@@ -7,6 +7,9 @@
 This feature enables an OSGi console to aid debug of the runtime. It can  be used to display information about bundles, packages and services which may be useful when developing your own features for product extensions.
 
 // end::description[]
+
+include::./osgiConsole-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the OSGi Debug Console 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the OSGi Debug Console 1.0 feature, add the following element declarat
 <feature>osgiConsole-1.0</feature>
 ----
 // end::enable[]
+
+include::./osgiConsole-1.0/examples.adoc[]
+
 // tag::apis[]
 // end::apis[]
 // tag::requirements[]

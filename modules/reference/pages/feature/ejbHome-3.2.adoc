@@ -7,6 +7,9 @@
 This feature enables the use of home interfaces in Enterprise JavaBeans.
 
 // end::description[]
+
+include::./ejbHome-3.2/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Enterprise JavaBeans Home Interfaces 3.2 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Enterprise JavaBeans Home Interfaces 3.2 feature, add the followin
 <feature>ejbHome-3.2</feature>
 ----
 // end::enable[]
+
+include::./ejbHome-3.2/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

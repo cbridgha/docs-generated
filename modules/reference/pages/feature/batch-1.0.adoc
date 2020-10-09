@@ -7,6 +7,9 @@
 This feature enables support for the Java Batch 1.0 API specified by JSR-352.
 
 // end::description[]
+
+include::./batch-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Batch API 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Batch API 1.0 feature, add the following element declaration into 
 <feature>batch-1.0</feature>
 ----
 // end::enable[]
+
+include::./batch-1.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

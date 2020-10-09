@@ -7,6 +7,9 @@
 This feature enables support for Java Client API for JAX-RS 2.1.
 
 // end::description[]
+
+include::./jaxrsClient-2.1/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Java RESTful Services Client 2.1 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Java RESTful Services Client 2.1 feature, add the following elemen
 <feature>jaxrsClient-2.1</feature>
 ----
 // end::enable[]
+
+include::./jaxrsClient-2.1/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

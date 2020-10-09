@@ -7,6 +7,9 @@
 This feature enables persistence of HTTP sessions to a datasource using JDBC. Persisting HTTP session data to a database allows recovery of the data after a server restart or unexpected server failure. Failover of HTTP sessions can be achieved by configuring multiple servers to persist data to the same location
 
 // end::description[]
+
+include::./sessionDatabase-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Database Session Persistence 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Database Session Persistence 1.0 feature, add the following elemen
 <feature>sessionDatabase-1.0</feature>
 ----
 // end::enable[]
+
+include::./sessionDatabase-1.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

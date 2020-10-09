@@ -7,6 +7,9 @@
 This feature is superseded by appSecurity-2.0. Support for securing the server runtime environment and applications. This feature enables servlet-3.0 and web application security, support for LDAP and basic user registries, and SSL. To support secure EJB applications, you must add the ejbLite-3.1 feature. When you add this feature to your server, you need to configure a user registry, such as the basic user registry or the LDAP user registry. 
 
 // end::description[]
+
+include::./appSecurity-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Application Security 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Application Security 1.0 feature, add the following element declar
 <feature>appSecurity-1.0</feature>
 ----
 // end::enable[]
+
+include::./appSecurity-1.0/examples.adoc[]
+
 // tag::superceeded[]
 
 == Features that this feature is superseded by

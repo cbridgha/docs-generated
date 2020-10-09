@@ -7,6 +7,9 @@
 This feature enables support for SIP Servlets written to the Java SipServlet 1.1 specification. The servlets can be packaged in Java EE specified WAR, SAR or EAR files.  If servlet security is required, an appSecurity feature should also be configured; in the absence of a security feature any security constraints for the application will be ignored.
 
 // end::description[]
+
+include::./sipServlet-1.1/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the SIP Servlet 1.1 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the SIP Servlet 1.1 feature, add the following element declaration int
 <feature>sipServlet-1.1</feature>
 ----
 // end::enable[]
+
+include::./sipServlet-1.1/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

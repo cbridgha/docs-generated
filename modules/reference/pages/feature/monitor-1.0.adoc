@@ -7,6 +7,9 @@
 This feature enables the Performance Monitoring Infrastructure (PMI) for other features the server is running. Monitoring data is accessible through standard MXBeans; access through the traditional WebSphere Perf MBean can be enabled.
 
 // end::description[]
+
+include::./monitor-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Performance Monitoring 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Performance Monitoring 1.0 feature, add the following element decl
 <feature>monitor-1.0</feature>
 ----
 // end::enable[]
+
+include::./monitor-1.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

@@ -7,6 +7,9 @@
 This feature enables web applications or microservices to use the Eclipse JSON Web Token 1.0 specification to authenticate users instead of, or in addition to, the configured user registry.
 
 // end::description[]
+
+include::./mpJwt-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the MicroProfile JSON Web Token 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the MicroProfile JSON Web Token 1.0 feature, add the following element
 <feature>mpJwt-1.0</feature>
 ----
 // end::enable[]
+
+include::./mpJwt-1.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

@@ -7,6 +7,9 @@
 This feature allows applications to utilize the JavaMail 1.5 API. 
 
 // end::description[]
+
+include::./javaMail-1.5/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the JavaMail 1.5 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the JavaMail 1.5 feature, add the following element declaration into y
 <feature>javaMail-1.5</feature>
 ----
 // end::enable[]
+
+include::./javaMail-1.5/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

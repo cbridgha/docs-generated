@@ -7,6 +7,9 @@
 This feature enables local caching for web responses. It includes the distributedMap feature and performs automatic caching of web application responses to improve response times and throughput. Applications can include a cache-spec.xml file to customize the response caching. The cache may be distributed through addition of a network cache provider such as WebSphere eXtreme Scale.
 
 // end::description[]
+
+include::./webCache-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Web Response Cache 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Web Response Cache 1.0 feature, add the following element declarat
 <feature>webCache-1.0</feature>
 ----
 // end::enable[]
+
+include::./webCache-1.0/examples.adoc[]
+
 // tag::apis[]
 
 == Liberty API packages provided by this feature

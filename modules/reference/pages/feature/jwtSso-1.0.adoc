@@ -7,6 +7,9 @@
 This feature allows the runtime to produce and consume MP-JWT cookies for authentication.
 
 // end::description[]
+
+include::./jwtSso-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the JSON Web Token Single Sign-On 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the JSON Web Token Single Sign-On 1.0 feature, add the following eleme
 <feature>jwtSso-1.0</feature>
 ----
 // end::enable[]
+
+include::./jwtSso-1.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements

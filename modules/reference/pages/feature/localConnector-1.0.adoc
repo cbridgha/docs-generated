@@ -7,6 +7,9 @@
 This feature allows the use of a local JMX connector that is built into the JVM to access JMX resources in the server. The JMX connector can only be used on the same host machine by a client that has the same user ID and the same JDK as the server process. It enables local access by JMX clients such as jConsole, or other JMX clients that use the Attach API.
 
 // end::description[]
+
+include::./localConnector-1.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Admin Local Connector 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Admin Local Connector 1.0 feature, add the following element decla
 <feature>localConnector-1.0</feature>
 ----
 // end::enable[]
+
+include::./localConnector-1.0/examples.adoc[]
+
 // tag::apis[]
 // end::apis[]
 // tag::requirements[]

@@ -7,6 +7,9 @@
 This feature enables support for securing the server runtime environment and applications; it includes a basic user registry. This feature supersedes appSecurity-1.0 and does not include servlet-3.0 or support for the LDAP user registry. To secure web applications, add the servlet-3.0 feature. To secure EJB applications, add the ejbLite-3.1 feature. To use LDAP, add the ldapRegistry-3.0 feature. When you add the appSecurity-2.0 feature to your server, you need to configure a user registry, such as the basic user registry or the LDAP user registry.
 
 // end::description[]
+
+include::./appSecurity-2.0/description.adoc[]
+
 // tag::enable[]
 == Enabling this feature
 To enable the Application Security 2.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
@@ -16,6 +19,9 @@ To enable the Application Security 2.0 feature, add the following element declar
 <feature>appSecurity-2.0</feature>
 ----
 // end::enable[]
+
+include::./appSecurity-2.0/examples.adoc[]
+
 // tag::config[]
 
 == Feature configuration elements
