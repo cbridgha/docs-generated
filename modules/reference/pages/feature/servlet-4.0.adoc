@@ -83,6 +83,7 @@ include::./servlet-4.0/examples.adoc[]
 // tag::dependencies[]
 
 == Features that enable this feature
+* feature:acmeCA-2.0[]
 * feature:appSecurity-3.0[]
 * feature:batch-1.0[]
 * feature:batchManagement-1.0[]

@@ -38,6 +38,9 @@ include::./transportSecurity-1.0/examples.adoc[]
 * JavaSE-14.0
 // end::java-versions[]
 // tag::dependencies[]
+
+== Features that enable this feature
+* feature:acmeCA-2.0[]
 // end::dependencies[]
 // tag::feature-require[]
 
