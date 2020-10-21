@@ -1,4 +1,4 @@
-= Spring Boot Support version 1.5
+= Spring Boot Support 1.5
 :linkcss: 
 :page-layout: feature
 :nofooter: 
@@ -12,7 +12,7 @@ include::./springBoot-1.5/description.adoc[]
 
 // tag::enable[]
 == Enabling this feature
-To enable the Spring Boot Support version 1.5 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
+To enable the Spring Boot Support 1.5 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
 
 
 ----

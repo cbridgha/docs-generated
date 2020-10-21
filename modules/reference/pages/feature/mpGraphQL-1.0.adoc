@@ -26,6 +26,10 @@ include::./mpGraphQL-1.0/examples.adoc[]
 
 == Stable API packages provided by this feature
 * javadoc:org.eclipse.microprofile.graphql[]
+
+== Third-party API packages provided by this feature
+* javadoc:io.smallrye.graphql.api[]
+* javadoc:io.smallrye.graphql.client.typesafe.api[]
 // end::apis[]
 // tag::requirements[]
 

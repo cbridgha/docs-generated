@@ -41,7 +41,6 @@ include::./jwt-1.0/examples.adoc[]
 * config:ltpa[]
 * config:quickStartSecurity[]
 * config:reader-role[]
-* config:trustAssociation[]
 // end::config[]
 // tag::apis[]
 

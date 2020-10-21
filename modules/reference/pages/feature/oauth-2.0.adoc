@@ -43,7 +43,6 @@ include::./oauth-2.0/examples.adoc[]
 * config:oauthProvider[]
 * config:quickStartSecurity[]
 * config:reader-role[]
-* config:trustAssociation[]
 // end::config[]
 // tag::apis[]
 
