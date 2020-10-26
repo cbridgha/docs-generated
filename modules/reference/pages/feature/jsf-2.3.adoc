@@ -8,7 +8,7 @@ This feature enables support for web applications that use the Java Server Faces
 
 // end::description[]
 
-include::./jsf-2.3/description.adoc[]
+include::./jsf-2.3/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the JavaServer Faces 2.3 feature, add the following element declaratio
 ----
 // end::enable[]
 
-include::./jsf-2.3/examples.adoc[]
+include::./jsf-2.3/examples.adoc[opts=optional]
 
 // tag::config[]
 

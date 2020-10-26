@@ -8,7 +8,7 @@ This feature enables an OSGi console to aid debug of the runtime. It can  be use
 
 // end::description[]
 
-include::./osgiConsole-1.0/description.adoc[]
+include::./osgiConsole-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the OSGi Debug Console 1.0 feature, add the following element declarat
 ----
 // end::enable[]
 
-include::./osgiConsole-1.0/examples.adoc[]
+include::./osgiConsole-1.0/examples.adoc[opts=optional]
 
 // tag::apis[]
 // end::apis[]

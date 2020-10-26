@@ -8,7 +8,7 @@ This feature enables web applications to integrate OpenID 2.0 for authenticating
 
 // end::description[]
 
-include::./openid-2.0/description.adoc[]
+include::./openid-2.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the OpenID 2.0 feature, add the following element declaration into you
 ----
 // end::enable[]
 
-include::./openid-2.0/examples.adoc[]
+include::./openid-2.0/examples.adoc[opts=optional]
 
 // tag::config[]
 

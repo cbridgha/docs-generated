@@ -8,7 +8,7 @@ This feature enables an embedded messaging server that is JMS compliant. Applica
 
 // end::description[]
 
-include::./wasJmsServer-1.0/description.adoc[]
+include::./wasJmsServer-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Message Server 1.0 feature, add the following element declaration 
 ----
 // end::enable[]
 
-include::./wasJmsServer-1.0/examples.adoc[]
+include::./wasJmsServer-1.0/examples.adoc[opts=optional]
 
 // tag::config[]
 

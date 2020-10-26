@@ -8,7 +8,7 @@ The kernel
 
 // end::description[]
 
-include::./kernel/description.adoc[]
+include::./kernel/description.adoc[opts=optional]
 
 // tag::config[]
 
