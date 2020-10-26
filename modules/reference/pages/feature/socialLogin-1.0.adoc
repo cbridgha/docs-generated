@@ -8,7 +8,7 @@ The Social Media Login feature provides a form of single sign-on (SSO) that enab
 
 // end::description[]
 
-include::./socialLogin-1.0/description.adoc[]
+include::./socialLogin-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Social Media Login 1.0 feature, add the following element declarat
 ----
 // end::enable[]
 
-include::./socialLogin-1.0/examples.adoc[]
+include::./socialLogin-1.0/examples.adoc[opts=optional]
 
 // tag::config[]
 
