@@ -8,7 +8,7 @@ The MicroProfile OpenTracing specification provides a mechanism to access an ope
 
 // end::description[]
 
-include::./mpOpenTracing-1.2/description.adoc[]
+include::./mpOpenTracing-1.2/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the MicroProfile OpenTracing 1.2 feature, add the following element de
 ----
 // end::enable[]
 
-include::./mpOpenTracing-1.2/examples.adoc[]
+include::./mpOpenTracing-1.2/examples.adoc[opts=optional]
 
 // tag::apis[]
 

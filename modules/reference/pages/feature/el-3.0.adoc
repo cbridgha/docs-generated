@@ -8,7 +8,7 @@ This feature enables support for the Expression Language (EL) 3.0.
 
 // end::description[]
 
-include::./el-3.0/description.adoc[]
+include::./el-3.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Expression Language 3.0 feature, add the following element declara
 ----
 // end::enable[]
 
-include::./el-3.0/examples.adoc[]
+include::./el-3.0/examples.adoc[opts=optional]
 
 // tag::apis[]
 
