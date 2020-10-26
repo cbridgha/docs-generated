@@ -8,7 +8,7 @@ This feature enables the use of remote interfaces in Enterprise JavaBeans.
 
 // end::description[]
 
-include::./ejbRemote-3.2/description.adoc[]
+include::./ejbRemote-3.2/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Enterprise JavaBeans Remote 3.2 feature, add the following element
 ----
 // end::enable[]
 
-include::./ejbRemote-3.2/examples.adoc[]
+include::./ejbRemote-3.2/examples.adoc[opts=optional]
 
 // tag::config[]
 

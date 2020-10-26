@@ -8,7 +8,7 @@ This feature enables support for Atomic Transaction for XML-Based Web Services 2
 
 // end::description[]
 
-include::./wsAtomicTransaction-1.2/description.adoc[]
+include::./wsAtomicTransaction-1.2/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the WS-AT Service 1.2 feature, add the following element declaration i
 ----
 // end::enable[]
 
-include::./wsAtomicTransaction-1.2/examples.adoc[]
+include::./wsAtomicTransaction-1.2/examples.adoc[opts=optional]
 
 // tag::config[]
 

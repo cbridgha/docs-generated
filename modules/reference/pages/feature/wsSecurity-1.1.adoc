@@ -8,7 +8,7 @@ This feature provides support for securing JAX-WS web services using a WS-Securi
 
 // end::description[]
 
-include::./wsSecurity-1.1/description.adoc[]
+include::./wsSecurity-1.1/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Web Service Security 1.1 feature, add the following element declar
 ----
 // end::enable[]
 
-include::./wsSecurity-1.1/examples.adoc[]
+include::./wsSecurity-1.1/examples.adoc[opts=optional]
 
 // tag::config[]
 
