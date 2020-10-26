@@ -8,7 +8,7 @@ The MicroProfile Rest Client specification provides a type-safe mechanism for in
 
 // end::description[]
 
-include::./mpRestClient-1.1/description.adoc[]
+include::./mpRestClient-1.1/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the MicroProfile Rest Client 1.1 feature, add the following element de
 ----
 // end::enable[]
 
-include::./mpRestClient-1.1/examples.adoc[]
+include::./mpRestClient-1.1/examples.adoc[opts=optional]
 
 // tag::apis[]
 

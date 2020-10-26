@@ -8,7 +8,7 @@ This feature enables support for Spring Boot applications using Spring Boot vers
 
 // end::description[]
 
-include::./springBoot-2.0/description.adoc[]
+include::./springBoot-2.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Spring Boot Support 2.0 feature, add the following element declara
 ----
 // end::enable[]
 
-include::./springBoot-2.0/examples.adoc[]
+include::./springBoot-2.0/examples.adoc[opts=optional]
 
 // tag::config[]
 

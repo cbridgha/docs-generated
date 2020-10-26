@@ -8,7 +8,7 @@ This feature enables support for Secure Sockets Layer (SSL) connections. The sec
 
 // end::description[]
 
-include::./ssl-1.0/description.adoc[]
+include::./ssl-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Secure Socket Layer 1.0 feature, add the following element declara
 ----
 // end::enable[]
 
-include::./ssl-1.0/examples.adoc[]
+include::./ssl-1.0/examples.adoc[opts=optional]
 
 // tag::superceeded[]
 

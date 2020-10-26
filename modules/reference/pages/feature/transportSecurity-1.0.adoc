@@ -8,7 +8,7 @@ This feature enables support for Secure Sockets Layer (SSL) connections. The sec
 
 // end::description[]
 
-include::./transportSecurity-1.0/description.adoc[]
+include::./transportSecurity-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Transport Security 1.0 feature, add the following element declarat
 ----
 // end::enable[]
 
-include::./transportSecurity-1.0/examples.adoc[]
+include::./transportSecurity-1.0/examples.adoc[opts=optional]
 
 // tag::apis[]
 // end::apis[]

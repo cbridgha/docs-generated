@@ -8,7 +8,7 @@ This feature enables support for Enterprise JavaBeans written to the EJB 3.2 spe
 
 // end::description[]
 
-include::./ejb-3.2/description.adoc[]
+include::./ejb-3.2/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Enterprise JavaBeans 3.2 feature, add the following element declar
 ----
 // end::enable[]
 
-include::./ejb-3.2/examples.adoc[]
+include::./ejb-3.2/examples.adoc[opts=optional]
 
 // tag::config[]
 
