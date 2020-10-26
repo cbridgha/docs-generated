@@ -8,7 +8,7 @@ This feature implements the MicroProfile Context Propagation 1.0 specification, 
 
 // end::description[]
 
-include::./mpContextPropagation-1.0/description.adoc[]
+include::./mpContextPropagation-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the MicroProfile Context Propagation 1.0 feature, add the following el
 ----
 // end::enable[]
 
-include::./mpContextPropagation-1.0/examples.adoc[]
+include::./mpContextPropagation-1.0/examples.adoc[opts=optional]
 
 // tag::apis[]
 

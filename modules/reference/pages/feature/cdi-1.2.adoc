@@ -8,7 +8,7 @@ The Contexts and Dependency Injection specification makes it easier to integrate
 
 // end::description[]
 
-include::./cdi-1.2/description.adoc[]
+include::./cdi-1.2/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Contexts and Dependency Injection 1.2 feature, add the following e
 ----
 // end::enable[]
 
-include::./cdi-1.2/examples.adoc[]
+include::./cdi-1.2/examples.adoc[opts=optional]
 
 // tag::config[]
 
