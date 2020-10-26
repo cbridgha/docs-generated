@@ -8,7 +8,7 @@ A secure, REST administrative connector that can be used locally or remotely usi
 
 // end::description[]
 
-include::./restConnector-2.0/description.adoc[]
+include::./restConnector-2.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Admin REST Connector 2.0 feature, add the following element declar
 ----
 // end::enable[]
 
-include::./restConnector-2.0/examples.adoc[]
+include::./restConnector-2.0/examples.adoc[opts=optional]
 
 // tag::config[]
 

@@ -8,7 +8,7 @@ This feature combines the Liberty features that support the Java EE 8.0 Web Prof
 
 // end::description[]
 
-include::./webProfile-8.0/description.adoc[]
+include::./webProfile-8.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Java EE Web Profile 8.0 feature, add the following element declara
 ----
 // end::enable[]
 
-include::./webProfile-8.0/examples.adoc[]
+include::./webProfile-8.0/examples.adoc[opts=optional]
 
 // tag::config[]
 
