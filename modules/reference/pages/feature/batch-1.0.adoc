@@ -8,7 +8,7 @@ This feature enables support for the Java Batch 1.0 API specified by JSR-352.
 
 // end::description[]
 
-include::./batch-1.0/description.adoc[]
+include::./batch-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Batch API 1.0 feature, add the following element declaration into 
 ----
 // end::enable[]
 
-include::./batch-1.0/examples.adoc[]
+include::./batch-1.0/examples.adoc[opts=optional]
 
 // tag::config[]
 

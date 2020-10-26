@@ -8,7 +8,7 @@ This feature enables the configuration of DataSources to access Databases from a
 
 // end::description[]
 
-include::./jdbc-4.3/description.adoc[]
+include::./jdbc-4.3/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Java Database Connectivity 4.3 feature, add the following element 
 ----
 // end::enable[]
 
-include::./jdbc-4.3/examples.adoc[]
+include::./jdbc-4.3/examples.adoc[opts=optional]
 
 // tag::config[]
 

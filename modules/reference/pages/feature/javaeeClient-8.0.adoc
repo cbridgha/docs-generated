@@ -8,7 +8,7 @@ This feature enables support for Java EE 8 Application Client.
 
 // end::description[]
 
-include::./javaeeClient-8.0/description.adoc[]
+include::./javaeeClient-8.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Java EE 8 Application Client feature, add the following element de
 ----
 // end::enable[]
 
-include::./javaeeClient-8.0/examples.adoc[]
+include::./javaeeClient-8.0/examples.adoc[opts=optional]
 
 // tag::config[]
 

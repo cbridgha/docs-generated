@@ -8,7 +8,7 @@ This feature enables persistence of HTTP sessions to a datasource using JDBC. Pe
 
 // end::description[]
 
-include::./sessionDatabase-1.0/description.adoc[]
+include::./sessionDatabase-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Database Session Persistence 1.0 feature, add the following elemen
 ----
 // end::enable[]
 
-include::./sessionDatabase-1.0/examples.adoc[]
+include::./sessionDatabase-1.0/examples.adoc[opts=optional]
 
 // tag::config[]
 

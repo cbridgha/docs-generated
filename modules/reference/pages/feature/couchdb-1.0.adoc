@@ -8,7 +8,7 @@ This feature has been stabilized. The strategic alternative to this feature is t
 
 // end::description[]
 
-include::./couchdb-1.0/description.adoc[]
+include::./couchdb-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the CouchDB Integration 1.0 feature, add the following element declara
 ----
 // end::enable[]
 
-include::./couchdb-1.0/examples.adoc[]
+include::./couchdb-1.0/examples.adoc[opts=optional]
 
 // tag::config[]
 

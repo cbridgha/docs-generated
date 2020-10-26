@@ -8,7 +8,7 @@ This feature enables support for Enterprise JavaBeans written to the EJB Lite su
 
 // end::description[]
 
-include::./ejbLite-3.2/description.adoc[]
+include::./ejbLite-3.2/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Enterprise JavaBeans Lite 3.2 feature, add the following element d
 ----
 // end::enable[]
 
-include::./ejbLite-3.2/examples.adoc[]
+include::./ejbLite-3.2/examples.adoc[opts=optional]
 
 // tag::config[]
 
