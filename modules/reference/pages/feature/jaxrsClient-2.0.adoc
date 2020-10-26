@@ -8,7 +8,7 @@ This feature enables support for Java Client API for JAX-RS 2.0.
 
 // end::description[]
 
-include::./jaxrsClient-2.0/description.adoc[]
+include::./jaxrsClient-2.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Java RESTful Services Client 2.0 feature, add the following elemen
 ----
 // end::enable[]
 
-include::./jaxrsClient-2.0/examples.adoc[]
+include::./jaxrsClient-2.0/examples.adoc[opts=optional]
 
 // tag::config[]
 

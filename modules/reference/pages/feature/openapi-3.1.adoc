@@ -8,7 +8,7 @@ This feature enables users to discover and understand REST APIs exposed by web a
 
 // end::description[]
 
-include::./openapi-3.1/description.adoc[]
+include::./openapi-3.1/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the OpenAPI 3.1 feature, add the following element declaration into yo
 ----
 // end::enable[]
 
-include::./openapi-3.1/examples.adoc[]
+include::./openapi-3.1/examples.adoc[opts=optional]
 
 // tag::config[]
 

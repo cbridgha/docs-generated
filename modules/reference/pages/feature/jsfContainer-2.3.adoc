@@ -8,7 +8,7 @@ This feature enables CDI integrations for web applications that use the Java Ser
 
 // end::description[]
 
-include::./jsfContainer-2.3/description.adoc[]
+include::./jsfContainer-2.3/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the JavaServer Faces Container 2.3 feature, add the following element 
 ----
 // end::enable[]
 
-include::./jsfContainer-2.3/examples.adoc[]
+include::./jsfContainer-2.3/examples.adoc[opts=optional]
 
 // tag::apis[]
 // end::apis[]

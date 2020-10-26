@@ -8,7 +8,7 @@ This feature enables the configuration of Basic Extensions using Liberty Librari
 
 // end::description[]
 
-include::./bells-1.0/description.adoc[]
+include::./bells-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Basic Extensions using Liberty Libraries 1.0 feature, add the foll
 ----
 // end::enable[]
 
-include::./bells-1.0/examples.adoc[]
+include::./bells-1.0/examples.adoc[opts=optional]
 
 // tag::config[]
 

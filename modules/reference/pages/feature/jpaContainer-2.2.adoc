@@ -8,7 +8,7 @@ This feature enables support for applications that use application-managed and c
 
 // end::description[]
 
-include::./jpaContainer-2.2/description.adoc[]
+include::./jpaContainer-2.2/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Java Persistence API Container 2.2 feature, add the following elem
 ----
 // end::enable[]
 
-include::./jpaContainer-2.2/examples.adoc[]
+include::./jpaContainer-2.2/examples.adoc[opts=optional]
 
 // tag::config[]
 
