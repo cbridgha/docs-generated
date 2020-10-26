@@ -8,7 +8,7 @@ This feature enables web applications or microservices to use the Eclipse JSON W
 
 // end::description[]
 
-include::./mpJwt-1.0/description.adoc[]
+include::./mpJwt-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the MicroProfile JSON Web Token 1.0 feature, add the following element
 ----
 // end::enable[]
 
-include::./mpJwt-1.0/examples.adoc[]
+include::./mpJwt-1.0/examples.adoc[opts=optional]
 
 // tag::config[]
 

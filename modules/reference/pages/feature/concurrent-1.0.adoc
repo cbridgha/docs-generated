@@ -8,7 +8,7 @@ This feature enables the creation of managed executors that allow applications t
 
 // end::description[]
 
-include::./concurrent-1.0/description.adoc[]
+include::./concurrent-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Concurrency Utilities for Java EE 1.0 feature, add the following e
 ----
 // end::enable[]
 
-include::./concurrent-1.0/examples.adoc[]
+include::./concurrent-1.0/examples.adoc[opts=optional]
 
 // tag::config[]
 

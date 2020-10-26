@@ -8,7 +8,7 @@ This feature enables the Liberty server to process client modules and support re
 
 // end::description[]
 
-include::./appClientSupport-1.0/description.adoc[]
+include::./appClientSupport-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Application Client Support for Server 1.0 feature, add the followi
 ----
 // end::enable[]
 
-include::./appClientSupport-1.0/examples.adoc[]
+include::./appClientSupport-1.0/examples.adoc[opts=optional]
 
 // tag::config[]
 

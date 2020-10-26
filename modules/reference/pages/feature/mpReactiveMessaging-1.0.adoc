@@ -8,7 +8,7 @@ The Eclipse MicroProfile Reactive Messaging specification provides asynchronous 
 
 // end::description[]
 
-include::./mpReactiveMessaging-1.0/description.adoc[]
+include::./mpReactiveMessaging-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the MicroProfile Reactive Messaging 1.0 feature, add the following ele
 ----
 // end::enable[]
 
-include::./mpReactiveMessaging-1.0/examples.adoc[]
+include::./mpReactiveMessaging-1.0/examples.adoc[opts=optional]
 
 // tag::config[]
 
