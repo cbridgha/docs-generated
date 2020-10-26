@@ -8,7 +8,7 @@ This feature is superseded by appSecurity-2.0. Support for securing the server r
 
 // end::description[]
 
-include::./appSecurity-1.0/description.adoc[]
+include::./appSecurity-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the Application Security 1.0 feature, add the following element declar
 ----
 // end::enable[]
 
-include::./appSecurity-1.0/examples.adoc[]
+include::./appSecurity-1.0/examples.adoc[opts=optional]
 
 // tag::superceeded[]
 

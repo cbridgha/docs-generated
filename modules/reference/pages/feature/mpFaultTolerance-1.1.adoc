@@ -8,7 +8,7 @@ This feature provides support for the Eclipse MicroProfile Fault Tolerance 1.1 s
 
 // end::description[]
 
-include::./mpFaultTolerance-1.1/description.adoc[]
+include::./mpFaultTolerance-1.1/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
@@ -20,7 +20,7 @@ To enable the MicroProfile Fault Tolerance 1.1 feature, add the following elemen
 ----
 // end::enable[]
 
-include::./mpFaultTolerance-1.1/examples.adoc[]
+include::./mpFaultTolerance-1.1/examples.adoc[opts=optional]
 
 // tag::apis[]
 
