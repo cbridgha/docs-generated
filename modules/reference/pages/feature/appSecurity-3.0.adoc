@@ -33,6 +33,7 @@ include::./appSecurity-3.0/examples.adoc[opts=optional]
 * config:classloading[]
 * config:jaasLoginContextEntry[]
 * config:jaasLoginModule[]
+* config:kerberos[]
 * config:library[]
 * config:ltpa[]
 * config:quickStartSecurity[]
@@ -65,7 +66,7 @@ include::./appSecurity-3.0/examples.adoc[opts=optional]
 
 * JavaSE-1.8
 * JavaSE-11.0
-* JavaSE-14.0
+* JavaSE-15.0
 // end::java-versions[]
 // tag::dependencies[]
 
@@ -77,7 +78,6 @@ include::./appSecurity-3.0/examples.adoc[opts=optional]
 * feature:mpJwt-1.1[]
 * feature:oauth-2.0[]
 * feature:openid-2.0[]
-* feature:passwordUtilities-1.0[]
 * feature:samlWeb-2.0[]
 * feature:spnego-1.0[]
 * feature:webProfile-8.0[]

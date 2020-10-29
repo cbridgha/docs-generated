@@ -30,6 +30,7 @@ include::./jdbc-4.0/examples.adoc[opts=optional]
 * config:classloading[]
 * config:dataSource[]
 * config:jdbcDriver[]
+* config:kerberos[]
 * config:library[]
 * config:transaction[]
 // end::config[]
@@ -46,7 +47,7 @@ include::./jdbc-4.0/examples.adoc[opts=optional]
 
 * JavaSE-1.8
 * JavaSE-11.0
-* JavaSE-14.0
+* JavaSE-15.0
 // end::java-versions[]
 // tag::dependencies[]
 
