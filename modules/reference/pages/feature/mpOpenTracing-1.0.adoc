@@ -8,6 +8,7 @@ The Eclipse MicroProfile OpenTracing specification provides a mechanism to acces
 
 // end::description[]
 
+include::./mpOpenTracing/description.adoc[opts=optional]
 include::./mpOpenTracing-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the MicroProfile OpenTracing 1.0 feature, add the following element de
 ----
 // end::enable[]
 
+include::./mpOpenTracing/examples.adoc[opts=optional]
 include::./mpOpenTracing-1.0/examples.adoc[opts=optional]
 
 // tag::apis[]

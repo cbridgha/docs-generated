@@ -8,6 +8,7 @@ This feature enables support for HTTP Servlets written to the Java Servlet 3.1 s
 
 // end::description[]
 
+include::./servlet/description.adoc[opts=optional]
 include::./servlet-3.1/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Java Servlets 3.1 feature, add the following element declaration i
 ----
 // end::enable[]
 
+include::./servlet/examples.adoc[opts=optional]
 include::./servlet-3.1/examples.adoc[opts=optional]
 
 // tag::config[]

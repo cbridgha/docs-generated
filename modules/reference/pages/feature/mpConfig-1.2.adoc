@@ -8,6 +8,7 @@ The Eclipse MicroProfile Config specification provides a unified mechanism to ac
 
 // end::description[]
 
+include::./mpConfig/description.adoc[opts=optional]
 include::./mpConfig-1.2/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the MicroProfile Config 1.2 feature, add the following element declara
 ----
 // end::enable[]
 
+include::./mpConfig/examples.adoc[opts=optional]
 include::./mpConfig-1.2/examples.adoc[opts=optional]
 
 // tag::config[]

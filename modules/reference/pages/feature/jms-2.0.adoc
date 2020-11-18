@@ -8,6 +8,7 @@ This feature enables the configuration of resource adapters to access messaging 
 
 // end::description[]
 
+include::./jms/description.adoc[opts=optional]
 include::./jms-2.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Java Message Service 2.0 feature, add the following element declar
 ----
 // end::enable[]
 
+include::./jms/examples.adoc[opts=optional]
 include::./jms-2.0/examples.adoc[opts=optional]
 
 // tag::config[]

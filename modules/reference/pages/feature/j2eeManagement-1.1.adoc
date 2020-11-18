@@ -8,6 +8,7 @@ This feature allows applications to utilize the interfaces defined in the JSR77 
 
 // end::description[]
 
+include::./j2eeManagement/description.adoc[opts=optional]
 include::./j2eeManagement-1.1/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the J2EE Management 1.1 feature, add the following element declaration
 ----
 // end::enable[]
 
+include::./j2eeManagement/examples.adoc[opts=optional]
 include::./j2eeManagement-1.1/examples.adoc[opts=optional]
 
 // tag::config[]

@@ -8,6 +8,7 @@ The Audit feature is used to report and track auditable events to ensure the int
 
 // end::description[]
 
+include::./audit/description.adoc[opts=optional]
 include::./audit-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Audit 1.0 feature, add the following element declaration into your
 ----
 // end::enable[]
 
+include::./audit/examples.adoc[opts=optional]
 include::./audit-1.0/examples.adoc[opts=optional]
 
 // tag::config[]

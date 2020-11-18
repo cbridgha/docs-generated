@@ -8,6 +8,7 @@ Support for securing the client container runtime environment and applications. 
 
 // end::description[]
 
+include::./appSecurityClient/description.adoc[opts=optional]
 include::./appSecurityClient-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,14 +21,13 @@ To enable the Application Security for Client 1.0 feature, add the following ele
 ----
 // end::enable[]
 
+include::./appSecurityClient/examples.adoc[opts=optional]
 include::./appSecurityClient-1.0/examples.adoc[opts=optional]
 
 // tag::config[]
 
 == Feature configuration elements
 * config:channelfw[]
-* config:jaasLoginContextEntry[]
-* config:jaasLoginModule[]
 * config:orb[]
 * config:tcpOptions[]
 // end::config[]

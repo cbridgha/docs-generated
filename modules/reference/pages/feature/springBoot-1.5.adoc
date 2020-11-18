@@ -8,6 +8,7 @@ This feature enables support for Spring Boot applications using Spring Boot vers
 
 // end::description[]
 
+include::./springBoot/description.adoc[opts=optional]
 include::./springBoot-1.5/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Spring Boot Support 1.5 feature, add the following element declara
 ----
 // end::enable[]
 
+include::./springBoot/examples.adoc[opts=optional]
 include::./springBoot-1.5/examples.adoc[opts=optional]
 
 // tag::config[]

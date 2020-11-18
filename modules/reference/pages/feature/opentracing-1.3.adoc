@@ -8,6 +8,7 @@ This feature provides support for Opentracing function for enterprise Java.
 
 // end::description[]
 
+include::./opentracing/description.adoc[opts=optional]
 include::./opentracing-1.3/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Opentracing 1.3 feature, add the following element declaration int
 ----
 // end::enable[]
 
+include::./opentracing/examples.adoc[opts=optional]
 include::./opentracing-1.3/examples.adoc[opts=optional]
 
 // tag::apis[]

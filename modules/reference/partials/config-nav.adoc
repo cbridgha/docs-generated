@@ -1,5 +1,4 @@
 * Server configuration
-  ** xref:config/server-configuration-overview.adoc[Server configuration overview]
   ** xref:config/acmeCA.adoc[acmeCA]
   ** xref:config/acmeRevocationChecker.adoc[acmeRevocationChecker]
   ** xref:config/acmeTransportConfig.adoc[acmeTransportConfig]
@@ -57,6 +56,8 @@
   ** xref:config/fileset.adoc[fileset]
   ** xref:config/githubLogin.adoc[githubLogin]
   ** xref:config/googleLogin.adoc[googleLogin]
+  ** xref:config/grpc.adoc[grpc]
+  ** xref:config/grpcClient.adoc[grpcClient]
   ** xref:config/httpAccessLogging.adoc[httpAccessLogging]
   ** xref:config/httpDispatcher.adoc[httpDispatcher]
   ** xref:config/httpEncoding.adoc[httpEncoding]

@@ -1104,6 +1104,32 @@ Required
 
 |+A custom LDAP search expression used while searching for entity types. For example, searchFilter="(\|(ObjectCategory=User)(ObjectClass=User))".+
 |===
+[#+loginProperty+]*loginProperty*
+
++A WIM PersonAccount property that is used to generate the LDAP filter for user searches. The first instance of this attribute is returned as the principal name for the user. The mapping of WIM properties to LDAP attributes can be modified by using the attributeConfiguration attribute. Setting this attribute will override userFilter if it is defined. This attribute is case-sensitive.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+name+
+
+|string +
+Required
+
+|
+
+|+A WIM PersonAccount property that is used to generate the LDAP filter for user searches. The first instance of this attribute is returned as the principal name for the user. The mapping of WIM properties to LDAP attributes can be modified by using the attributeConfiguration attribute. Setting this attribute will override userFilter if it is defined. This attribute is case-sensitive.+
+|===
 [#+netscapeFilters+]*netscapeFilters*
 
 +Specifies the list of Netscape Directory Server LDAP filters.+

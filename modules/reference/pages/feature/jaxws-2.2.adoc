@@ -8,6 +8,7 @@ This feature enables support for Java API for XML-Based Web Services 2.2. JAX-WS
 
 // end::description[]
 
+include::./jaxws/description.adoc[opts=optional]
 include::./jaxws-2.2/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Java Web Services 2.2 feature, add the following element declarati
 ----
 // end::enable[]
 
+include::./jaxws/examples.adoc[opts=optional]
 include::./jaxws-2.2/examples.adoc[opts=optional]
 
 // tag::config[]

@@ -8,6 +8,7 @@ This feature enables support for using  an LDAP server as a user registry. Any s
 
 // end::description[]
 
+include::./ldapRegistry/description.adoc[opts=optional]
 include::./ldapRegistry-3.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the LDAP User Registry 3.0 feature, add the following element declarat
 ----
 // end::enable[]
 
+include::./ldapRegistry/examples.adoc[opts=optional]
 include::./ldapRegistry-3.0/examples.adoc[opts=optional]
 
 // tag::config[]

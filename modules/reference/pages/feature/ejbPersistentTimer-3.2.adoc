@@ -8,6 +8,7 @@ This feature enables the use of persistent timers in Enterprise JavaBeans.
 
 // end::description[]
 
+include::./ejbPersistentTimer/description.adoc[opts=optional]
 include::./ejbPersistentTimer-3.2/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Enterprise JavaBeans Persistent Timers 3.2 feature, add the follow
 ----
 // end::enable[]
 
+include::./ejbPersistentTimer/examples.adoc[opts=optional]
 include::./ejbPersistentTimer-3.2/examples.adoc[opts=optional]
 
 // tag::config[]

@@ -8,6 +8,7 @@ This feature enables support for Java Authorization Contract for Containers (JAC
 
 // end::description[]
 
+include::./jacc/description.adoc[opts=optional]
 include::./jacc-1.5/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Java Authorization Contract for Containers 1.5 feature, add the fo
 ----
 // end::enable[]
 
+include::./jacc/examples.adoc[opts=optional]
 include::./jacc-1.5/examples.adoc[opts=optional]
 
 // tag::config[]

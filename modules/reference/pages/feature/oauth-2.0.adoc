@@ -8,6 +8,7 @@ This feature enables web applications to integrate OAuth 2.0 for authenticating 
 
 // end::description[]
 
+include::./oauth/description.adoc[opts=optional]
 include::./oauth-2.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the OAuth 2.0 feature, add the following element declaration into your
 ----
 // end::enable[]
 
+include::./oauth/examples.adoc[opts=optional]
 include::./oauth-2.0/examples.adoc[opts=optional]
 
 // tag::config[]

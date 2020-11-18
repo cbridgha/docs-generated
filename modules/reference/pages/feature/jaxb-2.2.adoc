@@ -8,6 +8,7 @@ This feature enables support for the Java Architecture for XML Binding 2.2 speci
 
 // end::description[]
 
+include::./jaxb/description.adoc[opts=optional]
 include::./jaxb-2.2/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Java XML Bindings 2.2 feature, add the following element declarati
 ----
 // end::enable[]
 
+include::./jaxb/examples.adoc[opts=optional]
 include::./jaxb-2.2/examples.adoc[opts=optional]
 
 // tag::config[]

@@ -8,6 +8,7 @@ This feature enables support for applications that use application-managed and c
 
 // end::description[]
 
+include::./jpa/description.adoc[opts=optional]
 include::./jpa-2.2/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Java Persistence API 2.2 feature, add the following element declar
 ----
 // end::enable[]
 
+include::./jpa/examples.adoc[opts=optional]
 include::./jpa-2.2/examples.adoc[opts=optional]
 
 // tag::config[]

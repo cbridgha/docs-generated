@@ -8,6 +8,7 @@ This feature provides a local cache service which can be accessed through the Di
 
 // end::description[]
 
+include::./distributedMap/description.adoc[opts=optional]
 include::./distributedMap-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Distributed Map interface for Dynamic Caching 1.0 feature, add the
 ----
 // end::enable[]
 
+include::./distributedMap/examples.adoc[opts=optional]
 include::./distributedMap-1.0/examples.adoc[opts=optional]
 
 // tag::config[]

@@ -8,6 +8,7 @@ This feature enables support for securing the server runtime environment and app
 
 // end::description[]
 
+include::./jaspic/description.adoc[opts=optional]
 include::./jaspic-1.1/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Java Authentication SPI for Containers 1.1 feature, add the follow
 ----
 // end::enable[]
 
+include::./jaspic/examples.adoc[opts=optional]
 include::./jaspic-1.1/examples.adoc[opts=optional]
 
 // tag::config[]

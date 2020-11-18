@@ -8,6 +8,7 @@ This feature enables web applications to integrate SPNEGO 1.0 for authenticating
 
 // end::description[]
 
+include::./spnego/description.adoc[opts=optional]
 include::./spnego-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,12 +21,12 @@ To enable the Simple and Protected GSSAPI Negotiation Mechanism 1.0 feature, add
 ----
 // end::enable[]
 
+include::./spnego/examples.adoc[opts=optional]
 include::./spnego-1.0/examples.adoc[opts=optional]
 
 // tag::config[]
 
 == Feature configuration elements
-* config:authFilter[]
 * config:spnego[]
 // end::config[]
 // tag::apis[]

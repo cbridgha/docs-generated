@@ -9,6 +9,22 @@
 |===
 |Name|Type|Default|Description
 
+|+bindToJavaGlobal+
+
+|boolean
+
+|+true+
+
+|+This property configures whether enterprise beans are available for lookup in the java:global, java:app, and java:module namespaces. The JNDI names that are defined in the enterprise bean specification are used.+
+
+|+bindToServerRoot+
+
+|boolean
+
+|+true+
+
+|+This property configures whether enterprise beans are available for lookup in the server root, ejblocal:, and local: namespaces. Default JNDI names are used unless custom JNDI names are configured in an ibm-ejb-jar-bnd.xml, ibm-ejb-jar-bnd.xmi, or server.xml file.+
+
 |+cacheCleanupInterval+
 
 |A period of time with second precision
@@ -25,6 +41,31 @@ Min: +1+
 |+2053+
 
 |+The number of stateful session bean instances that should be cached in memory.+
+
+|+customBindingsOnError+
+
+|* +FAIL+
+* +IGNORE+
+* +WARN+
+
+
+|+WARN+
+
+|+This property determines the action to take in response to configuration errors. For example, if multiple enterprise beans are configured with the same custom JNDI name, then the customBindingsOnError property determines whether to fail, raise a warning, or ignore the duplicate bindings.+ +
+*+FAIL+* +
++Server will issue a warning or error message on the first error occurrence and then stop the server.+ +
+*+IGNORE+* +
++Server will not issue any warning and error messages when it incurs a configuration error.+ +
+*+WARN+* +
++Server will issue warning and error messages when it incurs a configuration error.+
+
+|+disableShortDefaultBindings+
+
+|string
+
+|
+
+|+This property configures whether enterprise beans are available for lookup in the server root and ejblocal: namespaces by using the short form default JNDI names. The short form default JNDI name is the enterprise bean interface name. The value is either a ':' separated list of applications to disable short default bindings for enterprise beans in that application or a '*' to disable for all enterprise beans.+
 
 |+poolCleanupInterval+
 

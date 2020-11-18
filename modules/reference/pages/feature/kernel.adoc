@@ -9,6 +9,11 @@ This feature provides the Liberty kernel, which makes up the core of the Open Li
 // end::description[]
 
 include::./kernel/description.adoc[opts=optional]
+include::./kernel/description.adoc[opts=optional]
+
+
+include::./kernel/examples.adoc[opts=optional]
+include::./kernel/examples.adoc[opts=optional]
 
 // tag::config[]
 

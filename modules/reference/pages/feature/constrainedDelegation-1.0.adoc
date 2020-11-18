@@ -8,6 +8,7 @@ This feature enables support for Kerberos constrained delegation for SPNEGO.
 
 // end::description[]
 
+include::./constrainedDelegation/description.adoc[opts=optional]
 include::./constrainedDelegation-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Kerberos Constrained Delegation for SPNEGO 1.0 feature, add the fo
 ----
 // end::enable[]
 
+include::./constrainedDelegation/examples.adoc[opts=optional]
 include::./constrainedDelegation-1.0/examples.adoc[opts=optional]
 
 // tag::config[]

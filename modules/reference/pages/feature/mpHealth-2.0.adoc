@@ -8,6 +8,7 @@ This feature provides support for the Eclipse MicroProfile Health specification.
 
 // end::description[]
 
+include::./mpHealth/description.adoc[opts=optional]
 include::./mpHealth-2.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the MicroProfile Health 2.0 feature, add the following element declara
 ----
 // end::enable[]
 
+include::./mpHealth/examples.adoc[opts=optional]
 include::./mpHealth-2.0/examples.adoc[opts=optional]
 
 // tag::apis[]
