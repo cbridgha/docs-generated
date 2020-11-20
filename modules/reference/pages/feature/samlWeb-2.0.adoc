@@ -8,6 +8,7 @@ This feature enables web applications to use SAML web single sign-on version 2.0
 
 // end::description[]
 
+include::./samlWeb/description.adoc[opts=optional]
 include::./samlWeb-2.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the SAML Web Single Sign-On 2.0 feature, add the following element dec
 ----
 // end::enable[]
 
+include::./samlWeb/examples.adoc[opts=optional]
 include::./samlWeb-2.0/examples.adoc[opts=optional]
 
 // tag::config[]
@@ -27,7 +29,6 @@ include::./samlWeb-2.0/examples.adoc[opts=optional]
 == Feature configuration elements
 * config:administrator-role[]
 * config:authCache[]
-* config:authFilter[]
 * config:authentication[]
 * config:authorization-roles[]
 * config:basicRegistry[]

@@ -8,6 +8,7 @@ This feature combines the Liberty features that support the Java EE 8.0 Full Pla
 
 // end::description[]
 
+include::./javaee/description.adoc[opts=optional]
 include::./javaee-8.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Java EE Full Platform 8.0 feature, add the following element decla
 ----
 // end::enable[]
 
+include::./javaee/examples.adoc[opts=optional]
 include::./javaee-8.0/examples.adoc[opts=optional]
 
 // tag::config[]

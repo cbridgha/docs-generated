@@ -8,6 +8,7 @@ Logstash collector gathers data from various sources and forwards the data to a 
 
 // end::description[]
 
+include::./logstashCollector/description.adoc[opts=optional]
 include::./logstashCollector-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Logstash Collector 1.0 feature, add the following element declarat
 ----
 // end::enable[]
 
+include::./logstashCollector/examples.adoc[opts=optional]
 include::./logstashCollector-1.0/examples.adoc[opts=optional]
 
 // tag::config[]

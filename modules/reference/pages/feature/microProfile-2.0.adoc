@@ -8,6 +8,7 @@ This feature combines the Liberty features that support Eclipse MicroProfile 2.0
 
 // end::description[]
 
+include::./microProfile/description.adoc[opts=optional]
 include::./microProfile-2.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the MicroProfile 2.0 feature, add the following element declaration in
 ----
 // end::enable[]
 
+include::./microProfile/examples.adoc[opts=optional]
 include::./microProfile-2.0/examples.adoc[opts=optional]
 
 // tag::apis[]

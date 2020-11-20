@@ -8,6 +8,7 @@ This feature enables support for Java Server Pages (JSPs) that are written to th
 
 // end::description[]
 
+include::./jsp/description.adoc[opts=optional]
 include::./jsp-2.2/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the JavaServer Pages 2.2 feature, add the following element declaratio
 ----
 // end::enable[]
 
+include::./jsp/examples.adoc[opts=optional]
 include::./jsp-2.2/examples.adoc[opts=optional]
 
 // tag::config[]

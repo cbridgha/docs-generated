@@ -8,6 +8,7 @@ This feature enables support for WebSocket applications written to the Java API 
 
 // end::description[]
 
+include::./websocket/description.adoc[opts=optional]
 include::./websocket-1.1/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Java WebSocket 1.1 feature, add the following element declaration 
 ----
 // end::enable[]
 
+include::./websocket/examples.adoc[opts=optional]
 include::./websocket-1.1/examples.adoc[opts=optional]
 
 // tag::config[]

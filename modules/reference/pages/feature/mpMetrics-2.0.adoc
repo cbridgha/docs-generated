@@ -8,6 +8,7 @@ This feature provides support for the Eclipse MicroProfile Metrics 2.0 specifica
 
 // end::description[]
 
+include::./mpMetrics/description.adoc[opts=optional]
 include::./mpMetrics-2.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the MicroProfile Metrics 2.0 feature, add the following element declar
 ----
 // end::enable[]
 
+include::./mpMetrics/examples.adoc[opts=optional]
 include::./mpMetrics-2.0/examples.adoc[opts=optional]
 
 // tag::config[]

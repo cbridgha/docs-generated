@@ -8,6 +8,7 @@ This feature has been stabilized. The strategic alternative to this feature is t
 
 // end::description[]
 
+include::./couchdb/description.adoc[opts=optional]
 include::./couchdb-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the CouchDB Integration 1.0 feature, add the following element declara
 ----
 // end::enable[]
 
+include::./couchdb/examples.adoc[opts=optional]
 include::./couchdb-1.0/examples.adoc[opts=optional]
 
 // tag::config[]

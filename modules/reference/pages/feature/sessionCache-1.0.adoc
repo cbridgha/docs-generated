@@ -8,6 +8,7 @@ This feature enables persistence of HTTP sessions using JCache. Persisting HTTP 
 
 // end::description[]
 
+include::./sessionCache/description.adoc[opts=optional]
 include::./sessionCache-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the JCache Session Persistence 1.0 feature, add the following element 
 ----
 // end::enable[]
 
+include::./sessionCache/examples.adoc[opts=optional]
 include::./sessionCache-1.0/examples.adoc[opts=optional]
 
 // tag::config[]

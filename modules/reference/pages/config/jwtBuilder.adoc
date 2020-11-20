@@ -139,4 +139,12 @@
 +Use the RS384 signature algorithm to sign and verify tokens.+ +
 *+RS512+* +
 +Use the RS512 signature algorithm to sign and verify tokens.+
+
+|+trustStoreRef+
+
+|A reference to top level keyStore element (string).
+
+|
+
+|+A keystore containing the public key necessary for verifying a signature of the JWT token.+
 |===

@@ -8,6 +8,7 @@ The wasJmsClient-2.0 feature provides applications with access to the message qu
 
 // end::description[]
 
+include::./wasJmsClient/description.adoc[opts=optional]
 include::./wasJmsClient-2.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the JMS 2.0 Client for Message Server feature, add the following eleme
 ----
 // end::enable[]
 
+include::./wasJmsClient/examples.adoc[opts=optional]
 include::./wasJmsClient-2.0/examples.adoc[opts=optional]
 
 // tag::config[]

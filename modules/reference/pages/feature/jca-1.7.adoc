@@ -8,6 +8,7 @@ This feature enables the configuration of resource adapters to access Enterprise
 
 // end::description[]
 
+include::./jca/description.adoc[opts=optional]
 include::./jca-1.7/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Java Connector Architecture 1.7 feature, add the following element
 ----
 // end::enable[]
 
+include::./jca/examples.adoc[opts=optional]
 include::./jca-1.7/examples.adoc[opts=optional]
 
 // tag::config[]

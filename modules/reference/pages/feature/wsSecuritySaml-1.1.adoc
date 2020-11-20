@@ -8,6 +8,7 @@ This feature enables the SAML Assertion in the Web Service Security version 1.1 
 
 // end::description[]
 
+include::./wsSecuritySaml/description.adoc[opts=optional]
 include::./wsSecuritySaml-1.1/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the WSSecurity SAML 1.1 feature, add the following element declaration
 ----
 // end::enable[]
 
+include::./wsSecuritySaml/examples.adoc[opts=optional]
 include::./wsSecuritySaml-1.1/examples.adoc[opts=optional]
 
 // tag::apis[]

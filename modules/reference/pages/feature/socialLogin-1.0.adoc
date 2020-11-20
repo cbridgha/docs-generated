@@ -8,6 +8,7 @@ The Social Media Login feature provides a form of single sign-on (SSO) that enab
 
 // end::description[]
 
+include::./socialLogin/description.adoc[opts=optional]
 include::./socialLogin-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Social Media Login 1.0 feature, add the following element declarat
 ----
 // end::enable[]
 
+include::./socialLogin/examples.adoc[opts=optional]
 include::./socialLogin-1.0/examples.adoc[opts=optional]
 
 // tag::config[]
@@ -27,7 +29,6 @@ include::./socialLogin-1.0/examples.adoc[opts=optional]
 == Feature configuration elements
 * config:administrator-role[]
 * config:authCache[]
-* config:authFilter[]
 * config:authentication[]
 * config:authorization-roles[]
 * config:basicRegistry[]

@@ -8,6 +8,7 @@ This feature enables the use of Java Naming and Directory Interface (JNDI) to ac
 
 // end::description[]
 
+include::./jndi/description.adoc[opts=optional]
 include::./jndi-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Java Naming and Directory Interface 1.0 feature, add the following
 ----
 // end::enable[]
 
+include::./jndi/examples.adoc[opts=optional]
 include::./jndi-1.0/examples.adoc[opts=optional]
 
 // tag::config[]

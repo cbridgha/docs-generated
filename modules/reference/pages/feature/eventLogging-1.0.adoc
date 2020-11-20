@@ -8,6 +8,7 @@ Logs a record of events, such as JDBC requests and servlet requests, and their d
 
 // end::description[]
 
+include::./eventLogging/description.adoc[opts=optional]
 include::./eventLogging-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Event Logging 1.0 feature, add the following element declaration i
 ----
 // end::enable[]
 
+include::./eventLogging/examples.adoc[opts=optional]
 include::./eventLogging-1.0/examples.adoc[opts=optional]
 
 // tag::config[]

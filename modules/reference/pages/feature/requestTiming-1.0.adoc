@@ -8,6 +8,7 @@ Provides warnings and diagnostic info for slow or hung requests.
 
 // end::description[]
 
+include::./requestTiming/description.adoc[opts=optional]
 include::./requestTiming-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Request Timing 1.0 feature, add the following element declaration 
 ----
 // end::enable[]
 
+include::./requestTiming/examples.adoc[opts=optional]
 include::./requestTiming-1.0/examples.adoc[opts=optional]
 
 // tag::config[]

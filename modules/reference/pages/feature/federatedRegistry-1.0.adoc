@@ -8,6 +8,7 @@ This feature enables support for federation of multiple user registries.
 
 // end::description[]
 
+include::./federatedRegistry/description.adoc[opts=optional]
 include::./federatedRegistry-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Federated User Registry 1.0 feature, add the following element dec
 ----
 // end::enable[]
 
+include::./federatedRegistry/examples.adoc[opts=optional]
 include::./federatedRegistry-1.0/examples.adoc[opts=optional]
 
 // tag::config[]

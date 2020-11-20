@@ -8,6 +8,7 @@ This feature allows applications to utilize the JavaMail 1.5 API.
 
 // end::description[]
 
+include::./javaMail/description.adoc[opts=optional]
 include::./javaMail-1.5/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the JavaMail 1.5 feature, add the following element declaration into y
 ----
 // end::enable[]
 
+include::./javaMail/examples.adoc[opts=optional]
 include::./javaMail-1.5/examples.adoc[opts=optional]
 
 // tag::config[]

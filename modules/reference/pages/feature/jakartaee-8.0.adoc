@@ -8,6 +8,7 @@ This feature combines the Liberty features that support the Jakarta EE 8.0 Platf
 
 // end::description[]
 
+include::./jakartaee/description.adoc[opts=optional]
 include::./jakartaee-8.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Jakarta EE Platform 8.0 feature, add the following element declara
 ----
 // end::enable[]
 
+include::./jakartaee/examples.adoc[opts=optional]
 include::./jakartaee-8.0/examples.adoc[opts=optional]
 
 // tag::config[]

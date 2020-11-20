@@ -8,6 +8,7 @@ This feature automates interactions with a certificate authority (CA) by using t
 
 // end::description[]
 
+include::./acmeCA/description.adoc[opts=optional]
 include::./acmeCA-2.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the Automatic Certificate Management Environment (ACME) Support 2.0 fe
 ----
 // end::enable[]
 
+include::./acmeCA/examples.adoc[opts=optional]
 include::./acmeCA-2.0/examples.adoc[opts=optional]
 
 // tag::config[]

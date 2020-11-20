@@ -1,21 +1,38 @@
-= +Mongo+ (+mongo+)
+= +GRPC Client Properties+ (+grpcClient+)
 :linkcss: 
 :page-layout: config
 :nofooter: 
 
-+Configuration for a Mongo instance.+
++Configuration properties to be applied to gRPC targets that match the specified URI.+
 
 [cols="a,a,a,a",width="100%"]
 |===
 |Name|Type|Default|Description
 
-|+hostNames+
+|+clientInterceptors+
 
 |string
 
-|+localhost+
+|
 
-|+List of host names. The ordering of this list must be consistent with the list of ports, such that the first element in the list of host names corresponds to the first element in the list of ports, and so forth.+
+|+A list of fully qualified class names for gRPC client interceptor classes.+
+
+|+headersToPropagate+
+
+|string
+
+|
+
+|+HTTP header names to propagate from an inbound request to an outbound call.+
+
+|+host+
+
+|string +
+Required
+
+|
+
+|+The remote gRPC service hostname or IP address, with wildcard support.+
 
 |+id+
 
@@ -25,159 +42,63 @@
 
 |+A unique configuration ID.+
 
-|+libraryRef+
+|+keepAliveTime+
 
-|A reference to top level library element (string).
-
-|
-
-|+Specifies a library that contains the MongoDB Java Driver.+
-
-|+onError+
-
-|* +FAIL+
-* +IGNORE+
-* +WARN+
-
-
-|+WARN+
-
-|+Determines the action to take in response to configuration errors.+ +
-*+FAIL+* +
-+Server will issue a warning or error message on the first error occurrence and then stop the server.+ +
-*+IGNORE+* +
-+Server will not issue any warning and error messages when it incurs a configuration error.+ +
-*+WARN+* +
-+Server will issue warning and error messages when it incurs a configuration error.+
-
-|+password+
-
-|Reversably encoded password (string)
+|A period of time with second precision
 
 |
 
-|+Password for database user.+
+|+The time to wait for new messages before sending a new keepalive ping. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
 
-|+ports+
+|+keepAliveTimeout+
 
-|int +
-Min: +0+
+|A period of time with second precision
 
-|+27017+
+|+20s+
 
-|+List of port numbers. The ordering of this list must be consistent with the list of host names, such that the first element in the list of host names corresponds to the first element in the list of ports, and so forth.+
+|+End the connection if a keepalive response is not received within this time. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
 
-|+useCertificateAuthentication+
+|+keepAliveWithoutCalls+
 
 |boolean
 
-|
+|+false+
 
-|+Use provided certificate from key store to authenticate user to MongoDB.+
+|+Perform keepalive when no outstanding RPCs are on the channel.+
 
-|+user+
+|+maxInboundMessageSize+
+
+|int +
+Min: +1+
+
+|+4194304+
+
+|+The maximum inbound message size.+
+
+|+maxInboundMetadataSize+
+
+|int +
+Min: +1+
+
+|+8192+
+
+|+The maximum allowed inbound metadata size.+
+
+|+overrideAuthority+
 
 |string
 
 |
 
-|+Database user name.+
+|+A custom authority that overrides the default authority.+
 
-4+|*+MongoClientOptions+*
-
-|+autoConnectRetry+
-
-|boolean
-
-|
-
-|+Retry connections to a server, for an interval up to the maxAutoConnectRetryTime, if the socket cannot be opened.+
-
-|+connectTimeout+
-
-|A period of time with millisecond precision
-
-|
-
-|+Connection timeout for new connections. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
-
-|+connectionsPerHost+
-
-|int +
-Min: +0+
-
-|
-
-|+Limits the number of open connections to each host. Connections are pooled when not in use.+
-
-|+cursorFinalizerEnabled+
-
-|boolean
-
-|
-
-|+Attempts to clean up DBCursors that are not closed.+
-
-|+description+
+|+path+
 
 |string
 
-|
+|+*+
 
-|+Description of a Mongo instance.+
-
-|+maxAutoConnectRetryTime+
-
-|A period of time with millisecond precision
-
-|
-
-|+Interval during which to retry attempts to open a connection to a server. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
-
-|+maxWaitTime+
-
-|A period of time with millisecond precision
-
-|
-
-|+Maximum amount of time to wait for an available connection. If negative, the connection request never times out. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
-
-|+readPreference+
-
-|* +nearest+
-* +primary+
-* +primaryPreferred+
-* +secondary+
-* +secondaryPreferred+
-
-
-|
-
-|+Configures the read preference.+
-
-|+socketKeepAlive+
-
-|boolean
-
-|
-
-|+Configures whether or not to keep sockets alive.+
-
-|+socketTimeout+
-
-|A period of time with millisecond precision
-
-|
-
-|+The socket timeout. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
-
-|+sslEnabled+
-
-|boolean
-
-|
-
-|+Configures whether or not to enable SSL.+
+|+The remote gRPC service path, with wildcard support. A path consists of the gRPC service and method names, in the "ServiceName/MethodName" format.+
 
 |+sslRef+
 
@@ -185,191 +106,27 @@ Min: +0+
 
 |
 
-|+ID of the SSL configuration to be used to connect to the SSL-enabled server.+
+|+Specifies an ID of the SSL configuration that is used to connect to the gRPC service.+
 
-|+threadsAllowedToBlockForConnectionMultiplier+
-
-|int +
-Min: +0+
-
-|
-
-|+This value, multiplied by connectionsPerHost, establishes an upper limit on threads that are allowed to wait for an available connection.+
-
-|+writeConcern+
-
-|* +ACKNOWLEDGED+
-* +ERRORS_IGNORED+
-* +FSYNCED+
-* +FSYNC_SAFE+
-* +JOURNALED+
-* +JOURNAL_SAFE+
-* +MAJORITY+
-* +NONE+
-* +NORMAL+
-* +REPLICAS_SAFE+
-* +REPLICA_ACKNOWLEDGED+
-* +SAFE+
-* +UNACKNOWLEDGED+
-
-
-|
-
-|+The reliability of a write operation to the mongo server.+
-|===
-[#+library+]*library*
-
-+Specifies a library that contains the MongoDB Java Driver.+
-
-
-[cols="a,a,a,a",width="100%"]
-|===
-|Name|Type|Default|Description
-
-|+apiTypeVisibility+
-
-|string
-
-|+spec,ibm-api,api,stable+
-
-|+The types of API packages that this class loader supports. This value is a comma-separated list of any combination of the following API packages: spec, ibm-api, api, stable, third-party.+
-
-|+description+
-
-|string
-
-|
-
-|+Description of shared library for administrators+
-
-|+filesetRef+
-
-|List of references to top level fileset elements (comma-separated string).
-
-|
-
-|+Id of referenced Fileset+
-
-|+name+
-
-|string
-
-|
-
-|+Name of shared library for administrators+
-|===
-[#+library/file+]*library > file*
-
-+Id of referenced File+
-
-
-[cols="a,a,a,a",width="100%"]
-|===
-|Name|Type|Default|Description
-
-|+id+
-
-|string
-
-|
-
-|+A unique configuration ID.+
-
-|+name+
-
-|Path to a file +
-Required
-
-|
-
-|+Fully qualified filename+
-|===
-[#+library/fileset+]*library > fileset*
-
-+Id of referenced Fileset+
-
-
-[cols="a,a,a,a",width="100%"]
-|===
-|Name|Type|Default|Description
-
-|+caseSensitive+
+|+usePlaintext+
 
 |boolean
 
-|+true+
+|+false+
 
-|+Boolean to indicate whether or not the search should be case sensitive (default: true).+
+|+Use a plain text connection for the outbound gRPC channel.+
 
-|+dir+
-
-|Path to a directory
-
-|+${server.config.dir}+
-
-|+The base directory to search for files.+
-
-|+excludes+
+|+userAgent+
 
 |string
 
 |
 
-|+The comma or space separated list of file name patterns to exclude from the search results, by default no files are excluded.+
-
-|+id+
-
-|string
-
-|
-
-|+A unique configuration ID.+
-
-|+includes+
-
-|string
-
-|+*+
-
-|+The comma or space separated list of file name patterns to include in the search results (default: *).+
-
-|+scanInterval+
-
-|A period of time with millisecond precision
-
-|+0+
-
-|+Scanning interval to check the fileset for changes as a long with a time unit suffix h-hour, m-minute, s-second, ms-millisecond (e.g. 2ms or 5s). Disabled (scanInterval=0) by default. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
-|===
-[#+library/folder+]*library > folder*
-
-+Id of referenced folder+
-
-
-[cols="a,a,a,a",width="100%"]
-|===
-|Name|Type|Default|Description
-
-|+dir+
-
-|Path to a directory +
-Required
-
-|
-
-|+Directory or folder to be included in the library classpath for locating resource files+
-
-|+id+
-
-|string
-
-|
-
-|+A unique configuration ID.+
+|+A custom User-Agent that adds a prefix to the default User-Agent.+
 |===
 [#+ssl+]*ssl*
 
-+ID of the SSL configuration to be used to connect to the SSL-enabled server.+
++Specifies an ID of the SSL configuration that is used to connect to the gRPC service.+
 
 
 [cols="a,a,a,a",width="100%"]

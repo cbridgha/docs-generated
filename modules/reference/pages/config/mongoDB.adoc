@@ -442,6 +442,14 @@ Required
 
 |+Specifies a custom list of ciphers. Separate each cipher in the list with a space. The supported cipher will depend on the underlying JRE used.  Please check the JRE for valid ciphers.+
 
+|+enforceCipherOrder+
+
+|boolean
+
+|+false+
+
+|+Specify on the server socket whether to enforce the cipher order. If set to true, the server socket is enabled to enforce the cipher order. The attribute is set to false by default.+
+
 |+keyStoreRef+
 
 |A reference to top level keyStore element (string).

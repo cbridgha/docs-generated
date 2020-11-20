@@ -8,6 +8,7 @@ This feature has been stabilized. The strategic alternative to this feature is d
 
 // end::description[]
 
+include::./mongodb/description.adoc[opts=optional]
 include::./mongodb-2.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the MongoDB Integration 2.0 feature, add the following element declara
 ----
 // end::enable[]
 
+include::./mongodb/examples.adoc[opts=optional]
 include::./mongodb-2.0/examples.adoc[opts=optional]
 
 // tag::config[]

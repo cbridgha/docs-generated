@@ -71,7 +71,7 @@
 
 |+true+
 
-|+If true, messages that are written to the System.out and System.err streams are copied to console.log. If false, those messages are written to configured logs such as messages.log or trace.log, but they are not copied to console.log. The default value is true. Avoid trouble: Use the com.ibm.ws.logging.console.copySystemStreams property, except in cases where you are trying to change the configuration dynamically after startup.+
+|+If true, messages that are written to the System.out and System.err streams are copied to console.log. If false, those messages are written to configured logs such as messages.log or trace.log, but they are not copied to console.log. The default value is true. Avoid trouble: Use the com.ibm.ws.logging.copy.system.streams property, except in cases where you are trying to change the configuration dynamically after startup.+
 
 |+hideMessage+
 
@@ -79,7 +79,7 @@
 
 |
 
-|+The list of messages, which are separated by a comma, that are configured to be hidden from the console.log and messages.log files. If the messages are configured to be hidden, then they are redirected to the trace.log file. Avoid trouble: Use the com.ibm.ws.logging.hide.messages property, except in cases where you are trying to change the configuration dynamically after startup.+
+|+The list of messages, which are separated by a comma, that are configured to be hidden from the console.log and messages.log files. If the messages are configured to be hidden, then they are redirected to the trace.log file. Avoid trouble: Use the com.ibm.ws.logging.hideMessage property, except in cases where you are trying to change the configuration dynamically after startup.+
 
 |+isoDateFormat+
 

@@ -8,6 +8,7 @@ This feature enables support for SIP Servlets written to the Java SipServlet 1.1
 
 // end::description[]
 
+include::./sipServlet/description.adoc[opts=optional]
 include::./sipServlet-1.1/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the SIP Servlet 1.1 feature, add the following element declaration int
 ----
 // end::enable[]
 
+include::./sipServlet/examples.adoc[opts=optional]
 include::./sipServlet-1.1/examples.adoc[opts=optional]
 
 // tag::config[]

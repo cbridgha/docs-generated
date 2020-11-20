@@ -8,6 +8,7 @@ The Java API for JSON Binding (JSON-B) feature provides a standard for convertin
 
 // end::description[]
 
+include::./jsonbContainer/description.adoc[opts=optional]
 include::./jsonbContainer-1.0/description.adoc[opts=optional]
 
 // tag::enable[]
@@ -20,6 +21,7 @@ To enable the JavaScript Object Notation Binding 1.0 via Bells feature, add the 
 ----
 // end::enable[]
 
+include::./jsonbContainer/examples.adoc[opts=optional]
 include::./jsonbContainer-1.0/examples.adoc[opts=optional]
 
 // tag::apis[]
