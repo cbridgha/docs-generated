@@ -35,10 +35,6 @@ include::./constrainedDelegation-1.0/examples.adoc[opts=optional]
 * javadoc:com.ibm.websphere.security.s4u2proxy[]
 // end::apis[]
 // tag::requirements[]
-
-== Features that this feature enables
-* feature:appSecurity-2.0[]
-* feature:appSecurity-3.0[]
 // end::requirements[]
 // tag::java-versions[]
 

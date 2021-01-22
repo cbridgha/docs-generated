@@ -3,7 +3,7 @@
 :page-layout: config
 :nofooter: 
 
-+JSP 2.2 configuration+
++JSP configuration+
 
 [cols="a,a,a,a",width="100%"]
 |===

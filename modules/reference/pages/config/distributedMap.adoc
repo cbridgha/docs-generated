@@ -29,11 +29,12 @@ Max: +100+
 
 |+id+
 
-|string
+|string +
+Required
 
 |
 
-|+A unique configuration ID.+
+|+Display name of the distributed map.+
 
 |+jndiName+
 
