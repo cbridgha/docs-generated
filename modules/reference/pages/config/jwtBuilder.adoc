@@ -89,6 +89,14 @@
 
 |+A keystore containing the private key necessary for signing the token with an asymmetric algorithm.+
 
+|+nbfOffset+
+
+|A period of time with second precision
+
+|+-1+
+
+|+Identifies the time when JWT is accepted for processing. The value must be a NumericDate object. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
+
 |+scope+
 
 |string

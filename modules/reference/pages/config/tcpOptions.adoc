@@ -23,7 +23,7 @@
 
 |
 
-|+A comma-separated list of addresses that are not allowed to make inbound connections on this endpoint. You can specify IPv4 or IPv6 addresses. All values in an IPv4 or IPv6 address must be represented by a number or by an asterisk wildcard character.+
+|+A comma-separated list of addresses that are not allowed to make inbound connections on this endpoint. You can specify IPv4 or IPv6 addresses. All values in an IPv4 or IPv6 address must be represented by a number or by an asterisk wildcard character. As examples, valid IPv4 addresses for this list include "*.1.255.0", "254.*.*.9", and "1.*.*.*", and valid IPv6 addresses include "0:*:*:0:007F:0:0001:0001", "F:FF:FFF:FFFF:1:01:001:0001", and "1234:*:4321:*:9F9f:*:*:0000".+
 
 |+addressIncludeList+
 
@@ -31,7 +31,7 @@
 
 |
 
-|+A comma-separated list of addresses that are allowed to make inbound connections on this endpoint. You can specify IPv4 or IPv6 addresses. All values in an IPv4 or IPv6 address must be represented by a number or by an asterisk wildcard character.+
+|+A comma-separated list of addresses that are allowed to make inbound connections on this endpoint. You can specify IPv4 or IPv6 addresses. All values in an IPv4 or IPv6 address must be represented by a number or by an asterisk wildcard character. As examples, valid IPv4 addresses for this list include "*.1.255.0", "254.*.*.9", and "1.*.*.*", and valid IPv6 addresses include "0:*:*:0:007F:0:0001:0001", "F:FF:FFF:FFFF:1:01:001:0001", and "1234:*:4321:*:9F9f:*:*:0000".+
 
 |+hostNameExcludeList+
 

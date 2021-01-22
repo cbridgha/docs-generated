@@ -24,12 +24,6 @@ To enable the Web Service Security 1.1 feature, add the following element declar
 include::./wsSecurity/examples.adoc[opts=optional]
 include::./wsSecurity-1.1/examples.adoc[opts=optional]
 
-// tag::config[]
-
-== Feature configuration elements
-* config:wsSecurityClient[]
-* config:wsSecurityProvider[]
-// end::config[]
 // tag::apis[]
 
 == Third-party API packages provided by this feature

@@ -28,8 +28,6 @@ include::./audit-1.0/examples.adoc[opts=optional]
 
 == Feature configuration elements
 * config:administrator-role[]
-* config:auditEvent[]
-* config:auditFileHandler[]
 * config:authCache[]
 * config:authentication[]
 * config:authorization-roles[]
@@ -65,7 +63,6 @@ include::./audit-1.0/examples.adoc[opts=optional]
 // tag::requirements[]
 
 == Features that this feature enables
-* feature:appSecurity-2.0[]
 * feature:distributedMap-1.0[]
 * feature:json-1.0[]
 * feature:ssl-1.0[]
