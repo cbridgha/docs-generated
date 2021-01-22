@@ -9,6 +9,14 @@
 |===
 |Name|Type|Default|Description
 
+|+addStrictTransportSecurityHeader+
+
+|string
+
+|
+
+|+Enables the HTTP Strict Transport Security (HSTS) header for HTTPS responses and allows a value to be set for that header, for example: "max-age=31536000;includeSubDomains". HSTS can also be configured in the web.xml file by setting the "com.ibm.ws.webcontainer.ADD_STS_HEADER_WEBAPP" context parameter.+
+
 |+allowExpressionFactoryPerApp+
 
 |boolean
@@ -24,6 +32,14 @@
 |+false+
 
 |+Allow RequestDispatch to send errors on Include methods. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.allowincludesenderror.+
+
+|+allowQueryParamWithNoEqual+
+
+|boolean
+
+|+false+
+
+|+When this property is set to true, if the query parameter in a URL contains only the string name, the server returns an empty string as the value for the request.getParameter(name) query. When this property is set to false, the server returns null as the value for the request.getParameter(name) query. The default value is false.+
 
 |+asyncMaxSizeTaskPool+
 
@@ -288,6 +304,14 @@
 |+false+
 
 |+Web container will detect non URL encoded UTF-8 post data and include it in the parameter values. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.parseutf8postdata.+
+
+|+redirectToRelativeUrl+
+
+|boolean
+
+|+false+
+
+|+Send redirect response to a relative URL location without processing it. Set this property to true to send redirect response without converting the URL to an absolute location.+
 
 |+serveServletsByClassnameEnabled+
 
