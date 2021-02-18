@@ -55,6 +55,14 @@
 
 |+Keep Java source files generated for JSPs.+
 
+|+prepareJSPThreadCount+
+
+|int
+
+|+1+
+
+|+When prepareJSPs is enabled, this configuration specifies the number of threads used.+
+
 |+prepareJSPs+
 
 |int
