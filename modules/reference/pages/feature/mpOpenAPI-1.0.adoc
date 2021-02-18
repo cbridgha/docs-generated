@@ -60,6 +60,7 @@ include::./mpOpenAPI-1.0/examples.adoc[opts=optional]
 * javadoc:org.eclipse.microprofile.openapi.models.security[]
 * javadoc:org.eclipse.microprofile.openapi.models.servers[]
 * javadoc:org.eclipse.microprofile.openapi.models.tags[]
+* javadoc:org.eclipse.microprofile.openapi.spi[]
 // end::apis[]
 // tag::requirements[]
 
@@ -101,7 +102,4 @@ com.ibm.websphere.appserver.mpOpenAPI-1.0; type="osgi.subsystem.feature"
 ----
 // end::feature-require[]
 // tag::spi[]
-
-== SPI packages provided by this feature
-* javadoc:org.eclipse.microprofile.openapi.spi[]
 // end::spi[]
