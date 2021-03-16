@@ -6660,6 +6660,7 @@ Min: +0+
 * +master+
 * +preferSecondary+
 * +preferSlave+
+* +primary+
 * +secondary+
 * +slave+
 

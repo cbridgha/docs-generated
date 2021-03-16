@@ -1,28 +1,28 @@
-= JSON Web Token 1.0
+= MicroProfile Metrics 3.0
 :linkcss: 
 :page-layout: feature
 :nofooter: 
 
 // tag::description[]
-This feature allows runtime to create JWT tokens.
+This feature provides support for the Eclipse MicroProfile Metrics 3.0 specification for enterprise Java.
 
 // end::description[]
 
-include::./jwt/description.adoc[opts=optional]
-include::./jwt-1.0/description.adoc[opts=optional]
+include::./mpMetrics/description.adoc[opts=optional]
+include::./mpMetrics-3.0/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
-To enable the JSON Web Token 1.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
+To enable the MicroProfile Metrics 3.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
 
 
 ----
-<feature>jwt-1.0</feature>
+<feature>mpMetrics-3.0</feature>
 ----
 // end::enable[]
 
-include::./jwt/examples.adoc[opts=optional]
-include::./jwt-1.0/examples.adoc[opts=optional]
+include::./mpMetrics/examples.adoc[opts=optional]
+include::./mpMetrics-3.0/examples.adoc[opts=optional]
 
 // tag::config[]
 
@@ -32,33 +32,53 @@ include::./jwt-1.0/examples.adoc[opts=optional]
 * config:authentication[]
 * config:authorization-roles[]
 * config:basicRegistry[]
+* config:channelfw[]
 * config:classloader[]
 * config:classloading[]
+* config:compression[]
 * config:distributedMap[]
+* config:httpAccessLogging[]
+* config:httpDispatcher[]
+* config:httpEncoding[]
+* config:httpEndpoint[]
+* config:httpOptions[]
+* config:httpProxyRedirect[]
 * config:jaasLoginContextEntry[]
 * config:jaasLoginModule[]
 * config:kerberos[]
 * config:library[]
 * config:ltpa[]
+* config:mimeTypes[]
+* config:mpMetrics[]
 * config:quickStartSecurity[]
 * config:reader-role[]
+* config:remoteIp[]
+* config:samesite[]
+* config:tcpOptions[]
+* config:trustAssociation[]
+* config:virtualHost[]
 // end::config[]
 // tag::apis[]
 
-== Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.security.jwt[]
+== Stable API packages provided by this feature
+* javadoc:org.eclipse.microprofile.metrics[]
+* javadoc:org.eclipse.microprofile.metrics.annotation[]
 // end::apis[]
 // tag::requirements[]
 
 == Features that this feature enables
+* feature:cdi-2.0[]
 * feature:distributedMap-1.0[]
+* feature:json-1.0[]
+* feature:monitor-1.0[]
+* feature:mpConfig-2.0[]
+* feature:servlet-4.0[]
 * feature:ssl-1.0[]
 // end::requirements[]
 // tag::java-versions[]
 
 == Supported Java versions
 
-* JavaSE-1.7
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-15.0
@@ -66,11 +86,7 @@ include::./jwt-1.0/examples.adoc[opts=optional]
 // tag::dependencies[]
 
 == Features that enable this feature
-* feature:jwtSso-1.0[]
-* feature:mpJwt-1.0[]
-* feature:mpJwt-1.1[]
-* feature:mpJwt-1.2[]
-* feature:socialLogin-1.0[]
+* feature:microProfile-4.0[]
 // end::dependencies[]
 // tag::feature-require[]
 
@@ -80,7 +96,7 @@ If you are developing a feature that depends on this feature, include the follow
 
 [source,]
 ----
-com.ibm.websphere.appserver.jwt-1.0; type="osgi.subsystem.feature"
+com.ibm.websphere.appserver.mpMetrics-3.0; type="osgi.subsystem.feature"
 ----
 // end::feature-require[]
 // tag::spi[]

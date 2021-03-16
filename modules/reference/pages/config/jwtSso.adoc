@@ -9,6 +9,14 @@
 |===
 |Name|Type|Default|Description
 
+|+authFilterRef+
+
+|A reference to top level authFilter element (string).
+
+|
+
+|+Specifies the authentication filter reference.+
+
 |+cookieName+
 
 |string
@@ -56,4 +64,277 @@
 |+false+
 
 |+If the JWT cookie is missing, attempt to process an LTPA cookie if it is present.+
+|===
+[#+authFilter+]*authFilter*
+
++Specifies the authentication filter reference.+
+
+
+[#+authFilter/cookie+]*authFilter > cookie*
+
++A unique configuration ID.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+matchType+
+
+|* +contains+
+* +equals+
+* +notContain+
+
+
+|+contains+
+
+|+Specifies the match type.+
+
+|+name+
+
+|string +
+Required
+
+|
+
+|+Specifies the name.+
+|===
+[#+authFilter/host+]*authFilter > host*
+
++A unique configuration ID.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+matchType+
+
+|* +contains+
+* +equals+
+* +notContain+
+
+
+|+contains+
+
+|+Specifies the match type.+
+
+|+name+
+
+|string +
+Required
+
+|
+
+|+Specifies the name.+
+|===
+[#+authFilter/remoteAddress+]*authFilter > remoteAddress*
+
++A unique configuration ID.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+ip+
+
+|string
+
+|
+
+|+Specifies the remote host TCP/IP address.+
+
+|+matchType+
+
+|* +contains+
+* +equals+
+* +greaterThan+
+* +lessThan+
+* +notContain+
+
+
+|+contains+
+
+|+Specifies the match type.+
+|===
+[#+authFilter/requestHeader+]*authFilter > requestHeader*
+
++A unique configuration ID.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+matchType+
+
+|* +contains+
+* +equals+
+* +notContain+
+
+
+|+contains+
+
+|+Specifies the match type.+
+
+|+name+
+
+|string +
+Required
+
+|
+
+|+Specifies the name.+
+
+|+value+
+
+|string
+
+|
+
+|+The value attribute specifies the value of the request header. If the value is not specified, then the name attribute is used for matching, for example, &lt;requestHeader id="sample" name="email" matchType="contains"/&gt;.+
+|===
+[#+authFilter/requestUrl+]*authFilter > requestUrl*
+
++A unique configuration ID.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+matchType+
+
+|* +contains+
+* +equals+
+* +notContain+
+
+
+|+contains+
+
+|+Specifies the match type.+
+
+|+urlPattern+
+
+|string +
+Required
+
+|
+
+|+Specifies the URL pattern. The * character is not supported to be used as a wildcard.+
+|===
+[#+authFilter/userAgent+]*authFilter > userAgent*
+
++A unique configuration ID.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+agent+
+
+|string +
+Required
+
+|
+
+|+Specifies the browser's user agent to help identify which browser is being used.+
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+matchType+
+
+|* +contains+
+* +equals+
+* +notContain+
+
+
+|+contains+
+
+|+Specifies the match type.+
+|===
+[#+authFilter/webApp+]*authFilter > webApp*
+
++A unique configuration ID.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+matchType+
+
+|* +contains+
+* +equals+
+* +notContain+
+
+
+|+contains+
+
+|+Specifies the match type.+
+
+|+name+
+
+|string +
+Required
+
+|
+
+|+Specifies the name.+
 |===
