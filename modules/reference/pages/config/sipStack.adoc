@@ -33,6 +33,14 @@
 
 |+The SIP container automatically sends a 482 response code when a merged request is received. This behavior is defined in the SIP RFC 3261 Section 8.2.2.2.+
 
+|+cloneAckOn2xxRetransmission+
+
+|boolean
+
+|+false+
+
+|+Indicates whether to clone an ACK request for 2xx retransmissions. By default, the same ACK instance is sent on every retransmission causing issues when the ACK request is modified by the next element upstream. When set to true, the original ACK request is cloned and the copy of the original request is sent on every retransmission..+
+
 |+commaSeparatedHeaders+
 
 |string
@@ -116,6 +124,22 @@
 |
 
 |+A list of header parameters with values that are quoted.+
+
+|+strictOutboundLocalPort+
+
+|boolean
+
+|+false+
+
+|+The custom property should be set to true to mandate the SIP Container to send a request from the SipProvider instance that is selected by the application using SipProvider.sendRequest(). By default, a request is sent using any provider.+
+
+|+useLPFromOutbound+
+
+|boolean
+
+|+false+
+
+|+The custom property should be set to true to mandate the SIP Container to send a request from the SipProvider instance that is selected by the application using SipProvider.sendRequest(). By default, a request is sent using any provider.+
 
 4+|*+SIP Timers+*
 
