@@ -104,7 +104,7 @@
 
 |
 
-|+The default SSL configuration repertoire. The default value is defaultSSLSettings.+
+|+The default SSL configuration repertoire. The default value is defaultSSLConfig.+
 
 |+sslSessionTimeout+
 

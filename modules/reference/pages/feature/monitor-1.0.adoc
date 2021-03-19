@@ -49,6 +49,7 @@ include::./monitor-1.0/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:mpMetrics-2.3[]
+* feature:mpMetrics-3.0[]
 // end::dependencies[]
 // tag::feature-require[]
 

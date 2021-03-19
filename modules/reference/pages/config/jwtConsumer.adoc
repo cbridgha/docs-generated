@@ -58,6 +58,14 @@ This is specified as a child element rather than as an XML attribute.
 
 |+Specifies a JWK end point URL.+
 
+|+keyManagementKeyAlias+
+
+|string
+
+|
+
+|+Private key alias of the key management key that is used to decrypt the Content Encryption Key of a JWE.+
+
 |+sharedKey+
 
 |Reversably encoded password (string)
@@ -115,7 +123,7 @@ This is specified as a child element rather than as an XML attribute.
 
 |
 
-|+A keystore containing the public key necessary for verifying a signature of the JWT token.+
+|+A keystore containing the public key necessary for verifying a signature of the JWT token. The keystore should also contain the key management key that is used to encrypt the Content Encryption Key of a JWE.+
 
 |+trustedAlias+
 

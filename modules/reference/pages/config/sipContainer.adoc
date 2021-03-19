@@ -9,6 +9,14 @@
 |===
 |Name|Type|Default|Description
 
+|+addIBMPOLBMsg+
+
+|boolean
+
+|+true+
+
+|+By default, the IBM-PO header is set in any request. The header field is used internally and defines the outbound interface that should be used when sending a message to the destination. Setting the custom property to false avoids setting the header field when a request is sent over a loopback adapter.+
+
 |+dispatcherMessageQueueSize+
 
 |int
@@ -16,6 +24,22 @@
 |+1000+
 
 |+The maximum number of tasks that a SIP container queue can contain before it declares an overload state.+
+
+|+enableSetLBOutboundIF+
+
+|boolean
+
+|+false+
+
+|+On a multi-homed host, when a loopback adapter is used as an outbound interface, the custom property should be set to true to mandate the use of the selected outbound interface. In case the custom property is not applied or set to false, the container shall apply default behavior of interface selection.+
+
+|+enableSetOutboundIF+
+
+|boolean
+
+|+false+
+
+|+On a multi-homed host, the custom property should be set to true to mandate the use of a particular outbound interface. In case the custom property is not applied or set to false, the container shall apply default behavior of interface selection.+
 
 |+invalidateSessionOnShutdown+
 
