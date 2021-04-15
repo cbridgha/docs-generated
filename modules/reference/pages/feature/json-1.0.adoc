@@ -44,6 +44,7 @@ include::./json-1.0/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:acmeCA-2.0[]
+* feature:adminCenter-1.0[]
 * feature:audit-1.0[]
 * feature:batchManagement-1.0[]
 * feature:jaxrs-2.0[]

@@ -51,6 +51,14 @@ Required
 
 |+The maximum time difference in milliseconds between when a key is issued and when it can be used.+
 
+|+createSession+
+
+|boolean
+
+|+false+
+
+|+Specifies whether to create an HttpSession if the current HttpSession does not exist.+
+
 |+discoveryEndpoint+
 
 |string

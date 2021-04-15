@@ -15,7 +15,7 @@
 
 |+(&(cn=%v)(objectclass=ldapsubentry))+
 
-|+An LDAP filter clause for searching the user registry for groups.+
+|+An LDAP filter clause for searching the user registry for groups. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, cn=%v. During searches, the %v in the AVA is replaced with the group or group pattern being searched for.+
 
 |+groupIdMap+
 
@@ -47,7 +47,7 @@
 
 |+(&(uid=%v)(objectclass=inetOrgPerson))+
 
-|+An LDAP filter clause for searching the user registry for users.+
+|+An LDAP filter clause for searching the user registry for users. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, uid=%v. During searches, the %v in the AVA is replaced with the user or user pattern being searched for.+
 
 |+userIdMap+
 

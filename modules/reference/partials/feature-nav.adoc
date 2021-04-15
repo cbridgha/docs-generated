@@ -1,5 +1,6 @@
 * Features
   ** xref:feature/feature-overview.adoc[Feature overview]
+  ** xref:feature/adminCenter-1.0.adoc[Admin Center]
   ** xref:feature/localConnector-1.0.adoc[Admin Local Connector]
   ** xref:feature/restConnector-2.0.adoc[Admin REST Connector]
   ** xref:feature/appClientSupport-1.0.adoc[Application Client Support for Server]
@@ -107,6 +108,7 @@
   ** xref:feature/mpConfig-1.4.adoc[MicroProfile Config]
   ** xref:feature/mpConfig-2.0.adoc[MicroProfile Config]
   ** xref:feature/mpContextPropagation-1.0.adoc[MicroProfile Context Propagation]
+  ** xref:feature/mpContextPropagation-1.2.adoc[MicroProfile Context Propagation]
   ** xref:feature/mpFaultTolerance-1.0.adoc[MicroProfile Fault Tolerance]
   ** xref:feature/mpFaultTolerance-1.1.adoc[MicroProfile Fault Tolerance]
   ** xref:feature/mpFaultTolerance-2.0.adoc[MicroProfile Fault Tolerance]
