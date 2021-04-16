@@ -17,6 +17,14 @@
 
 |+Specifies the list of Microsoft Active Directory LDAP filters.+
 
+|+allowWriteToSecondaryServers+
+
+|boolean
+
+|+false+
+
+|+Allow create, update, and delete operations on failover servers.+
+
 |+baseDN+
 
 |string +
@@ -331,7 +339,7 @@ Required
 
 |+(&(cn=%v)(objectcategory=group))+
 
-|+An LDAP filter clause for searching the user registry for groups.+
+|+An LDAP filter clause for searching the user registry for groups. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, cn=%v. During searches, the %v in the AVA is replaced with the group or group pattern being searched for.+
 
 |+groupIdMap+
 
@@ -355,7 +363,7 @@ Required
 
 |+(&(sAMAccountName=%v)(objectcategory=user))+
 
-|+An LDAP filter clause for searching the user registry for users.+
+|+An LDAP filter clause for searching the user registry for users. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, uid=%v. During searches, the %v in the AVA is replaced with the user or user pattern being searched for.+
 
 |+userIdMap+
 
@@ -550,7 +558,7 @@ Required
 
 |+(&(cn=%v)(\|(objectclass=groupOfNames)(objectclass=groupOfUniqueNames)(objectclass=groupOfURLs)))+
 
-|+An LDAP filter clause for searching the user registry for groups.+
+|+An LDAP filter clause for searching the user registry for groups. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, cn=%v. During searches, the %v in the AVA is replaced with the group or group pattern being searched for.+
 
 |+groupIdMap+
 
@@ -574,7 +582,7 @@ Required
 
 |+(&(uid=%v)(objectclass=ePerson))+
 
-|+An LDAP filter clause for searching the user registry for users.+
+|+An LDAP filter clause for searching the user registry for users. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, uid=%v. During searches, the %v in the AVA is replaced with the user or user pattern being searched for.+
 
 |+userIdMap+
 
@@ -599,7 +607,7 @@ Required
 
 |+(&(cn=%v)(objectclass=dominoGroup))+
 
-|+An LDAP filter clause for searching the user registry for groups.+
+|+An LDAP filter clause for searching the user registry for groups. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, cn=%v. During searches, the %v in the AVA is replaced with the group or group pattern being searched for.+
 
 |+groupIdMap+
 
@@ -623,7 +631,7 @@ Required
 
 |+(&(uid=%v)(objectclass=Person))+
 
-|+An LDAP filter clause for searching the user registry for users.+
+|+An LDAP filter clause for searching the user registry for users. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, uid=%v. During searches, the %v in the AVA is replaced with the user or user pattern being searched for.+
 
 |+userIdMap+
 
@@ -648,7 +656,7 @@ Required
 
 |+(&(cn=%v)(objectclass=groupOfNames))+
 
-|+An LDAP filter clause for searching the user registry for groups.+
+|+An LDAP filter clause for searching the user registry for groups. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, cn=%v. During searches, the %v in the AVA is replaced with the group or group pattern being searched for.+
 
 |+groupIdMap+
 
@@ -672,7 +680,7 @@ Required
 
 |+(&(cn=%v)(objectclass=Person))+
 
-|+An LDAP filter clause for searching the user registry for users.+
+|+An LDAP filter clause for searching the user registry for users. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, uid=%v. During searches, the %v in the AVA is replaced with the user or user pattern being searched for.+
 
 |+userIdMap+
 
@@ -884,7 +892,7 @@ Required
 
 |+(&(cn=%v)(\|(objectclass=groupOfNames)(objectclass=groupOfUniqueNames)(objectclass=groupOfURLs)))+
 
-|+An LDAP filter clause for searching the user registry for groups.+
+|+An LDAP filter clause for searching the user registry for groups. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, cn=%v. During searches, the %v in the AVA is replaced with the group or group pattern being searched for.+
 
 |+groupIdMap+
 
@@ -908,7 +916,7 @@ Required
 
 |+(&(uid=%v)(objectclass=ePerson))+
 
-|+An LDAP filter clause for searching the user registry for users.+
+|+An LDAP filter clause for searching the user registry for users. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, uid=%v. During searches, the %v in the AVA is replaced with the user or user pattern being searched for.+
 
 |+userIdMap+
 
@@ -933,7 +941,7 @@ Required
 
 |+(&(cn=%v)(objectclass=ldapsubentry))+
 
-|+An LDAP filter clause for searching the user registry for groups.+
+|+An LDAP filter clause for searching the user registry for groups. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, cn=%v. During searches, the %v in the AVA is replaced with the group or group pattern being searched for.+
 
 |+groupIdMap+
 
@@ -957,7 +965,7 @@ Required
 
 |+(&(uid=%v)(objectclass=inetOrgPerson))+
 
-|+An LDAP filter clause for searching the user registry for users.+
+|+An LDAP filter clause for searching the user registry for users. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, uid=%v. During searches, the %v in the AVA is replaced with the user or user pattern being searched for.+
 
 |+userIdMap+
 
@@ -1145,7 +1153,7 @@ Required
 
 |+(&(cn=%v)(\|(objectclass=groupOfNames)(objectclass=groupOfUniqueNames)))+
 
-|+An LDAP filter clause for searching the user registry for groups.+
+|+An LDAP filter clause for searching the user registry for groups. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, cn=%v. During searches, the %v in the AVA is replaced with the group or group pattern being searched for.+
 
 |+groupIdMap+
 
@@ -1169,7 +1177,7 @@ Required
 
 |+(&(uid=%v)(objectclass=inetOrgPerson))+
 
-|+An LDAP filter clause for searching the user registry for users.+
+|+An LDAP filter clause for searching the user registry for users. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, uid=%v. During searches, the %v in the AVA is replaced with the user or user pattern being searched for.+
 
 |+userIdMap+
 
@@ -1194,7 +1202,7 @@ Required
 
 |+(&(cn=%v)(\|(objectclass=groupOfNames)(objectclass=groupOfUniqueNames)))+
 
-|+An LDAP filter clause for searching the user registry for groups.+
+|+An LDAP filter clause for searching the user registry for groups. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, cn=%v. During searches, the %v in the AVA is replaced with the group or group pattern being searched for.+
 
 |+groupIdMap+
 
@@ -1218,7 +1226,7 @@ Required
 
 |+(&(uid=%v)(objectclass=ePerson))+
 
-|+An LDAP filter clause for searching the user registry for users.+
+|+An LDAP filter clause for searching the user registry for users. When defined, this filter requires an Attribute Value Assertion (AVA) containing a %v. For example, uid=%v. During searches, the %v in the AVA is replaced with the user or user pattern being searched for.+
 
 |+userIdMap+
 

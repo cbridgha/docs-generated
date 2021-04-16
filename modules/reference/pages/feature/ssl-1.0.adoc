@@ -58,6 +58,7 @@ include::./ssl-1.0/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:acmeCA-2.0[]
+* feature:adminCenter-1.0[]
 * feature:appSecurity-2.0[]
 * feature:appSecurity-3.0[]
 * feature:appSecurityClient-1.0[]

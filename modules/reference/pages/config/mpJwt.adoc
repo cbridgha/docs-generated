@@ -82,6 +82,14 @@ Required
 
 |+Specifies a JSON Web Key service URL.+
 
+|+keyManagementKeyAlias+
+
+|string
+
+|
+
+|+Private key alias of the key management key that is used to decrypt the Content Encryption Key. This private key must correspond to the public key that is used to encrypt the Content Encryption Key. This attribute is only used by versions 1.2 and beyond of the MP-JWT feature. This value overrides the mp.jwt.decrypt.key.location MicroProfile Config property if one is configured.+
+
 |+keyName+
 
 |string
