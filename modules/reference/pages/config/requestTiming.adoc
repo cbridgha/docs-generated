@@ -9,6 +9,14 @@
 |===
 |Name|Type|Default|Description
 
+|+enableThreadDumps+
+
+|boolean
+
+|+true+
+
+|+Indicates whether thread dumps are created when a hung request is detected. When this value is set to true (default), thread dumps are created. When set to false, thread dumps are not created.+
+
 |+hungRequestThreshold+
 
 |A period of time with millisecond precision
@@ -67,6 +75,14 @@ Min: +1+
 
 |+The name of the datasource that is being monitored. The datasource name is provided by the context information in the eventLogging-1.0 service. If this attribute is not provided, all datasource names are monitored.+
 
+|+enableThreadDumps+
+
+|boolean
+
+|+true+
+
+|+Indicates whether thread dumps are created when a hung request is detected. When this value is set to true (default), thread dumps are created. When set to false, thread dumps are not created.+
+
 |+hungRequestThreshold+
 
 |A period of time with millisecond precision
@@ -115,6 +131,14 @@ Min: +1+
 |
 
 |+The name of the application that is being monitored. The application name is provided by the context information in the eventLogging-1.0 service. If this attribute is not provided, all applications are monitored.+
+
+|+enableThreadDumps+
+
+|boolean
+
+|+true+
+
+|+Indicates whether thread dumps are created when a hung request is detected. When this value is set to true (default), thread dumps are created. When set to false, thread dumps are not created.+
 
 |+hungRequestThreshold+
 

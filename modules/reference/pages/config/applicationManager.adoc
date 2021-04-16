@@ -17,6 +17,14 @@
 
 |+Enables automatic extraction of WAR files and EAR files+
 
+|+expandLocation+
+
+|Path to a directory
+
+|+${server.config.dir}/apps/expanded/+
+
+|+The expandLocation attribute enables a user to set the location where the autoExpanded application is located. The default location is ${server.config.dir}/apps/expanded/.+
+
 |+startTimeout+
 
 |A period of time with second precision

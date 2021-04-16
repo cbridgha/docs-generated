@@ -55,8 +55,7 @@ include::./jsp-2.2/examples.adoc[opts=optional]
 // tag::dependencies[]
 
 == Features that enable this feature
-* feature:openidConnectClient-1.0[]
-* feature:openidConnectServer-1.0[]
+* feature:adminCenter-1.0[]
 * feature:webCache-1.0[]
 // end::dependencies[]
 // tag::feature-require[]
