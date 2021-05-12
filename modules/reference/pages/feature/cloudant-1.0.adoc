@@ -4,7 +4,7 @@
 :nofooter: 
 
 // tag::description[]
-This feature enables connections to Cloudant databases by providing a connector instance that's configured in the server configuration and can be injected or accessed through Java Naming and Directory Interface (JNDI). Applications use the Cloudant client library to use the connector instance.
+This feature enables connections to Cloudant databases by providing a connector instance that's configured in the server configuration and can be injected or accessed through Java Naming and Directory Interface (JNDI). Applications use the Cloudant client library to access the connector instance.
 
 // end::description[]
 
@@ -44,7 +44,7 @@ include::./cloudant-1.0/examples.adoc[opts=optional]
 
 * JavaSE-1.8
 * JavaSE-11.0
-* JavaSE-15.0
+* JavaSE-16.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]

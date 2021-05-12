@@ -27,6 +27,7 @@ include::./openid-2.0/examples.adoc[opts=optional]
 // tag::config[]
 
 == Feature configuration elements
+* config:authFilter[]
 * config:openId[]
 * config:userInfo[]
 // end::config[]
@@ -44,7 +45,7 @@ include::./openid-2.0/examples.adoc[opts=optional]
 
 * JavaSE-1.8
 * JavaSE-11.0
-* JavaSE-15.0
+* JavaSE-16.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]

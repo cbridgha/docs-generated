@@ -29,12 +29,12 @@ include::./wsAtomicTransaction-1.2/examples.adoc[opts=optional]
 == Feature configuration elements
 * config:administrator-role[]
 * config:authCache[]
+* config:authFilter[]
 * config:authentication[]
 * config:authorization-roles[]
 * config:basicRegistry[]
 * config:classloader[]
 * config:classloading[]
-* config:distributedMap[]
 * config:jaasLoginContextEntry[]
 * config:jaasLoginModule[]
 * config:kerberos[]
@@ -43,6 +43,7 @@ include::./wsAtomicTransaction-1.2/examples.adoc[opts=optional]
 * config:quickStartSecurity[]
 * config:reader-role[]
 * config:transaction[]
+* config:trustAssociation[]
 * config:wsAtomicTransaction[]
 // end::config[]
 // tag::apis[]
@@ -60,7 +61,7 @@ include::./wsAtomicTransaction-1.2/examples.adoc[opts=optional]
 
 * JavaSE-1.8
 * JavaSE-11.0
-* JavaSE-15.0
+* JavaSE-16.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]

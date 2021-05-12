@@ -36,6 +36,7 @@ include::./jms-2.0/examples.adoc[opts=optional]
 * config:classloader[]
 * config:classloading[]
 * config:connectionFactory[]
+* config:connectionManager[]
 * config:javaPermission[]
 * config:jmsActivationSpec[]
 * config:jmsConnectionFactory[]
@@ -65,7 +66,7 @@ include::./jms-2.0/examples.adoc[opts=optional]
 
 * JavaSE-1.8
 * JavaSE-11.0
-* JavaSE-15.0
+* JavaSE-16.0
 // end::java-versions[]
 // tag::dependencies[]
 

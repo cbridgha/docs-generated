@@ -29,12 +29,12 @@ include::./samlWeb-2.0/examples.adoc[opts=optional]
 == Feature configuration elements
 * config:administrator-role[]
 * config:authCache[]
+* config:authFilter[]
 * config:authentication[]
 * config:authorization-roles[]
 * config:basicRegistry[]
 * config:classloader[]
 * config:classloading[]
-* config:distributedMap[]
 * config:jaasLoginContextEntry[]
 * config:jaasLoginModule[]
 * config:kerberos[]
@@ -42,12 +42,15 @@ include::./samlWeb-2.0/examples.adoc[opts=optional]
 * config:ltpa[]
 * config:quickStartSecurity[]
 * config:reader-role[]
+* config:samlWebSso20[]
+* config:trustAssociation[]
 // end::config[]
 // tag::apis[]
 // end::apis[]
 // tag::requirements[]
 
 == Features that this feature enables
+* feature:appSecurity-2.0[]
 * feature:distributedMap-1.0[]
 * feature:ssl-1.0[]
 // end::requirements[]
@@ -57,7 +60,7 @@ include::./samlWeb-2.0/examples.adoc[opts=optional]
 
 * JavaSE-1.8
 * JavaSE-11.0
-* JavaSE-15.0
+* JavaSE-16.0
 // end::java-versions[]
 // tag::dependencies[]
 
