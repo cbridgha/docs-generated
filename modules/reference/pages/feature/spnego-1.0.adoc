@@ -24,9 +24,18 @@ To enable the Simple and Protected GSSAPI Negotiation Mechanism 1.0 feature, add
 include::./spnego/examples.adoc[opts=optional]
 include::./spnego-1.0/examples.adoc[opts=optional]
 
+// tag::config[]
+
+== Feature configuration elements
+* config:authFilter[]
+* config:spnego[]
+// end::config[]
 // tag::apis[]
 // end::apis[]
 // tag::requirements[]
+
+== Features that this feature enables
+* feature:appSecurity-2.0[]
 // end::requirements[]
 // tag::java-versions[]
 
@@ -34,7 +43,7 @@ include::./spnego-1.0/examples.adoc[opts=optional]
 
 * JavaSE-1.8
 * JavaSE-11.0
-* JavaSE-15.0
+* JavaSE-16.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]

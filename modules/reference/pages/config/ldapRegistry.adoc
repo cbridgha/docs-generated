@@ -34,6 +34,23 @@ Required
 
 |+Base distinguished name (DN) of the directory service, which indicates the starting point for LDAP searches in the directory service.+
 
+|+bindAuthMechanism+
+
+|* +GSSAPI+
+* +none+
+* +simple+
+
+
+|+simple+
+
+|+The authentication mechanism for binding to the LDAP server when searching or modifying an LDAP entry.+ +
+*+GSSAPI+* +
++GSS-API Kerberos v5 (krb5) support to bind to the directory service. The krb5Principal attribute is required+ +
+*+none+* +
++Anonymous bind to the directory service. No additional login attributes are required.+ +
+*+simple+* +
++Use the bindDN and bindPassword to bind to the directory service. The bindDN and bindPassword attributes are required.+
+
 |+bindDN+
 
 |string
@@ -172,6 +189,22 @@ Required
 |
 
 |+Specifies the list of Sun Java System Directory Server LDAP filters.+
+
+|+krb5Principal+
+
+|string
+
+|
+
+|+The name of the Kerberos principal name or Kerberos service name to be used.+
+
+|+krb5TicketCache+
+
+|Path to a file
+
+|
+
+|+The file location where Kerberos credentials for the Kerberos principal name or service name will be stored. Also known as the Kerberos credential cache (ccache)+
 
 |+ldapType+
 

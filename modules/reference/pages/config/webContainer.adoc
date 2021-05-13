@@ -37,9 +37,9 @@
 
 |boolean
 
-|+false+
+|
 
-|+When this property is set to true, if the query parameter in a URL contains only the string name, the server returns an empty string as the value for the request.getParameter(name) query. When this property is set to false, the server returns null as the value for the request.getParameter(name) query. The default value is false.+
+|+When this property is set to true, if the query parameter in a URL contains only the string name, the server returns an empty string as the value for the request.getParameter(name) query. When this property is set to false, the server returns null as the value for the request.getParameter(name) query. The default value is false, but is true for servlet 5.0 and higher.+
 
 |+asyncMaxSizeTaskPool+
 
@@ -209,6 +209,14 @@
 
 |+Allow the JSP mapping to be overridden so that the application can serve the JSP contents itself. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.enablejspmappingoverride.+
 
+|+enableMultiReadOfPostData+
+
+|boolean
+
+|+false+
+
+|+Retain post data for multiple read accesses. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.enablemultireadofpostdata.+
+
 |+exposeWebInfOnDispatch+
 
 |boolean
@@ -344,6 +352,14 @@
 |+true+
 
 |+Toggle to set content length when an application explicitly closes the response. The default value is true; however, set this value to false if an application response contains double-byte characters.+
+
+|+setHtmlContentTypeOnError+
+
+|boolean
+
+|+true+
+
+|+When this property is false, the webcontainer will not set the response's content type header during the error handling process. An application is responsible to set the response's content type. The default value (true) sets the content type to "text/html".+
 
 |+skipMetaInfResourcesProcessing+
 

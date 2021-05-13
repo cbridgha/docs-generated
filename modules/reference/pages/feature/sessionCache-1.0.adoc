@@ -29,6 +29,8 @@ include::./sessionCache-1.0/examples.adoc[opts=optional]
 == Feature configuration elements
 * config:classloader[]
 * config:classloading[]
+* config:httpSession[]
+* config:httpSessionCache[]
 * config:library[]
 * config:transaction[]
 // end::config[]
@@ -53,7 +55,7 @@ include::./sessionCache-1.0/examples.adoc[opts=optional]
 
 * JavaSE-1.8
 * JavaSE-11.0
-* JavaSE-15.0
+* JavaSE-16.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]

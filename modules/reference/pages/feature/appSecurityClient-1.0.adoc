@@ -28,6 +28,8 @@ include::./appSecurityClient-1.0/examples.adoc[opts=optional]
 
 == Feature configuration elements
 * config:channelfw[]
+* config:jaasLoginContextEntry[]
+* config:jaasLoginModule[]
 * config:orb[]
 * config:tcpOptions[]
 // end::config[]
@@ -49,7 +51,7 @@ include::./appSecurityClient-1.0/examples.adoc[opts=optional]
 
 * JavaSE-1.8
 * JavaSE-11.0
-* JavaSE-15.0
+* JavaSE-16.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]

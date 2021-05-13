@@ -55,18 +55,23 @@ include::./appSecurity-2.0/examples.adoc[opts=optional]
 
 * JavaSE-1.8
 * JavaSE-11.0
-* JavaSE-15.0
+* JavaSE-16.0
 // end::java-versions[]
 // tag::dependencies[]
 
 == Features that enable this feature
 * feature:appSecurity-1.0[]
+* feature:audit-1.0[]
+* feature:constrainedDelegation-1.0[]
 * feature:jacc-1.5[]
 * feature:jaspic-1.1[]
 * feature:jwtSso-1.0[]
 * feature:mpJwt-1.0[]
 * feature:mpJwt-1.1[]
+* feature:oauth-2.0[]
 * feature:openid-2.0[]
+* feature:samlWeb-2.0[]
+* feature:spnego-1.0[]
 * feature:webProfile-7.0[]
 * feature:wsSecurity-1.1[]
 // end::dependencies[]

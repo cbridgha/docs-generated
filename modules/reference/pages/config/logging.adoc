@@ -208,3 +208,117 @@ Min: +0+
 
 |+A trace specification that conforms to the trace specification grammar and specifies the initial state for various trace components. The trace specification is used to selectively enable trace. An empty value is allowed and treated as 'disable all trace'. Any component that is not specified is initialized to a default state of *=info.+
 |===
+[#+binaryLog+]*binaryLog*
+
++Binary logging options.  The binary log can be viewed using the logViewer command.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+bufferingEnabled+
+
+|boolean
+
+|+true+
+
+|+Specifies whether to allow a small delay in saving records to the disk for improved performance.  When bufferingEnabled is set to true, records will be briefly held in memory before being written to disk.+
+
+|+fileSwitchTime+
+
+|int +
+Min: +0+ +
+Max: +23+
+
+|
+
+|+Makes the server close the active log file and start a new one at the specified hour of the day.  When the value for fileSwitchTime is specified, file switching is enabled, otherwise it is disabled.+
+
+|+outOfSpaceAction+
+
+|* +PurgeOld+
+* +StopLogging+
+* +StopServer+
+
+
+|+StopLogging+
+
+|+Specifies the action to perform when the file system where records are kept runs out of free space.  When outOfSpaceAction is set to "StopLogging" the server will stop logging when records are not able to be written to disk.  When this attribute is set to "PurgeOld" the server will attempt to delete the oldest records from the binary log repository to make space for new records.  When this attribute is set to "StopServer" the binary log will stop the server when records cannot be written.+ +
+*+PurgeOld+* +
++Remove old records+
+
+|+purgeMaxSize+
+
+|int +
+Min: +0+
+
+|+50+
+
+|+Specifies the maximum size for the binary log repository in megabytes.  When the value for purgeMaxSize is specified with a value of more than 0, cleanup based on repository size is enabled, otherwise it is disabled; a value of 0 means no limit.+
+
+|+purgeMinTime+
+
+|A period of time with hour precision
+
+|+0+
+
+|+Specifies the duration, in hours, after which a server can remove a log record.  When the value for purgeMinTime is specified with a value of more than 0, cleanup based on log record age is enabled, otherwise it is disabled; a value of 0 means no limit. Specify a positive integer followed by the unit of time, which can be hours (h). For example, specify 12 hours as 12h.+
+|===
+[#+binaryTrace+]*binaryTrace*
+
++Binary trace options.  The binary trace can be viewed using the logViewer command.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+bufferingEnabled+
+
+|boolean
+
+|+true+
+
+|+Specifies whether to allow a small delay in saving records to the disk for improved performance.  When bufferingEnabled is set to true, records will be briefly held in memory before being written to disk.+
+
+|+fileSwitchTime+
+
+|int +
+Min: +0+ +
+Max: +23+
+
+|
+
+|+Makes the server close the active trace file and start a new one at the specified hour of the day.  When the value for fileSwitchTime is specified, file switching is enabled, otherwise it is disabled.+
+
+|+outOfSpaceAction+
+
+|* +PurgeOld+
+* +StopLogging+
+* +StopServer+
+
+
+|+StopLogging+
+
+|+Specifies the action to perform when the file system where records are kept runs out of free space.  When outOfSpaceAction is set to "StopLogging" the server will stop tracing when records are not able to be written to disk.  When this attribute is set to "PurgeOld" the server will attempt to delete the oldest records from the binary trace repository to make space for new records.  When this attribute is set to "StopServer" binary trace will stop the server when records cannot be written.+ +
+*+PurgeOld+* +
++Remove old records+
+
+|+purgeMaxSize+
+
+|int +
+Min: +0+
+
+|+50+
+
+|+Specifies the maximum size for the binary trace repository in megabytes.  When the value for purgeMaxSize is specified with a value of more than 0, cleanup based on repository size is enabled, otherwise it is disabled; a value of 0 means no limit.+
+
+|+purgeMinTime+
+
+|A period of time with hour precision
+
+|+0+
+
+|+Specifies the duration, in hours, after which a server can remove a trace record.  When the value for purgeMinTime is specified with a value of more than 0, cleanup based on trace record age is enabled, otherwise it is disabled; a value of 0 means no limit. Specify a positive integer followed by the unit of time, which can be hours (h). For example, specify 12 hours as 12h.+
+|===

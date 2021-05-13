@@ -24,11 +24,6 @@ To enable the Web Response Cache 1.0 feature, add the following element declarat
 include::./webCache/examples.adoc[opts=optional]
 include::./webCache-1.0/examples.adoc[opts=optional]
 
-// tag::config[]
-
-== Feature configuration elements
-* config:distributedMap[]
-// end::config[]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
@@ -49,7 +44,7 @@ include::./webCache-1.0/examples.adoc[opts=optional]
 
 * JavaSE-1.8
 * JavaSE-11.0
-* JavaSE-15.0
+* JavaSE-16.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]
