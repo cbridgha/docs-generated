@@ -146,7 +146,7 @@ Min: +-1+
 
 |+100+
 
-|+Maximum number of persistent requests that are allowed on a single HTTP connection if persistent connections are enabled. A value of -1 means unlimited.+
+|+Maximum number of persistent requests that are allowed on a single HTTP connection if persistent connections are enabled. A value of -1 means unlimited. This option supports low latency or high throughput applications, and SSL connections for use in situations where building up a new connection can be costly.+
 
 |+persistTimeout+
 

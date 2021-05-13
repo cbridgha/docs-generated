@@ -24,6 +24,11 @@ To enable the OpenID Connect Provider 1.0 feature, add the following element dec
 include::./openidConnectServer/examples.adoc[opts=optional]
 include::./openidConnectServer-1.0/examples.adoc[opts=optional]
 
+// tag::config[]
+
+== Feature configuration elements
+* config:openidConnectProvider[]
+// end::config[]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
@@ -41,7 +46,7 @@ include::./openidConnectServer-1.0/examples.adoc[opts=optional]
 * JavaSE-1.7
 * JavaSE-1.8
 * JavaSE-11.0
-* JavaSE-15.0
+* JavaSE-16.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]

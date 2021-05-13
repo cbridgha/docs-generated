@@ -32,6 +32,7 @@ include::./acmeCA-2.0/examples.adoc[opts=optional]
 * config:acmeTransportConfig[]
 * config:administrator-role[]
 * config:authCache[]
+* config:authFilter[]
 * config:authentication[]
 * config:authorization-roles[]
 * config:basicRegistry[]
@@ -39,7 +40,6 @@ include::./acmeCA-2.0/examples.adoc[opts=optional]
 * config:classloader[]
 * config:classloading[]
 * config:compression[]
-* config:distributedMap[]
 * config:httpAccessLogging[]
 * config:httpDispatcher[]
 * config:httpEncoding[]
@@ -78,7 +78,7 @@ include::./acmeCA-2.0/examples.adoc[opts=optional]
 
 * JavaSE-1.8
 * JavaSE-11.0
-* JavaSE-15.0
+* JavaSE-16.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]

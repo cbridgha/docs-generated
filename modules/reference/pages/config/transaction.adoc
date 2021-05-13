@@ -268,7 +268,7 @@ Min: +0+
 
 |+10+
 
-|+Maximum number of cached statements per connection. If updated while the server is running, the statement cache is resized upon next use.+
+|+Maximum number of cached statements per connection. If updated while the server is running, the statement cache is resized upon next use. To set this option, complete the following prerequisites: Review either the application code or an SQL trace that you gather from the database or database driver for all unique prepared statements. Ensure that the cache size is larger than the number of statements.+
 
 |+transactional+
 
@@ -418,7 +418,7 @@ Min: +0+
 
 |+50+
 
-|+Maximum number of physical connections for a pool. A value of 0 means unlimited.+
+|+Maximum number of physical connections for a pool. A value of 0 means unlimited. The optimal setting depends on the application characteristics. For an application in which every thread obtains a connection to the database, you might start with a 1:1 mapping to the `coreThreads` attribute.+
 
 |+minPoolSize+
 
@@ -438,7 +438,7 @@ Min: +0+
 
 |+EntirePool+
 
-|+Specifies which connections to destroy when a stale connection is detected in a pool.+ +
+|+Specifies which connections to destroy when a stale connection is detected in a pool. This setting can provide a major improvement on large multi-core (8+++) machines by reserving the specified number of database connections for each thread.+ +
 *+EntirePool+* +
 +When a stale connection is detected, all connections in the pool are marked stale, and when no longer in use, are closed.+ +
 *+FailingConnectionOnly+* +
