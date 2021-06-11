@@ -24,6 +24,12 @@ To enable the Web Service Security 1.1 feature, add the following element declar
 include::./wsSecurity/examples.adoc[opts=optional]
 include::./wsSecurity-1.1/examples.adoc[opts=optional]
 
+// tag::config[]
+
+== Feature configuration elements
+* config:wsSecurityClient[]
+* config:wsSecurityProvider[]
+// end::config[]
 // tag::apis[]
 
 == Third-party API packages provided by this feature
@@ -46,6 +52,8 @@ include::./wsSecurity-1.1/examples.adoc[opts=optional]
 * javadoc:org.apache.ws.security.transform[]
 * javadoc:org.apache.ws.security.util[]
 * javadoc:org.apache.ws.security.validate[]
+* javadoc:org.apache.wss4j.common.crypto[]
+* javadoc:org.apache.wss4j.common.ext[]
 // end::apis[]
 // tag::requirements[]
 
