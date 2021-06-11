@@ -29,6 +29,7 @@ include::./wsSecuritySaml-1.1/examples.adoc[opts=optional]
 // tag::requirements[]
 
 == Features that this feature enables
+* feature:jaxws-2.2[]
 * feature:samlWeb-2.0[]
 * feature:wsSecurity-1.1[]
 // end::requirements[]
@@ -38,7 +39,7 @@ include::./wsSecuritySaml-1.1/examples.adoc[opts=optional]
 
 * JavaSE-1.8
 * JavaSE-11.0
-* JavaSE-16.0
+* JavaSE-15.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]
