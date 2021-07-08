@@ -35,8 +35,6 @@ include::./webCache-1.0/examples.adoc[opts=optional]
 
 == Features that this feature enables
 * feature:distributedMap-1.0[]
-* feature:jsp-2.2[]
-* feature:jsp-2.3[]
 // end::requirements[]
 // tag::java-versions[]
 

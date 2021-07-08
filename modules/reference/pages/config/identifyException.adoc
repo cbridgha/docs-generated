@@ -16,7 +16,7 @@ Required
 
 |
 
-|+Identifies the error condition that the SQL error code or SQL state represents. Allowed values are: None or StaleConnection. None removes a mapping. StaleConnection causes connections that are stale to be evicted from the connection pool once they are closed.+
+|+Identifies the error condition that the SQL error code or SQL state represents. Allowed values are: None, StaleConnection, StaleStatement, Unsupported. None removes the identification of the exception. StaleConnection causes connections to be evicted from the connection pool per the purge policy. StaleStatement causes statements to be evicted from the statement cache. Unsupported indicates an operation that is not supported by the JDBC driver.+
 
 |+errorCode+
 
