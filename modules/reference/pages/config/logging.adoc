@@ -22,6 +22,7 @@
 |* +DEV+
 * +JSON+
 * +SIMPLE+
+* +TBASIC+
 
 
 |+DEV+
@@ -32,7 +33,9 @@
 *+JSON+* +
 +Use the JSON logging format.+ +
 *+SIMPLE+* +
-+Use the simple logging format.+
++Use the simple logging format.+ +
+*+TBASIC+* +
++%console.format.tbasic+
 
 |+consoleLogLevel+
 
@@ -149,6 +152,7 @@ Min: +0+
 
 |* +JSON+
 * +SIMPLE+
+* +TBASIC+
 
 
 |+SIMPLE+
@@ -157,7 +161,9 @@ Min: +0+
 *+JSON+* +
 +Use the JSON logging format.+ +
 *+SIMPLE+* +
-+Use the simple logging format.+
++Use the simple logging format.+ +
+*+TBASIC+* +
++%message.format.tbasic+
 
 |+messageSource+
 
@@ -188,6 +194,7 @@ Min: +0+
 |* +ADVANCED+
 * +BASIC+
 * +ENHANCED+
+* +TBASIC+
 
 
 |+ENHANCED+
@@ -198,7 +205,9 @@ Min: +0+
 *+BASIC+* +
 +Use the basic trace format.+ +
 *+ENHANCED+* +
-+Use the enhanced basic trace format.+
++Use the enhanced basic trace format.+ +
+*+TBASIC+* +
++%trace.tbasic+
 
 |+traceSpecification+
 

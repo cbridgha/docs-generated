@@ -53,10 +53,6 @@ include::./jsp-2.2/examples.adoc[opts=optional]
 * JavaSE-15.0
 // end::java-versions[]
 // tag::dependencies[]
-
-== Features that enable this feature
-* feature:adminCenter-1.0[]
-* feature:webCache-1.0[]
 // end::dependencies[]
 // tag::feature-require[]
 

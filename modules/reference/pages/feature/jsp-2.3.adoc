@@ -59,12 +59,10 @@ include::./jsp-2.3/examples.adoc[opts=optional]
 // tag::dependencies[]
 
 == Features that enable this feature
-* feature:adminCenter-1.0[]
 * feature:jsf-2.2[]
 * feature:jsf-2.3[]
 * feature:jsfContainer-2.2[]
 * feature:jsfContainer-2.3[]
-* feature:webCache-1.0[]
 * feature:webProfile-7.0[]
 * feature:webProfile-8.0[]
 // end::dependencies[]
