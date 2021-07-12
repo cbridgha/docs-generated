@@ -103,7 +103,7 @@
 
 |+false+
 
-|+Require the issuer claim to be absent when validating the OAuth token introspection response for inbound token propagation.+
+|+Require the issuer claim to be absent when the OpenID Connect client validates a JWT access token for inbound propagation or when it performs token introspection for inbound propagation.+
 
 |+disableLtpaCookie+
 
@@ -231,7 +231,7 @@ Min: +0+
 
 |+true+
 
-|+Specifies whether the client supports redirect at client side.+
+|+Set this property to false if you do not want to use JavaScript to redirect to the OpenID Connect Provider for the initial authentication request. If JavaScript is not used, any URI fragments that are present in the original inbound request are lost.+
 
 |+issuerIdentifier+
 
@@ -367,18 +367,39 @@ Min: +0+
 
 |+signatureAlgorithm+
 
-|* +HS256+
+|* +ES256+
+* +ES384+
+* +ES512+
+* +HS256+
+* +HS384+
+* +HS512+
 * +RS256+
+* +RS384+
+* +RS512+
 * +none+
 
 
 |+HS256+
 
 |+Specifies the signature algorithm that will be used to verify the signature of the ID token.+ +
+*+ES256+* +
++internal+ +
+*+ES384+* +
++internal+ +
+*+ES512+* +
++internal+ +
 *+HS256+* +
 +Use the HS256 signature algorithm to sign and verify tokens+ +
+*+HS384+* +
++internal+ +
+*+HS512+* +
++internal+ +
 *+RS256+* +
 +Use the RS256 signature algorithm to sign and verify tokens+ +
+*+RS384+* +
++internal+ +
+*+RS512+* +
++internal+ +
 *+none+* +
 +Tokens are not required to be signed+
 

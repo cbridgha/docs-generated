@@ -59,7 +59,6 @@ include::./wsSecurity-1.1/examples.adoc[opts=optional]
 
 == Features that this feature enables
 * feature:appSecurity-2.0[]
-* feature:appSecurity-3.0[]
 * feature:jaxws-2.2[]
 // end::requirements[]
 // tag::java-versions[]

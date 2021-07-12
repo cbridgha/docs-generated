@@ -24,6 +24,11 @@ To enable the WSSecurity SAML 1.1 feature, add the following element declaration
 include::./wsSecuritySaml/examples.adoc[opts=optional]
 include::./wsSecuritySaml-1.1/examples.adoc[opts=optional]
 
+// tag::config[]
+
+== Feature configuration elements
+* config:samlWebSso20[]
+// end::config[]
 // tag::apis[]
 // end::apis[]
 // tag::requirements[]
