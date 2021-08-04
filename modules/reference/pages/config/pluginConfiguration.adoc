@@ -227,7 +227,7 @@ Max: +65535+
 |===
 [#+extraConfigProperties+]*extraConfigProperties*
 
-+Additional properties to be added to the Config element in the generated plug-in configuration file.  These properties can be specified by IBM support to modify behavior of the web server plug-in.  They can be found at https://www.ibm.com/support/knowledgecenter/en/SSAW57_9.0.0/com.ibm.websphere.nd.multiplatform.doc/ae/rwsv_plugin_propstable.html+
++Additional properties to be added to the Config element in the generated plug-in configuration file. These properties can be specified by IBM support to modify behavior of the web server plug-in. For more information, see https://www.ibm.com/support/knowledgecenter/en/SSAW57_9.0.0/com.ibm.websphere.nd.multiplatform.doc/ae/rwsv_plugin_propstable.html+
 
 
 [#+httpEndpoint+]*httpEndpoint*
