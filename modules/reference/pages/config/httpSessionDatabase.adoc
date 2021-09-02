@@ -140,6 +140,14 @@ Required
 
 4+|*+Oracle Only+*
 
+|+rowSizeLimit+
+
+|int
+
+|+2+
+
+|+Set the limit of stored data per record, in megabytes. The default is 2 megabytes.+
+
 |+useOracleBlob+
 
 |boolean

@@ -81,6 +81,32 @@
 
 |+The number of times that the application server retries a completion signal, such as commit or rollback. Retries occur after a transient exception from a resource manager or remote partner.+
 
+|+leaseCheckInterval+
+
+|A period of time with second precision
+
+|+60s+
+
+|+The interval after which the lease check strategy is implemented. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
+
+|+leaseLength+
+
+|A period of time with second precision
+
+|+60s+
+
+|+The length of time before a recovery log lease expires. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
+
+|+leaseRenewalThreshold+
+
+|int +
+Min: +1+ +
+Max: +100+
+
+|+90+
+
+|+The percentage of the duration of the recovery log lease that passes before the lease is renewed+
+
 |+lpsHeuristicCompletion+
 
 |* +COMMIT+

@@ -1,7 +1,7 @@
 = +JAAS Login Module+ (+jaasLoginModule+)
-:linkcss:
+:linkcss: 
 :page-layout: config
-:nofooter:
+:nofooter: 
 
 +A login module in the JAAS configuration.+
 
@@ -1003,7 +1003,7 @@ Required
 
 |+spec,ibm-api,api,stable+
 
-|+The types of API packages that this class loader supports. This value is a comma-separated list of any combination of the following API packages: spec, ibm-api, api, stable, third-party.  If a prefix of pass:[+] or - is added to API types, those API types are added or removed, respectively, from the default set of API types. Common usage for the prefix, pass:[+]third-party, results in "spec, ibm-api, api, stable, third-party". The prefix, -api, results in "spec, ibm-api, stable".+
+|+The types of API packages that this class loader supports. This value is a comma-separated list of any combination of the following API packages: spec, ibm-api, api, stable, third-party.  If a prefix of pass:[+++] or - is added to API types, those API types are added or removed, respectively, from the default set of API types. Common usage for the prefix, pass:[+++]third-party, results in "spec, ibm-api, api, stable, third-party". The prefix, -api, results in "spec, ibm-api, stable".+
 
 |+classProviderRef+
 
@@ -5646,7 +5646,7 @@ Required
 
 |+spec,ibm-api,api,stable+
 
-|+The types of API packages that this class loader supports. This value is a comma-separated list of any combination of the following API packages: spec, ibm-api, api, stable, third-party.  If a prefix of pass:[+] or - is added to API types, those API types are added or removed, respectively, from the default set of API types. Common usage for the prefix, pass:[+]third-party, results in "spec, ibm-api, api, stable, third-party". The prefix, -api, results in "spec, ibm-api, stable".+
+|+The types of API packages that this class loader supports. This value is a comma-separated list of any combination of the following API packages: spec, ibm-api, api, stable, third-party.  If a prefix of pass:[+++] or - is added to API types, those API types are added or removed, respectively, from the default set of API types. Common usage for the prefix, pass:[+++]third-party, results in "spec, ibm-api, api, stable, third-party". The prefix, -api, results in "spec, ibm-api, stable".+
 
 |+classProviderRef+
 
@@ -11505,3 +11505,5 @@ Required
 [#+options+]*options*
 
 +A collection of JAAS Login module options+
+
+
