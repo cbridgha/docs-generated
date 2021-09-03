@@ -87,6 +87,7 @@ include::./mpMetrics-3.0/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:microProfile-4.0[]
+* feature:microProfile-4.1[]
 // end::dependencies[]
 // tag::feature-require[]
 

@@ -68,7 +68,6 @@
   ** xref:config/httpSession.adoc[httpSession]
   ** xref:config/httpSessionCache.adoc[httpSessionCache]
   ** xref:config/httpSessionDatabase.adoc[httpSessionDatabase]
-  ** xref:config/identifyException.adoc[identifyException]
   ** xref:config/idsLdapFilterProperties.adoc[idsLdapFilterProperties]
   ** xref:config/iiopEndpoint.adoc[iiopEndpoint]
   ** xref:config/iiopServerPolicies.adoc[iiopServerPolicies]
