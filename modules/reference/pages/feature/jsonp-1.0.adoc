@@ -44,7 +44,6 @@ include::./jsonp-1.0/examples.adoc[opts=optional]
 // tag::dependencies[]
 
 == Features that enable this feature
-* feature:batchManagement-1.0[]
 * feature:javaeeClient-7.0[]
 * feature:jwtSso-1.0[]
 * feature:microProfile-1.0[]

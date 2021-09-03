@@ -35,7 +35,7 @@
 *+SIMPLE+* +
 +Use the simple logging format.+ +
 *+TBASIC+* +
-+%console.format.tbasic+
++Use the tbasic logging format.+
 
 |+consoleLogLevel+
 
@@ -163,7 +163,7 @@ Min: +0+
 *+SIMPLE+* +
 +Use the simple logging format.+ +
 *+TBASIC+* +
-+%message.format.tbasic+
++Use the tbasic logging format.+
 
 |+messageSource+
 
@@ -207,7 +207,7 @@ Min: +0+
 *+ENHANCED+* +
 +Use the enhanced basic trace format.+ +
 *+TBASIC+* +
-+%trace.tbasic+
++Alias for the basic trace format.+
 
 |+traceSpecification+
 
