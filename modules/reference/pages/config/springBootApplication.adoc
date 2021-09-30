@@ -1,7 +1,7 @@
 = +Spring Boot Application+ (+springBootApplication+)
-:linkcss:
+:linkcss: 
 :page-layout: config
-:nofooter:
+:nofooter: 
 
 +Defines the properties of a Spring Boot application.+
 
