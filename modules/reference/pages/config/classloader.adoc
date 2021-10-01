@@ -1,7 +1,7 @@
 = +Classloader+ (+classloader+)
-:linkcss:
+:linkcss: 
 :page-layout: config
-:nofooter:
+:nofooter: 
 
 +Defines the settings for an application classloader.+
 

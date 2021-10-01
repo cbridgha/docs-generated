@@ -49,7 +49,7 @@ include::./mpConfig-1.4/examples.adoc[opts=optional]
 
 * JavaSE-1.8
 * JavaSE-11.0
-* JavaSE-15.0
+* JavaSE-17.0
 // end::java-versions[]
 // tag::dependencies[]
 

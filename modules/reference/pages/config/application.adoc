@@ -1,7 +1,7 @@
 = +Application+ (+application+)
-:linkcss:
+:linkcss: 
 :page-layout: config
-:nofooter:
+:nofooter: 
 
 +Defines the properties of an application.+
 

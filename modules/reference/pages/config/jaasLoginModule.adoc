@@ -1,7 +1,7 @@
 = +JAAS Login Module+ (+jaasLoginModule+)
-:linkcss:
+:linkcss: 
 :page-layout: config
-:nofooter:
+:nofooter: 
 
 +A login module in the JAAS configuration.+
 
@@ -11505,3 +11505,5 @@ Required
 [#+options+]*options*
 
 +A collection of JAAS Login module options+
+
+

@@ -1,7 +1,7 @@
 = +Resource Adapter+ (+resourceAdapter+)
-:linkcss:
+:linkcss: 
 :page-layout: config
-:nofooter:
+:nofooter: 
 
 +Defines a resource adapter installation.+
 
