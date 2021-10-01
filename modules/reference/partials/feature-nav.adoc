@@ -1,4 +1,5 @@
-* xref:feature/feature-overview.adoc[Features]
+* Features
+  ** xref:feature/feature-overview.adoc[Feature overview]
   ** xref:feature/adminCenter-1.0.adoc[Admin Center]
   ** xref:feature/localConnector-1.0.adoc[Admin Local Connector]
   ** xref:feature/restConnector-2.0.adoc[Admin REST Connector]
