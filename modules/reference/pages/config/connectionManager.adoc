@@ -68,7 +68,7 @@ Min: +0+
 
 |+EntirePool+
 
-|+Specifies which connections to destroy when a stale connection is detected in a pool. This setting can provide a major improvement on large multi-core (8+++) machines by reserving the specified number of database connections for each thread.+ +
+|+Specifies which connections to destroy when a stale connection is detected in a pool. This setting can provide a major improvement on large multi-core (8pass:[+]) machines by reserving the specified number of database connections for each thread.+ +
 *+EntirePool+* +
 +When a stale connection is detected, all connections in the pool are marked stale, and when no longer in use, are closed.+ +
 *+FailingConnectionOnly+* +
