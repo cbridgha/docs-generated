@@ -431,7 +431,7 @@ This is specified as a child element rather than as an XML attribute (maximum oc
 
 |+text/*+
 
-|+To include a content type in addition to the default values, affix the add (+++) character as a prefix to that content type. To exclude a content type from compression, affix the remove (-) character as a prefix to that content type. Note: The wildcard (*) character is supported only as a content subtype, such as text/*.+
+|+To include a content type in addition to the default values, affix the add (pass:[+]) character as a prefix to that content type. To exclude a content type from compression, affix the remove (-) character as a prefix to that content type. Note: The wildcard (*) character is supported only as a content subtype, such as text/*.+
 |===
 [#+httpEndpoint/httpOptions+]*httpEndpoint > httpOptions*
 

@@ -43,6 +43,7 @@ include::./ejbLite-3.2/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
+* javadoc:com.ibm.websphere.ejbcontainer[]
 * javadoc:com.ibm.websphere.ejbcontainer.mbean[]
 // end::apis[]
 // tag::requirements[]

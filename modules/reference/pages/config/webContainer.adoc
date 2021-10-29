@@ -125,9 +125,9 @@
 
 |boolean
 
-|+false+
+|
 
-|+Toggle if you want to defer ServletRequestListener destroy when there is an error serving the request. The default value is false. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.deferServletRequestListenerDestroyOnError.+
+|+Toggle if you want to defer ServletRequestListener destroy when there is an error serving the request. The default value is false, but is true for servlet 5.0 and later. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.deferServletRequestListenerDestroyOnError.+
 
 |+directoryBrowsingEnabled+
 
