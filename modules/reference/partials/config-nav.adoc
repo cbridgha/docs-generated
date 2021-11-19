@@ -58,6 +58,7 @@
   ** xref:config/googleLogin.adoc[googleLogin]
   ** xref:config/grpc.adoc[grpc]
   ** xref:config/grpcClient.adoc[grpcClient]
+  ** xref:config/headers.adoc[headers]
   ** xref:config/httpAccessLogging.adoc[httpAccessLogging]
   ** xref:config/httpDispatcher.adoc[httpDispatcher]
   ** xref:config/httpEncoding.adoc[httpEncoding]

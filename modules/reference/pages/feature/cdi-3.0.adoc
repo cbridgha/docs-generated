@@ -1,0 +1,98 @@
+= Jakarta Contexts and Dependency Injection 3.0
+:linkcss: 
+:page-layout: feature
+:nofooter: 
+
+// tag::description[]
+The Jakarta Contexts and Dependency Injection 3.0 specification makes it easier to integrate Jakarta EE components of different types. It provides a common mechanism to inject components such as enterprise beans or managed beans into other components such as JSPs or other enterprise beans.
+
+// end::description[]
+
+include::./cdi/description.adoc[opts=optional]
+include::./cdi-3.0/description.adoc[opts=optional]
+
+// tag::enable[]
+== Enabling this feature
+To enable the Jakarta Contexts and Dependency Injection 3.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
+
+
+----
+<feature>cdi-3.0</feature>
+----
+// end::enable[]
+
+include::./cdi/examples.adoc[opts=optional]
+include::./cdi-3.0/examples.adoc[opts=optional]
+
+// tag::config[]
+
+== Feature configuration elements
+* config:application[]
+* config:applicationManager[]
+* config:applicationMonitor[]
+* config:cdi12[]
+* config:classloader[]
+* config:classloading[]
+* config:javaPermission[]
+* config:library[]
+* config:transaction[]
+// end::config[]
+// tag::apis[]
+
+== Standard API packages provided by this feature
+* javadoc:jakarta.decorator[]
+* javadoc:jakarta.enterprise.context[]
+* javadoc:jakarta.enterprise.context.control[]
+* javadoc:jakarta.enterprise.context.spi[]
+* javadoc:jakarta.enterprise.event[]
+* javadoc:jakarta.enterprise.inject[]
+* javadoc:jakarta.enterprise.inject.literal[]
+* javadoc:jakarta.enterprise.inject.se[]
+* javadoc:jakarta.enterprise.inject.spi[]
+* javadoc:jakarta.enterprise.inject.spi.configurator[]
+* javadoc:jakarta.enterprise.util[]
+* javadoc:jakarta.inject[]
+* javadoc:jakarta.interceptor[]
+
+== Third-party API packages provided by this feature
+* javadoc:org.jboss.weld.context[]
+* javadoc:org.jboss.weld.context.api[]
+* javadoc:org.jboss.weld.context.beanstore[]
+* javadoc:org.jboss.weld.context.bound[]
+* javadoc:org.jboss.weld.context.conversation[]
+// end::apis[]
+// tag::requirements[]
+// end::requirements[]
+// tag::java-versions[]
+
+== Supported Java versions
+
+* JavaSE-1.8
+* JavaSE-11.0
+* JavaSE-17.0
+// end::java-versions[]
+// tag::dependencies[]
+
+== Features that enable this feature
+* feature:appSecurity-4.0[]
+* feature:facesContainer-3.0[]
+* feature:jakartaeeClient-9.1[]
+* feature:restfulWSClient-3.0[]
+* feature:webProfile-9.1[]
+// end::dependencies[]
+// tag::feature-require[]
+
+== Developing a feature that depends on this feature
+If you are developing a feature that depends on this feature, include the following item in the `Subsystem-Content` header in your feature manifest file.
+
+
+[source,]
+----
+io.openliberty.cdi-3.0; type="osgi.subsystem.feature"
+----
+// end::feature-require[]
+// tag::spi[]
+
+== SPI packages provided by this feature
+* javadoc:io.openliberty.cdi.spi[]
+// end::spi[]

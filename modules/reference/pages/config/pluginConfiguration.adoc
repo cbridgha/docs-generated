@@ -263,6 +263,14 @@ Max: +65535+
 
 |+Toggle the availability of an endpoint. When true, this endpoint will be activated by the dispatcher to handle HTTP requests.+
 
+|+headersRef+
+
+|A reference to top level headers element (string).
+
+|+defaultHeaders+
+
+|+Header options for the endpoint.+
+
 |+host+
 
 |string
@@ -432,6 +440,47 @@ This is specified as a child element rather than as an XML attribute (maximum oc
 |+text/*+
 
 |+To include a content type in addition to the default values, affix the add (pass:[+]) character as a prefix to that content type. To exclude a content type from compression, affix the remove (-) character as a prefix to that content type. Note: The wildcard (*) character is supported only as a content subtype, such as text/*.+
+|===
+[#+httpEndpoint/headers+]*httpEndpoint > headers*
+
++Header options for the endpoint.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+add+
+
+|string
+
+|
+
+|+Specifies the header names and values that are added to each HTTP response. Header values are optionally included by using a colon (:) delimiter. Any header name that is defined by using this attribute must not be empty or present in the 'remove', 'set', or 'setIfMissing' header configurations.+
+
+|+remove+
+
+|string
+
+|
+
+|+Specifies the header names that are removed from each HTTP response. Any header name that is defined by using this attribute must not be empty. No header values are expected. Any header name that is defined by using this attribute must not be present in the 'add', 'set', or 'setIfMissing' header configurations.+
+
+|+set+
+
+|string
+
+|
+
+|+Specifies the header names and values that are set to each HTTP response. Header values are optionally included by using a colon (:) delimiter. Any header name that is defined by using this attribute must not be empty, defined more than once, or present in the 'remove', 'add', or 'setIfEmpty'  header configurations. If the header is already present on the response, existing values are overwritten in favor of this configuration.+
+
+|+setIfMissing+
+
+|string
+
+|
+
+|+Specifies the header names and values that are set to each HTTP response if not already present. Header values are optionally included by using a colon (:) delimiter. Any header name that is defined by using this attribute must not be empty, defined more than once, or present in the 'remove', 'add', or 'set' header configurations.+
 |===
 [#+httpEndpoint/httpOptions+]*httpEndpoint > httpOptions*
 

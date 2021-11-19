@@ -45,7 +45,6 @@ include::./jsonp-1.0/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:javaeeClient-7.0[]
-* feature:jwtSso-1.0[]
 * feature:microProfile-1.0[]
 * feature:microProfile-1.2[]
 * feature:microProfile-1.3[]
