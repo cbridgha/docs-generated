@@ -65,14 +65,6 @@ Required
 |
 
 |+Specifies applications that are required to start before this application can begin starting.+
-
-|+useJandex+
-
-|boolean
-
-|
-
-|+Enables use of Jandex index files if they are supplied in the application+
 |===
 [#+classloader+]*classloader*
 

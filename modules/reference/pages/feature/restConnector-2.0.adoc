@@ -37,6 +37,7 @@ include::./restConnector-2.0/examples.adoc[opts=optional]
 * config:classloader[]
 * config:classloading[]
 * config:compression[]
+* config:headers[]
 * config:httpAccessLogging[]
 * config:httpDispatcher[]
 * config:httpEncoding[]
@@ -81,6 +82,9 @@ include::./restConnector-2.0/examples.adoc[opts=optional]
 * JavaSE-17.0
 // end::java-versions[]
 // tag::dependencies[]
+
+== Features that enable this feature
+* feature:jakartaee-9.1[]
 // end::dependencies[]
 // tag::feature-require[]
 
