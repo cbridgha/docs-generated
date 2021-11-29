@@ -1,7 +1,7 @@
 = Jakarta RESTful Web Services 3.0 Client
-:linkcss:
+:linkcss: 
 :page-layout: feature
-:nofooter:
+:nofooter: 
 
 // tag::description[]
 This feature enables support for the Jakarta RESTful Web Services 3.0 Client API.
@@ -21,7 +21,6 @@ To enable the Jakarta RESTful Web Services 3.0 Client feature, add the following
 ----
 // end::enable[]
 
-include::./jaxrsClient/examples.adoc[opts=optional]
 include::./restfulWSClient/examples.adoc[opts=optional]
 include::./restfulWSClient-3.0/examples.adoc[opts=optional]
 
