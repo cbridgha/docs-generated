@@ -1,7 +1,7 @@
 = Jakarta RESTful Web Services 3.0
-:linkcss: 
+:linkcss:
 :page-layout: feature
-:nofooter: 
+:nofooter:
 
 // tag::description[]
 This feature enables support for Jakarta RESTful Web Services 3.0.  These annotations can be used to define web service clients and endpoints that comply with the REST architectural style. Endpoints are accessed through a common interface that is based on the HTTP standard methods.
@@ -21,6 +21,7 @@ To enable the Jakarta RESTful Web Services 3.0 feature, add the following elemen
 ----
 // end::enable[]
 
+include::./jaxrs/examples.adoc[opts=optional]
 include::./restfulWS/examples.adoc[opts=optional]
 include::./restfulWS-3.0/examples.adoc[opts=optional]
 

@@ -1,7 +1,7 @@
 = Jakarta Persistence 3.0 Container
-:linkcss: 
+:linkcss:
 :page-layout: feature
-:nofooter: 
+:nofooter:
 
 // tag::description[]
 This feature enables support for applications that use application-managed and container-managed persistence. This feature only includes Jakarta Persistence 3.0 specification interfaces and container-managed persistence integration. This feature does not include a Jakarta Persistence provider implementation.
@@ -21,6 +21,7 @@ To enable the Jakarta Persistence 3.0 Container feature, add the following eleme
 ----
 // end::enable[]
 
+include::./jpaContainer/examples.adoc[opts=optional]
 include::./persistenceContainer/examples.adoc[opts=optional]
 include::./persistenceContainer-3.0/examples.adoc[opts=optional]
 
