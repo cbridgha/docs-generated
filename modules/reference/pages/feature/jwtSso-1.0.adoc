@@ -41,11 +41,10 @@ include::./jwtSso-1.0/examples.adoc[opts=optional]
 
 == Features that this feature enables
 * feature:appSecurity-2.0[]
-* feature:jsonp-1.0[]
-* feature:jsonp-1.1[]
 * feature:jwt-1.0[]
 * feature:servlet-3.1[]
 * feature:servlet-4.0[]
+* feature:servlet-5.0[]
 // end::requirements[]
 // tag::java-versions[]
 
