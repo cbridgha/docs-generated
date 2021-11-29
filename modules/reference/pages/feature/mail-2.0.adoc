@@ -1,7 +1,7 @@
 = Jakarta Mail 2.0
-:linkcss:
+:linkcss: 
 :page-layout: feature
-:nofooter:
+:nofooter: 
 
 // tag::description[]
 This feature allows applications to use the Jakarta Mail 2.0 API.
@@ -21,7 +21,6 @@ To enable the Jakarta Mail 2.0 feature, add the following element declaration in
 ----
 // end::enable[]
 
-include::./javaMail/examples.adoc[opts=optional]
 include::./mail/examples.adoc[opts=optional]
 include::./mail-2.0/examples.adoc[opts=optional]
 

@@ -1,7 +1,7 @@
 = Jakarta Persistence 3.0
-:linkcss:
+:linkcss: 
 :page-layout: feature
-:nofooter:
+:nofooter: 
 
 // tag::description[]
 This feature enables support for applications that use application-managed and container-managed persistence. This feature includes Jakarta Persistence 3.0 specification interfaces and container-managed persistence integration. EclipseLink is also included as the default persistence provider implementation.
@@ -21,7 +21,6 @@ To enable the Jakarta Persistence 3.0 feature, add the following element declara
 ----
 // end::enable[]
 
-include::./jpa/examples.adoc[opts=optional]
 include::./persistence/examples.adoc[opts=optional]
 include::./persistence-3.0/examples.adoc[opts=optional]
 
