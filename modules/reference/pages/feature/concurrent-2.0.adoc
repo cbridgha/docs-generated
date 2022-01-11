@@ -59,6 +59,7 @@ include::./concurrent-2.0/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:jakartaee-9.1[]
+* feature:mpContextPropagation-1.3[]
 * feature:restfulWSClient-3.0[]
 // end::dependencies[]
 // tag::feature-require[]

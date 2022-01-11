@@ -494,6 +494,48 @@ Min: +0+
 
 |+Name of the user to use when connecting to the EIS.+
 |===
+[#+jobStore/dataSource/identifyException+]*jobStore > dataSource > identifyException*
+
++Identify a specific SQL error code or SQL state on a SQLException. This enables the server to take appropriate action based on the error condition. For example, closing a stale connection instead of returning it to the connection pool.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+as+
+
+|string +
+Required
+
+|
+
+|+Identifies the error condition that the SQL error code or SQL state represents. Allowed values are: None, StaleConnection, StaleStatement, Unsupported. None removes the identification of the exception. StaleConnection causes connections to be evicted from the connection pool per the purge policy. StaleStatement causes statements to be evicted from the statement cache. Unsupported indicates an operation that is not supported by the JDBC driver.+
+
+|+errorCode+
+
+|int
+
+|
+
+|+An error code specific to the backend database. Normally, this is the actual error code that is returned by the underlying database.+
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+sqlState+
+
+|string
+
+|
+
+|+A string that follows either the XOPEN SQL state conventions or the SQL:2003 conventions.+
+|===
 [#+jobStore/dataSource/jaasLoginContextEntry+]*jobStore > dataSource > jaasLoginContextEntry*
 
 +JAAS login context entry for authentication. If updated while the server is running, the update is applied with new connection requests; in-use connections are not impacted.+
