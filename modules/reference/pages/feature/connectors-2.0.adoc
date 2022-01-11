@@ -62,6 +62,7 @@ include::./connectors-2.0/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:connectorsInboundSecurity-2.0[]
+* feature:enterpriseBeans-4.0[]
 * feature:jakartaee-9.1[]
 * feature:mdb-4.0[]
 * feature:messaging-3.0[]

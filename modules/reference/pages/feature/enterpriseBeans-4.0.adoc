@@ -35,6 +35,7 @@ include::./enterpriseBeans-4.0/examples.adoc[opts=optional]
 // tag::requirements[]
 
 == Features that this feature enables
+* feature:connectors-2.0[]
 * feature:enterpriseBeansHome-4.0[]
 * feature:enterpriseBeansLite-4.0[]
 * feature:enterpriseBeansPersistentTimer-4.0[]

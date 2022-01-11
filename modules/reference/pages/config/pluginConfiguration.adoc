@@ -65,6 +65,14 @@
 
 |+Specify the identifier of the http endpoint to include in the generated plugin-cfg.xml file. The endpoint defines the server in the cluster. The default value is 'defaultHttpEndpoint'.+
 
+|+ignoreAffinityRequests+
+
+|boolean
+
+|+true+
+
+|+Indicates whether the webserver plug-in ignores affinity requests when it is tracking runtime weight for round-robin load balancing.+
+
 |+ipv6Preferred+
 
 |boolean
