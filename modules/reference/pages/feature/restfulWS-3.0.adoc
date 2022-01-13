@@ -45,6 +45,9 @@ include::./restfulWS-3.0/examples.adoc[opts=optional]
 // tag::dependencies[]
 
 == Features that enable this feature
+* feature:microProfile-5.0[]
+* feature:mpOpenAPI-3.0[]
+* feature:mpOpenTracing-3.0[]
 * feature:webProfile-9.1[]
 // end::dependencies[]
 // tag::feature-require[]

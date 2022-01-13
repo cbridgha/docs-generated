@@ -65,6 +65,7 @@ include::./restfulWSClient-3.0/examples.adoc[opts=optional]
 // tag::dependencies[]
 
 == Features that enable this feature
+* feature:mpRestClient-3.0[]
 * feature:restfulWS-3.0[]
 // end::dependencies[]
 // tag::feature-require[]
