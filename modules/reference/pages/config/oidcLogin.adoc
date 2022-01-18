@@ -148,6 +148,14 @@ Required
 
 |+Specifies a JSON Web Key service URL.+
 
+|+keyManagementKeyAlias+
+
+|string
+
+|
+
+|+Private key alias of the key management key that is used to decrypt the Content Encryption Key of a JSON Web Encryption (JWE) token.+
+
 |+mapToUserRegistry+
 
 |boolean

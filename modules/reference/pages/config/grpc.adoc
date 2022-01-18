@@ -9,14 +9,6 @@
 |===
 |Name|Type|Default|Description
 
-|+httpEndpoints+
-
-|string
-
-|
-
-|+The list of HTTP endpoints on which to handle gRPC requests.+
-
 |+id+
 
 |string
