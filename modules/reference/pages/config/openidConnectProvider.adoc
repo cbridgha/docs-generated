@@ -23,7 +23,7 @@
 
 |
 
-|+The extra claims to be put in the payloads of the ID Token, in addition to the default realmName, uniqueSecurityName and groupIds claims.+
+|+The extra claims to be put in the payloads of the ID token, in addition to the default realmName, uniqueSecurityName, and groupIds claims.+
 
 |+id+
 

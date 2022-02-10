@@ -281,6 +281,23 @@ Min: +0+
 
 |+Specifies a JWK endpoint URL.+
 
+|+jwtAccessTokenRemoteValidation+
+
+|* +allow+
+* +none+
+* +require+
+
+
+|+none+
+
+|+Specifies whether a JWT access token that is received for inbound propagation is validated locally by the OpenID Connect client or by using the validation method that is configured by the OpenID Connect client.+ +
+*+allow+* +
++A JWT access token that is received for inbound propagation is parsed and validated locally by the OpenID Connect client. If validation fails, the access token is validated by using the validation method that is configured by the OpenID Connect client.+ +
+*+none+* +
++A JWT access token that is received for inbound propagation is parsed and validated locally by the OpenID Connect client. If validation fails, the access token is not validated by using the validation method that is configured by the OpenID Connect client.+ +
+*+require+* +
++A JWT access token that is received for inbound propagation is validated by using the validation method that is configured by the OpenID Connect client. The access token is not parsed or validated locally by the OpenID Connect client.+
+
 |+keyManagementKeyAlias+
 
 |string

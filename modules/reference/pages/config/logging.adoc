@@ -179,7 +179,7 @@ Min: +0+
 
 |+false+
 
-|+The server trace can expose sensitive data when tracing untyped data, such as bytes received over a network connection. If true, prevent potentially sensitive information from being exposed in log and trace files. The default value is false. Avoid trouble: Use the com.ibm.ws.logging.filter.sensitive property, except in cases where you are trying to change the configuration dynamically after startup.+
+|+When this attribute is set to true, it prevents potentially sensitive information from being exposed in log and trace files. The default value is false. Avoid trouble: Use the com.ibm.ws.logging.suppress.sensitive.trace property, except in cases where you are trying to change the configuration dynamically after startup.+
 
 |+traceFileName+
 
