@@ -43,8 +43,7 @@
 
 |+excludedApplication+
 
-|string +
-This is specified as a child element rather than as an XML attribute.
+|string
 
 |
 
@@ -57,4 +56,42 @@ This is specified as a child element rather than as an XML attribute.
 |
 
 |+If true, errors that occur while attempting to lookup a data source that is specified by the jta-data-source or non-jta-data-source elements in the persistence.xml file are reported and ignored, which allows the persistence provider to determine a default data source. If false, the errors are propagated to the persistence provider so that the errors can be diagnosed more easily, but misconfigured applications might not work. By default, this property is true if JPA 2.0 is enabled and false otherwise.+
+|===
+[#+defaultProperties+]*defaultProperties*
+
++Default integration-level persistence properties for use by the persistence provider when a container-managed entity manager factory is created. Specified default persistence properties are included when the PersistenceProvider.createContainerEntityManagerFactory method is called. If the same default persistence property name is specified within a persistence.xml file, this configuration overrides that property value in the persistence.xml file.+
+
+
+[#+defaultProperties/property+]*defaultProperties > property*
+
++Provides a specific persistence property to all container-managed entity manager factories.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+name+
+
+|string
+
+|
+
+|+Provides the name of the integration-level persistence property.+
+
+|+value+
+
+|string
+
+|
+
+|+Provides the value of the integration-level persistence property.+
 |===
