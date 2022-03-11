@@ -32,6 +32,9 @@ include::./jsonpContainer-2.0/examples.adoc[opts=optional]
 * javadoc:jakarta.json.stream[]
 // end::apis[]
 // tag::requirements[]
+
+== Features that this feature enables
+* feature:bells-1.0[]
 // end::requirements[]
 // tag::java-versions[]
 
