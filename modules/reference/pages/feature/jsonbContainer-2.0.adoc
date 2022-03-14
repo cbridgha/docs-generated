@@ -24,13 +24,6 @@ To enable the Jakarta JSON Binding 2.0 Container feature, add the following elem
 include::./jsonbContainer/examples.adoc[opts=optional]
 include::./jsonbContainer-2.0/examples.adoc[opts=optional]
 
-// tag::config[]
-
-== Feature configuration elements
-* config:classloader[]
-* config:classloading[]
-* config:library[]
-// end::config[]
 // tag::apis[]
 
 == Standard API packages provided by this feature
@@ -44,6 +37,7 @@ include::./jsonbContainer-2.0/examples.adoc[opts=optional]
 // tag::requirements[]
 
 == Features that this feature enables
+* feature:bells-1.0[]
 * feature:jsonp-2.0[]
 // end::requirements[]
 // tag::java-versions[]
