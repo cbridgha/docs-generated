@@ -48,7 +48,9 @@ include::./bells-1.0/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:jsonbContainer-1.0[]
+* feature:jsonbContainer-2.0[]
 * feature:jsonpContainer-1.1[]
+* feature:jsonpContainer-2.0[]
 // end::dependencies[]
 // tag::feature-require[]
 

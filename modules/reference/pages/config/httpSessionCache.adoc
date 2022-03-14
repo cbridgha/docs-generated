@@ -23,7 +23,7 @@
 
 |
 
-|+Vendor specific JCache configuration URI, which is passed to the JCache provider when obtaining the CacheManager.+
+|+Vendor-specific JCache configuration URI, which is passed to the JCache provider when the CacheManager is obtained. This setting is ignored when cacheManagerRef is used.+
 
 4+|*+Performance+*
 
@@ -241,6 +241,6 @@ Required
 |===
 [#+properties+]*properties*
 
-+List of vendor specific JCache configuration properties, which are passed to the JCache provider when obtaining the CacheManager.+
++List of vendor-specific JCache configuration properties, which are passed to the JCache provider when the CacheManager is obtained. This setting is ignored when cacheManagerRef is used.+
 
 
