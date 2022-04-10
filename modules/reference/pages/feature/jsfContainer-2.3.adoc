@@ -42,6 +42,7 @@ include::./jsfContainer-2.3/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
+* JavaSE-18.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]
