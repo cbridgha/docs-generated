@@ -48,7 +48,7 @@ This is specified as a child element rather than as an XML attribute.
 
 |+false+
 
-|+Indicates whether to use JWK to sign the token.+
+|+Indicates whether to use JWK to sign the token. When JWK is enabled, the JWT builder dynamically generates key pairs and signs the JWT token with the private key. To validate the signature, the JWT consumer can retrieve the key from the JWK API, which has the format https://&lt;host_name&gt;:&lt;ssl_port&gt;/jwt/ibm/api/&lt;jwtBuilder_configuration_id&gt;/jwk.+
 
 |+jwkEndpointUrl+
 
