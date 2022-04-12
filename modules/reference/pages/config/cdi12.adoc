@@ -13,7 +13,7 @@
 
 |boolean
 
-|+true+
+|
 
 |+The implicit bean archives are scanned for any bean discoveries.+
 |===

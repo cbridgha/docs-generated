@@ -25,6 +25,14 @@
 
 |+Specifies the authentication filter reference.+
 
+|+authorizationHeaderScheme+
+
+|string
+
+|+Bearer+
+
+|+The expected authentication scheme in the Authorization header that contains the JSON Web Token.+
+
 |+clockSkew+
 
 |A period of time with millisecond precision
