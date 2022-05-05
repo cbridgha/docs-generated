@@ -184,5 +184,5 @@
 
 |
 
-|+A keystore containing the public key necessary for verifying a signature of the JWT token. The keystore should also contain the key management key that is used to encrypt the Content Encryption Key of a JWE.+
+|+A keystore that contains the key management key that is used to encrypt the Content Encryption Key of a JWE.+
 |===
