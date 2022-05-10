@@ -15,5 +15,5 @@
 
 |
 
-|+The implicit bean archives are scanned for any bean discoveries.+
+|+The implicit bean archives are scanned for any bean discoveries. The default value is true.+
 |===

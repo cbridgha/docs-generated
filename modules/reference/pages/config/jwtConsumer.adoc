@@ -123,7 +123,7 @@ This is specified as a child element rather than as an XML attribute.
 
 |
 
-|+A keystore containing the public key necessary for verifying a signature of the JWT token. The keystore should also contain the key management key that is used to encrypt the Content Encryption Key of a JWE.+
+|+A keystore that contains the public key that can verify a signature of the JWT token.+
 
 |+trustedAlias+
 
