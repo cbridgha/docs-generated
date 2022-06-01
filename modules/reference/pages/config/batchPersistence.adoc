@@ -757,7 +757,7 @@ Required
 |===
 [#+jobStore/dataSource/properties+]*jobStore > dataSource > properties*
 
-+List of JDBC vendor properties for the data source. For example, databaseName="dbname" serverName="localhost" portNumber="50000".+
++List of JDBC vendor properties for the data source. For example, databaseName="dbname" serverName="localhost" portNumber="50000". Use this generic properties list when no vendor-specific properties list type is available for your JDBC driver. Do not specify multiple properties elements under a data source. Instead, place all property name-value pairs on a single properties or properties.{JDBC_VENDOR_TYPE} element.+
 
 
 [cols="a,a,a,a",width="100%"]
