@@ -57,6 +57,7 @@ include::./mpConfig-3.0/examples.adoc[opts=optional]
 == Features that enable this feature
 * feature:microProfile-5.0[]
 * feature:mpFaultTolerance-4.0[]
+* feature:mpGraphQL-2.0[]
 * feature:mpHealth-4.0[]
 * feature:mpJwt-2.0[]
 * feature:mpMetrics-4.0[]
