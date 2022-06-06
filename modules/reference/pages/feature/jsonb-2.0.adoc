@@ -60,6 +60,7 @@ include::./jsonb-2.0/examples.adoc[opts=optional]
 == Features that enable this feature
 * feature:jakartaeeClient-9.1[]
 * feature:microProfile-5.0[]
+* feature:mpGraphQL-2.0[]
 * feature:webProfile-9.1[]
 // end::dependencies[]
 // tag::feature-require[]

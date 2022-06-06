@@ -27,6 +27,14 @@
 
 4+|*+Performance+*
 
+|+cacheSeparator+
+
+|string
+
+|+%+
+
+|+The single character used to separate the session meta cache name. The default value should usually be used.+
+
 |+scheduleInvalidationFirstHour+
 
 |int +

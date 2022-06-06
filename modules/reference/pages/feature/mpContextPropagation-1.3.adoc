@@ -45,6 +45,9 @@ include::./mpContextPropagation-1.3/examples.adoc[opts=optional]
 * JavaSE-18.0
 // end::java-versions[]
 // tag::dependencies[]
+
+== Features that enable this feature
+* feature:mpGraphQL-2.0[]
 // end::dependencies[]
 // tag::feature-require[]
 
