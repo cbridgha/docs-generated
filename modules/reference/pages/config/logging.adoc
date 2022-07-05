@@ -173,6 +173,14 @@ Min: +0+
 
 |+The list of comma-separated sources that route to the messages.log file. This property applies only when messageFormat=json. Valid values are message, trace, accessLog, ffdc, and audit. By default, messageSource is set to the environment variable WLP_LOGGING_MESSAGE_SOURCE (if set), or message. Note: To use the audit source, enable the Liberty audit feature. Enable access logs by setting an accessLogging element for your httpEndpoint. Avoid trouble: Use the WLP_LOGGING_MESSAGE_SOURCE environment variable or the com.ibm.ws.logging.message.source property, except in cases where you are trying to change the configuration dynamically after startup.+
 
+|+stackTraceSingleEntry+
+
+|boolean
+
+|+false+
+
+|+Handle stack traces written to System.out/System.err as a single event in the logs.+
+
 |+suppressSensitiveTrace+
 
 |boolean
