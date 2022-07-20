@@ -3,7 +3,7 @@
 :page-layout: config
 :nofooter: 
 
-+Specifies a selection rule that represents conditions that are matched against the HTTP request headers. If all conditions are met, the HTTP request is selected for the authentication.+
++Specifies a selection rule that represents conditions that are matched against the HTTP request headers. If all conditions are met, the HTTP request is selected for the authentication. When the value for the matchType attribute is notContain or contains, the filter supports a piped list of values.+
 
 [cols="a,a,a,a",width="100%"]
 |===
@@ -172,7 +172,7 @@ Required
 
 |
 
-|+The value attribute specifies the value of the request header. If the value is not specified, then the name attribute is used for matching, for example, &lt;requestHeader id="sample" name="email" matchType="contains"/&gt;.+
+|+The value attribute specifies the value of the request header. If the value is not specified, then the name attribute is used for matching, for example, requestHeader id="sample" name="email" matchType="contains".+
 |===
 [#+requestUrl+]*requestUrl*
 

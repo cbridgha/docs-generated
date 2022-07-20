@@ -231,7 +231,7 @@
 
 |+false+
 
-|+If true, a servlet can access files in the WEB-INF directory. If false (default), a servlet cannot access files the WEB-INF directory.+
+|+When this property is set to true, a servlet can access static files in the WEB-INF directory. When this property is set to false, which is the default, a servlet cannot access static files in the WEB-INF directory.+
 
 |+fileServingEnabled+
 
