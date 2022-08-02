@@ -4,7 +4,7 @@
 :nofooter: 
 
 // tag::description[]
-This feature enables support for Spring Boot applications using Spring Boot version 2.0.x. 
+This feature enables support for Spring Boot applications using Spring Boot version 2.x.x. 
 
 // end::description[]
 

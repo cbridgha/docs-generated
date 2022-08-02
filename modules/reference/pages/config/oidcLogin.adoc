@@ -452,7 +452,7 @@ Required
 
 |
 
-|+The value attribute specifies the value of the request header. If the value is not specified, then the name attribute is used for matching, for example, &lt;requestHeader id="sample" name="email" matchType="contains"/&gt;.+
+|+The value attribute specifies the value of the request header. If the value is not specified, then the name attribute is used for matching, for example, requestHeader id="sample" name="email" matchType="contains".+
 |===
 [#+authFilter/requestUrl+]*authFilter > requestUrl*
 
