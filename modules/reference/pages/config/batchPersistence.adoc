@@ -5788,7 +5788,7 @@ Max: +32767+
 
 |
 
-|+URL for connecting to the database. Examples: jdbc:oracle:thin:@//localhost:1521/sample or jdbc:oracle:oci:@//localhost:1521/sample.+
+|+JDBC driver property: URL. URL for connecting to the database. If a URL is configured, the Oracle JDBC driver ignores individual connection properties such as serverName and driverType. Oracle JDBC driver updates might impact this behavior. Examples: jdbc:oracle:thin:@//localhost:1521/sample or jdbc:oracle:oci:@//localhost:1521/sample.+
 
 |+databaseName+
 
@@ -5913,7 +5913,7 @@ Max: +32767+
 
 |
 
-|+URL for connecting to the database. Examples: jdbc:oracle:thin:@//localhost:1521/sample or jdbc:oracle:oci:@//localhost:1521/sample.+
+|+JDBC driver property: URL. URL for connecting to the database. If a URL is configured, the Oracle JDBC driver ignores individual connection properties such as serverName and driverType. Oracle JDBC driver updates might impact this behavior. Examples: jdbc:oracle:thin:@//localhost:1521/sample or jdbc:oracle:oci:@//localhost:1521/sample.+
 
 |+connectionFactoryClassName+
 

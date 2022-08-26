@@ -9,6 +9,22 @@
 |===
 |Name|Type|Default|Description
 
+|+failedLoginDelayMax+
+
+|A period of time with millisecond precision
+
+|+5s+
+
+|+The maximum delay for a failed login attempt. For example, 5s or 5000ms. The failed login delay adds a variable delay to requests where the login fails. To disable the failed login delay, set the value to 0s. The delay is intended to mitigate user enumeration style attacks; therefore, disabling it is not recommended. To customize the minimum delay time, set the failedLoginDelayMin attribute. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+
+|+failedLoginDelayMin+
+
+|A period of time with millisecond precision
+
+|+0s+
+
+|+The minimum delay for a failed login attempt. For example, 0s or 1000ms. The failed login delay adds a variable delay to requests where the login fails. To customize the maximum delay time, set the failedLoginDelayMax attribute. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+
 |+id+
 
 |string
