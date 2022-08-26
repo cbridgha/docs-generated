@@ -211,6 +211,7 @@
   ** xref:feature/opentracing-2.0.adoc[Opentracing]
   ** xref:feature/osgiConsole-1.0.adoc[OSGi Debug Console]
   ** xref:feature/passwordUtilities-1.0.adoc[Password Utilities]
+  ** xref:feature/passwordUtilities-1.1.adoc[Password Utilities]
   ** xref:feature/monitor-1.0.adoc[Performance Monitoring]
   ** xref:feature/requestTiming-1.0.adoc[Request Timing]
   ** xref:feature/samlWeb-2.0.adoc[SAML Web Single Sign-On]
