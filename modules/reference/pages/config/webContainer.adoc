@@ -143,7 +143,7 @@
 
 |
 
-|+Disable setting the X-Powered-By header. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.disablexpoweredby. For servlet-5.0 and newer Servlet features, the default value is true.+
+|+When this property is set to true,  the X-Powered-By header is not set. In servlet-5.0 and later, the default value is true. In servlet-4.0 and earlier, the X-Powered-By header is set by default. This property is configurable only in servlet-5.0 and earlier. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.disablexpoweredby.+
 
 |+disallowAllFileServing+
 
