@@ -18,13 +18,7 @@
 
 |
 
-|+Specifies the authentication fail over method that will be used when the certificate authentication fails or if the certificate is missing. Valid values are BASIC, FORM and APP_DEFINED. APP_DEFINED is only valid when overrideHttpAuthMethod attribute is set to CLIENT_CERT. When APP_DEFINED is set, the authentication method which is  configured in the application is used.+ +
-*+APP_DEFINED+* +
-+%allowAuthenticationFailOverToAuthMethod.APP_DEFINED+ +
-*+BASIC+* +
-+%allowAuthenticationFailOverToAuthMethod.BASIC+ +
-*+FORM+* +
-+%allowAuthenticationFailOverToAuthMethod.FORM+
+|+Specifies the authentication failover method that is used when the certificate authentication fails or if the certificate is missing. Valid values are BASIC, FORM, and APP_DEFINED. APP_DEFINED is only valid when overrideHttpAuthMethod attribute is set to CLIENT_CERT. When APP_DEFINED is set, the authentication method that is configured in the application is used.+
 
 |+allowFailOverToBasicAuth+
 
@@ -166,7 +160,7 @@
 *+Disabled+* +
 +Do not set the SameSite attribute value on the SSO cookie+ +
 *+Lax+* +
-+%sameSiteCookieLax+ +
++Set the SSO cookie SameSite attribute value to Lax+ +
 *+None+* +
 +Set the SSO cookie SameSite attribute value to None. When None is set, the secure attribute is set to true on the cookie.+ +
 *+Strict+* +

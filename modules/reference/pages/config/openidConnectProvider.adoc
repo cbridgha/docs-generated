@@ -6258,6 +6258,7 @@ Max: +10485760+
 |+authenticationScheme+
 
 |* +JavaKerberos+
+* +NTLM+
 * +NativeAuthentication+
 
 
