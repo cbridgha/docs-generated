@@ -363,6 +363,14 @@
 *+SHA256+* +
 +SHA-256 signature algorithm+
 
+|+spCookieName+
+
+|string
+
+|
+
+|+Specifies a cookie name for the SAML service provider. The service provider will provide one by default.+
+
 |+spHostAndPort+
 
 |string

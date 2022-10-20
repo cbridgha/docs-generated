@@ -82,7 +82,7 @@ include::./servlet-5.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-18.0
+* JavaSE-19.0
 // end::java-versions[]
 // tag::dependencies[]
 
@@ -99,7 +99,6 @@ include::./servlet-5.0/examples.adoc[opts=optional]
 * feature:jwtSso-1.0[]
 * feature:microProfile-5.0[]
 * feature:mpGraphQL-2.0[]
-* feature:mpHealth-4.0[]
 * feature:mpJwt-2.0[]
 * feature:mpMetrics-4.0[]
 * feature:mpOpenAPI-3.0[]

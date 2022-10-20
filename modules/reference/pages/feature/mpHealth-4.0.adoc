@@ -37,7 +37,6 @@ include::./mpHealth-4.0/examples.adoc[opts=optional]
 * feature:jndi-1.0[]
 * feature:json-1.0[]
 * feature:mpConfig-3.0[]
-* feature:servlet-5.0[]
 // end::requirements[]
 // tag::java-versions[]
 
@@ -46,7 +45,7 @@ include::./mpHealth-4.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-18.0
+* JavaSE-19.0
 // end::java-versions[]
 // tag::dependencies[]
 
