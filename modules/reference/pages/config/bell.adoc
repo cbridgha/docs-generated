@@ -32,6 +32,14 @@
 |
 
 |+The name of the service that the system will look up in the /META-INF/services folder. If not specified, the system discovers all services located in the META-INF/services folder.+
+
+|+spiVisibility+
+
+|boolean
+
+|+false+
+
+|+Indicates whether the system makes feature SPI packages visible to the library referenced by the BELL. Enable SPI visibility whenever the BELL provides services that use feature SPI.+
 |===
 [#+library+]*library*
 
@@ -183,3 +191,8 @@ Required
 
 |+A unique configuration ID.+
 |===
+[#+properties+]*properties*
+
++Name="Value" pairs the system will pass to a service implementation at creation and update. The service implementation class must declare a public constructor, or a public method named updateBell, with a single parameter of type java.util.Map&lt;String, String&gt;.+
+
+
