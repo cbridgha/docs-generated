@@ -33,6 +33,9 @@ include::./mpMetrics-2.0/examples.adoc[opts=optional]
 * config:authentication[]
 * config:authorization-roles[]
 * config:basicRegistry[]
+* config:cache[]
+* config:cacheManager[]
+* config:cachingProvider[]
 * config:channelfw[]
 * config:classloader[]
 * config:classloading[]
@@ -85,7 +88,7 @@ include::./mpMetrics-2.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-18.0
+* JavaSE-19.0
 // end::java-versions[]
 // tag::dependencies[]
 
