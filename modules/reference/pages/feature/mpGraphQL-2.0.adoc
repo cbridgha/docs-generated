@@ -37,6 +37,7 @@ include::./mpGraphQL-2.0/examples.adoc[opts=optional]
 
 == Features that this feature enables
 * feature:cdi-3.0[]
+* feature:concurrent-2.0[]
 * feature:jsonb-2.0[]
 * feature:mpConfig-3.0[]
 * feature:mpContextPropagation-1.3[]
