@@ -1551,7 +1551,7 @@ Required
 
 |+0+
 
-|+Scanning interval to check the fileset for changes as a long with a time unit suffix h-hour, m-minute, s-second, ms-millisecond (e.g. 2ms or 5s). Disabled (scanInterval=0) by default. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+|+The scanning interval to determine whether files are added or removed from the fileset. The individual files are not scanned. The suffix for the interval of time is h-hour, m-minute, s-second, and ms-millisecond, for example, 2ms or 5s. The scanning interval is disabled by default and is disabled manually by setting the scan interval, scanInterval, to 0. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
 |===
 [#+classloader/commonLibrary/folder+]*classloader > commonLibrary > folder*
 
@@ -1709,7 +1709,7 @@ Required
 
 |+0+
 
-|+Scanning interval to check the fileset for changes as a long with a time unit suffix h-hour, m-minute, s-second, ms-millisecond (e.g. 2ms or 5s). Disabled (scanInterval=0) by default. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+|+The scanning interval to determine whether files are added or removed from the fileset. The individual files are not scanned. The suffix for the interval of time is h-hour, m-minute, s-second, and ms-millisecond, for example, 2ms or 5s. The scanning interval is disabled by default and is disabled manually by setting the scan interval, scanInterval, to 0. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
 |===
 [#+classloader/privateLibrary/folder+]*classloader > privateLibrary > folder*
 
@@ -5921,7 +5921,7 @@ Required
 
 |+0+
 
-|+Scanning interval to check the fileset for changes as a long with a time unit suffix h-hour, m-minute, s-second, ms-millisecond (e.g. 2ms or 5s). Disabled (scanInterval=0) by default. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+|+The scanning interval to determine whether files are added or removed from the fileset. The individual files are not scanned. The suffix for the interval of time is h-hour, m-minute, s-second, and ms-millisecond, for example, 2ms or 5s. The scanning interval is disabled by default and is disabled manually by setting the scan interval, scanInterval, to 0. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
 |===
 [#+startAfter/classloader/commonLibrary/folder+]*startAfter > classloader > commonLibrary > folder*
 
@@ -6079,7 +6079,7 @@ Required
 
 |+0+
 
-|+Scanning interval to check the fileset for changes as a long with a time unit suffix h-hour, m-minute, s-second, ms-millisecond (e.g. 2ms or 5s). Disabled (scanInterval=0) by default. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+|+The scanning interval to determine whether files are added or removed from the fileset. The individual files are not scanned. The suffix for the interval of time is h-hour, m-minute, s-second, and ms-millisecond, for example, 2ms or 5s. The scanning interval is disabled by default and is disabled manually by setting the scan interval, scanInterval, to 0. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
 |===
 [#+startAfter/classloader/privateLibrary/folder+]*startAfter > classloader > privateLibrary > folder*
 

@@ -109,6 +109,14 @@
 
 |+Specifies the customized URI reference corresponding to a name identifier format that is not defined in the SAML core specification.+
 
+|+disableInitialRequestCookie+
+
+|boolean
+
+|+false+
+
+|+When too many authentication requests are created by Service Provider and redirected to IdP due to the application SSO setup, set this attribute to true to prevent creation of the initial request cookie. The default is false.+
+
 |+disableLtpaCookie+
 
 |boolean

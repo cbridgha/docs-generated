@@ -122,6 +122,14 @@
 
 |+You can use this attribute to set a directory for all log files, excluding the console.log file, but including FFDC. By default, logDirectory is set to the LOG_DIR environment variable. The default LOG_DIR environment variable path is WLP_OUTPUT_DIR/serverName/logs. Avoid trouble: Use the LOG_DIR environment variable or the com.ibm.ws.logging.log.directory property, except in cases where you are trying to change the configuration dynamically after startup.+
 
+|+maxFfdcAge+
+
+|A period of time with minute precision
+
+|+-1+
+
+|+The maximum wanted age before an FFDC file is deleted. Specify a positive integer followed by a unit of time, which can be days (d), hours (h), or minutes (m). For example, specify 2 days as 2d. You can include multiple values in a single entry. For example, 2d6h is equivalent to 2 days and 6 hours. Everyday at midnight, any FFDC file that reaches the maximum age is deleted. By default, FFDC files are not deleted based on file age. Specify a positive integer followed by a unit of time, which can be hours (h) or minutes (m). For example, specify 30 minutes as 30m. You can include multiple values in a single entry. For example, 1h30m is equivalent to 90 minutes.+
+
 |+maxFileSize+
 
 |int +
