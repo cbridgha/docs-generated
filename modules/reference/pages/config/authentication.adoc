@@ -24,4 +24,12 @@
 |+true+
 
 |+Enables the authentication cache.+
+
+|+useDisplayNameForSecurityName+
+
+|boolean
+
+|+false+
+
+|+Specifies whether to return displayName for programmatic APIs like getRemoteUser, getCallerPrincipal, getUserPrincipal when using Custom User Registry.+
 |===
