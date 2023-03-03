@@ -27,6 +27,9 @@ include::./restfulWSClient-3.0/examples.adoc[opts=optional]
 // tag::config[]
 
 == Feature configuration elements
+* config:classloader[]
+* config:classloading[]
+* config:library[]
 * config:webTarget[]
 // end::config[]
 // tag::apis[]
