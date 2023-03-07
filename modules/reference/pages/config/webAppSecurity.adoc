@@ -76,6 +76,14 @@
 
 |+Setting the Path parameter can allow the client/browser to manage multiple WASReqURL cookies during multiple concurrent logins on the same user agent. The equivalent custom property in the full application server profile is com.ibm.websphere.security.setContextRootForFormLogin.+
 
+|+loggedOutCookieCacheRef+
+
+|A reference to top level cache element (string).
+
+|
+
+|+The JCache cache reference that is used as the logged-out-cookie cache.+
+
 |+loginErrorURL+
 
 |string
@@ -254,3 +262,400 @@
 
 |+Specifies whether the login() method will throw an exception when an identity has already been authenticated.+
 |===
+[#+loggedOutCookieCache+]*loggedOutCookieCache*
+
++The JCache cache reference that is used as the logged-out-cookie cache.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+cacheManagerRef+
+
+|A reference to top level cacheManager element (string).
+
+|
+
+|+The JCache CacheManager instance that manages this cache.+
+
+|+name+
+
+|string +
+Required
+
+|
+
+|+The JCache cache name to use for caching. If this cache does not exist, it is created at runtime. The name must be unique for a given CacheManager instance.+
+|===
+[#+loggedOutCookieCache/cacheManager+]*loggedOutCookieCache > cacheManager*
+
++The JCache CacheManager instance that manages this cache.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+cachingProviderRef+
+
+|A reference to top level cachingProvider element (string).
+
+|
+
+|+The JCache CachingProvider that this JCache CacheManager instance uses.+
+
+|+uri+
+
+|A file, directory or url.
+
+|
+
+|+Vendor-specific JCache configuration URI, which is passed to the CachingProvider when the CacheManager instance is obtained.+
+|===
+[#+loggedOutCookieCache/cacheManager/cachingProvider+]*loggedOutCookieCache > cacheManager > cachingProvider*
+
++The JCache CachingProvider that this JCache CacheManager instance uses.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+commonLibraryRef+
+
+|List of references to top level library elements (comma-separated string).
+
+|
+
+|+A library or libraries that contain any classes that might be stored in the cache.+
+
+|+jCacheLibraryRef+
+
+|A reference to top level library element (string).
+
+|
+
+|+A library that contains the JCache implementation.+
+
+|+providerClass+
+
+|string
+
+|
+
+|+The fully-qualified class name of the JCache javax.cache.CachingProvider instance.+
+|===
+[#+loggedOutCookieCache/cacheManager/cachingProvider/commonLibrary+]*loggedOutCookieCache > cacheManager > cachingProvider > commonLibrary*
+
++A library or libraries that contain any classes that might be stored in the cache.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+apiTypeVisibility+
+
+|string
+
+|+spec,ibm-api,api,stable+
+
+|+The types of API packages that this class loader supports. This value is a comma-separated list of any combination of the following API packages: spec, ibm-api, api, stable, third-party.+
+
+|+description+
+
+|string
+
+|
+
+|+Description of shared library for administrators+
+
+|+filesetRef+
+
+|List of references to top level fileset elements (comma-separated string).
+
+|
+
+|+Id of referenced Fileset+
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+name+
+
+|string
+
+|
+
+|+Name of shared library for administrators+
+|===
+[#+loggedOutCookieCache/cacheManager/cachingProvider/commonLibrary/file+]*loggedOutCookieCache > cacheManager > cachingProvider > commonLibrary > file*
+
++Id of referenced File+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+name+
+
+|Path to a file +
+Required
+
+|
+
+|+Fully qualified filename+
+|===
+[#+loggedOutCookieCache/cacheManager/cachingProvider/commonLibrary/fileset+]*loggedOutCookieCache > cacheManager > cachingProvider > commonLibrary > fileset*
+
++Id of referenced Fileset+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+caseSensitive+
+
+|boolean
+
+|+true+
+
+|+Boolean to indicate whether or not the search should be case sensitive (default: true).+
+
+|+dir+
+
+|Path to a directory
+
+|+${server.config.dir}+
+
+|+The base directory to search for files.+
+
+|+excludes+
+
+|string
+
+|
+
+|+The comma or space separated list of file name patterns to exclude from the search results, by default no files are excluded.+
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+includes+
+
+|string
+
+|+*+
+
+|+The comma or space separated list of file name patterns to include in the search results (default: *).+
+
+|+scanInterval+
+
+|A period of time with millisecond precision
+
+|+0+
+
+|+The scanning interval to determine whether files are added or removed from the fileset. The individual files are not scanned. The suffix for the interval of time is h-hour, m-minute, s-second, and ms-millisecond, for example, 2ms or 5s. The scanning interval is disabled by default and is disabled manually by setting the scan interval, scanInterval, to 0. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+|===
+[#+loggedOutCookieCache/cacheManager/cachingProvider/commonLibrary/folder+]*loggedOutCookieCache > cacheManager > cachingProvider > commonLibrary > folder*
+
++Id of referenced folder+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+dir+
+
+|Path to a directory +
+Required
+
+|
+
+|+Directory or folder to be included in the library classpath for locating resource files+
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+|===
+[#+loggedOutCookieCache/cacheManager/cachingProvider/jCacheLibrary+]*loggedOutCookieCache > cacheManager > cachingProvider > jCacheLibrary*
+
++A library that contains the JCache implementation.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+apiTypeVisibility+
+
+|string
+
+|+spec,ibm-api,api,stable+
+
+|+The types of API packages that this class loader supports. This value is a comma-separated list of any combination of the following API packages: spec, ibm-api, api, stable, third-party.+
+
+|+description+
+
+|string
+
+|
+
+|+Description of shared library for administrators+
+
+|+filesetRef+
+
+|List of references to top level fileset elements (comma-separated string).
+
+|
+
+|+Id of referenced Fileset+
+
+|+name+
+
+|string
+
+|
+
+|+Name of shared library for administrators+
+|===
+[#+loggedOutCookieCache/cacheManager/cachingProvider/jCacheLibrary/file+]*loggedOutCookieCache > cacheManager > cachingProvider > jCacheLibrary > file*
+
++Id of referenced File+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+name+
+
+|Path to a file +
+Required
+
+|
+
+|+Fully qualified filename+
+|===
+[#+loggedOutCookieCache/cacheManager/cachingProvider/jCacheLibrary/fileset+]*loggedOutCookieCache > cacheManager > cachingProvider > jCacheLibrary > fileset*
+
++Id of referenced Fileset+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+caseSensitive+
+
+|boolean
+
+|+true+
+
+|+Boolean to indicate whether or not the search should be case sensitive (default: true).+
+
+|+dir+
+
+|Path to a directory
+
+|+${server.config.dir}+
+
+|+The base directory to search for files.+
+
+|+excludes+
+
+|string
+
+|
+
+|+The comma or space separated list of file name patterns to exclude from the search results, by default no files are excluded.+
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+includes+
+
+|string
+
+|+*+
+
+|+The comma or space separated list of file name patterns to include in the search results (default: *).+
+
+|+scanInterval+
+
+|A period of time with millisecond precision
+
+|+0+
+
+|+The scanning interval to determine whether files are added or removed from the fileset. The individual files are not scanned. The suffix for the interval of time is h-hour, m-minute, s-second, and ms-millisecond, for example, 2ms or 5s. The scanning interval is disabled by default and is disabled manually by setting the scan interval, scanInterval, to 0. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+|===
+[#+loggedOutCookieCache/cacheManager/cachingProvider/jCacheLibrary/folder+]*loggedOutCookieCache > cacheManager > cachingProvider > jCacheLibrary > folder*
+
++Id of referenced folder+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+dir+
+
+|Path to a directory +
+Required
+
+|
+
+|+Directory or folder to be included in the library classpath for locating resource files+
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+|===
+[#+loggedOutCookieCache/cacheManager/properties+]*loggedOutCookieCache > cacheManager > properties*
+
++Vendor-specific JCache configuration properties, which are passed to the CachingProvider when the CacheManager instance is obtained.+
+
+

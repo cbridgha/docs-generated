@@ -24,6 +24,13 @@ To enable the MicroProfile Rest Client 3.0 feature, add the following element de
 include::./mpRestClient/examples.adoc[opts=optional]
 include::./mpRestClient-3.0/examples.adoc[opts=optional]
 
+// tag::config[]
+
+== Feature configuration elements
+* config:classloader[]
+* config:classloading[]
+* config:library[]
+// end::config[]
 // tag::apis[]
 
 == Stable API packages provided by this feature
