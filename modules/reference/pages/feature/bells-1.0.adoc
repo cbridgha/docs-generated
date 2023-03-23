@@ -43,15 +43,17 @@ include::./bells-1.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-20.0
 // end::java-versions[]
 // tag::dependencies[]
 
 == Features that enable this feature
 * feature:jsonbContainer-1.0[]
 * feature:jsonbContainer-2.0[]
+* feature:jsonbContainer-3.0[]
 * feature:jsonpContainer-1.1[]
 * feature:jsonpContainer-2.0[]
+* feature:jsonpContainer-2.1[]
 // end::dependencies[]
 // tag::feature-require[]
 

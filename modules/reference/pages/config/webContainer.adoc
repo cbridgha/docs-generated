@@ -369,6 +369,14 @@
 
 |+When this property is false, the webcontainer will not set the response's content type header during the error handling process. An application is responsible to set the response's content type. The default value (true) sets the content type to "text/html".+
 
+|+skipEncodedCharVerification+
+
+|boolean
+
+|+false+
+
+|+A request is rejected if the request URI contains the %23, %2E, %2F, or %5C encoded characters. When this property is set to true, the request URI is not checked for these encoded characters. This property is available starting in servlet 6.0, and default value is false.+
+
 |+skipMetaInfResourcesProcessing+
 
 |boolean

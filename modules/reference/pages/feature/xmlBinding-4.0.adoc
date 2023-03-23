@@ -1,0 +1,74 @@
+= Jakarta XML Binding 4.0
+:linkcss: 
+:page-layout: feature
+:nofooter: 
+
+// tag::description[]
+This feature enables support for the Jakarta XML Binding 4.0 specification, which provides easy mapping of Java classes to XML documents.
+
+// end::description[]
+
+include::./xmlBinding/description.adoc[opts=optional]
+include::./xmlBinding-4.0/description.adoc[opts=optional]
+
+// tag::enable[]
+== Enabling this feature
+To enable the Jakarta XML Binding 4.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
+
+
+----
+<feature>xmlBinding-4.0</feature>
+----
+// end::enable[]
+
+include::./xmlBinding/examples.adoc[opts=optional]
+include::./xmlBinding-4.0/examples.adoc[opts=optional]
+
+// tag::config[]
+
+== Feature configuration elements
+* config:classloader[]
+* config:classloading[]
+* config:library[]
+// end::config[]
+// tag::apis[]
+
+== Standard API packages provided by this feature
+* javadoc:jakarta.activation[]
+* javadoc:jakarta.xml.bind[]
+* javadoc:jakarta.xml.bind.annotation[]
+* javadoc:jakarta.xml.bind.annotation.adapters[]
+* javadoc:jakarta.xml.bind.attachment[]
+* javadoc:jakarta.xml.bind.helpers[]
+* javadoc:jakarta.xml.bind.util[]
+// end::apis[]
+// tag::requirements[]
+// end::requirements[]
+// tag::java-versions[]
+
+== Supported Java versions
+
+* JavaSE-11.0
+* JavaSE-17.0
+* JavaSE-20.0
+// end::java-versions[]
+// tag::dependencies[]
+
+== Features that enable this feature
+* feature:jakartaee-10.0[]
+* feature:jakartaeeClient-10.0[]
+* feature:xmlWS-4.0[]
+// end::dependencies[]
+// tag::feature-require[]
+
+== Developing a feature that depends on this feature
+If you are developing a feature that depends on this feature, include the following item in the `Subsystem-Content` header in your feature manifest file.
+
+
+[source,]
+----
+io.openliberty.xmlBinding-4.0; type="osgi.subsystem.feature"
+----
+// end::feature-require[]
+// tag::spi[]
+// end::spi[]

@@ -53,13 +53,15 @@ include::./distributedMap-1.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-20.0
 // end::java-versions[]
 // tag::dependencies[]
 
 == Features that enable this feature
 * feature:acmeCA-2.0[]
 * feature:adminCenter-1.0[]
+* feature:appSecurity-4.0[]
+* feature:appSecurity-5.0[]
 * feature:audit-1.0[]
 * feature:batchManagement-1.0[]
 * feature:jwt-1.0[]
@@ -70,6 +72,7 @@ include::./distributedMap-1.0/examples.adoc[opts=optional]
 * feature:mpMetrics-2.3[]
 * feature:mpMetrics-3.0[]
 * feature:mpMetrics-4.0[]
+* feature:mpMetrics-5.0[]
 * feature:oauth-2.0[]
 * feature:openapi-3.1[]
 * feature:openidConnectClient-1.0[]

@@ -1,0 +1,67 @@
+= Jakarta XML Web Services 4.0
+:linkcss: 
+:page-layout: feature
+:nofooter: 
+
+// tag::description[]
+This feature enables support for Jakarta XML Web Services 4.0. These web services and clients communicate using XML. Annotations can be used to simplify the development of service clients and endpoints.
+
+// end::description[]
+
+include::./xmlWS/description.adoc[opts=optional]
+include::./xmlWS-4.0/description.adoc[opts=optional]
+
+// tag::enable[]
+== Enabling this feature
+To enable the Jakarta XML Web Services 4.0 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
+
+
+----
+<feature>xmlWS-4.0</feature>
+----
+// end::enable[]
+
+include::./xmlWS/examples.adoc[opts=optional]
+include::./xmlWS-4.0/examples.adoc[opts=optional]
+
+// tag::config[]
+
+== Feature configuration elements
+* config:classloader[]
+* config:classloading[]
+* config:library[]
+// end::config[]
+// tag::apis[]
+// end::apis[]
+// tag::requirements[]
+
+== Features that this feature enables
+* feature:servlet-6.0[]
+* feature:xmlBinding-4.0[]
+// end::requirements[]
+// tag::java-versions[]
+
+== Supported Java versions
+
+* JavaSE-11.0
+* JavaSE-17.0
+* JavaSE-20.0
+// end::java-versions[]
+// tag::dependencies[]
+
+== Features that enable this feature
+* feature:jakartaee-10.0[]
+// end::dependencies[]
+// tag::feature-require[]
+
+== Developing a feature that depends on this feature
+If you are developing a feature that depends on this feature, include the following item in the `Subsystem-Content` header in your feature manifest file.
+
+
+[source,]
+----
+io.openliberty.xmlWS-4.0; type="osgi.subsystem.feature"
+----
+// end::feature-require[]
+// tag::spi[]
+// end::spi[]

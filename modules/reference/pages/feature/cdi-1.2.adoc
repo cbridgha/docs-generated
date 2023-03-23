@@ -30,6 +30,7 @@ include::./cdi-1.2/examples.adoc[opts=optional]
 * config:application[]
 * config:applicationManager[]
 * config:applicationMonitor[]
+* config:cdi[]
 * config:cdi12[]
 * config:classloader[]
 * config:classloading[]
@@ -65,7 +66,7 @@ include::./cdi-1.2/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-20.0
 // end::java-versions[]
 // tag::dependencies[]
 
