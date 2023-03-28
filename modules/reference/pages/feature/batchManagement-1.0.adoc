@@ -78,6 +78,7 @@ include::./batchManagement-1.0/examples.adoc[opts=optional]
 * feature:servlet-3.1[]
 * feature:servlet-4.0[]
 * feature:servlet-5.0[]
+* feature:servlet-6.0[]
 * feature:ssl-1.0[]
 // end::requirements[]
 // tag::java-versions[]
@@ -87,7 +88,7 @@ include::./batchManagement-1.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-20.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]

@@ -49,6 +49,7 @@ include::./beanValidation-3.0/examples.adoc[opts=optional]
 
 == Features that this feature enables
 * feature:expressionLanguage-4.0[]
+* feature:expressionLanguage-5.0[]
 // end::requirements[]
 // tag::java-versions[]
 
@@ -57,12 +58,14 @@ include::./beanValidation-3.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-20.0
 // end::java-versions[]
 // tag::dependencies[]
 
 == Features that enable this feature
+* feature:jakartaeeClient-10.0[]
 * feature:jakartaeeClient-9.1[]
+* feature:webProfile-10.0[]
 * feature:webProfile-9.1[]
 // end::dependencies[]
 // tag::feature-require[]

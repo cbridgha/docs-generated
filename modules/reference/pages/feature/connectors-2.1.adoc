@@ -1,0 +1,78 @@
+= Jakarta Connectors 2.1
+:linkcss: 
+:page-layout: feature
+:nofooter: 
+
+// tag::description[]
+This feature enables the configuration of resource adapters to access Enterprise Information Systems (EIS) from applications. The configuration of a resource adapter also includes the configuration of connection factories, administered objects and activation specifications. Any resource adapter that complies with the Jakarta Connectors 2.1 specification or lower can be used. High performance connection pooling is also provided.
+
+// end::description[]
+
+include::./connectors/description.adoc[opts=optional]
+include::./connectors-2.1/description.adoc[opts=optional]
+
+// tag::enable[]
+== Enabling this feature
+To enable the Jakarta Connectors 2.1 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
+
+
+----
+<feature>connectors-2.1</feature>
+----
+// end::enable[]
+
+include::./connectors/examples.adoc[opts=optional]
+include::./connectors-2.1/examples.adoc[opts=optional]
+
+// tag::config[]
+
+== Feature configuration elements
+* config:activationSpec[]
+* config:adminObject[]
+* config:application[]
+* config:applicationManager[]
+* config:applicationMonitor[]
+* config:authData[]
+* config:classloader[]
+* config:classloading[]
+* config:connectionFactory[]
+* config:connectionManager[]
+* config:javaPermission[]
+* config:kerberos[]
+* config:library[]
+* config:resourceAdapter[]
+* config:transaction[]
+// end::config[]
+// tag::apis[]
+// end::apis[]
+// tag::requirements[]
+// end::requirements[]
+// tag::java-versions[]
+
+== Supported Java versions
+
+* JavaSE-11.0
+* JavaSE-17.0
+* JavaSE-20.0
+// end::java-versions[]
+// tag::dependencies[]
+
+== Features that enable this feature
+* feature:enterpriseBeans-4.0[]
+* feature:jakartaee-10.0[]
+* feature:mdb-4.0[]
+* feature:messaging-3.1[]
+// end::dependencies[]
+// tag::feature-require[]
+
+== Developing a feature that depends on this feature
+If you are developing a feature that depends on this feature, include the following item in the `Subsystem-Content` header in your feature manifest file.
+
+
+[source,]
+----
+io.openliberty.connectors-2.1; type="osgi.subsystem.feature"
+----
+// end::feature-require[]
+// tag::spi[]
+// end::spi[]

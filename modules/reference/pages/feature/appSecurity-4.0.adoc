@@ -45,6 +45,7 @@ include::./appSecurity-4.0/examples.adoc[opts=optional]
 * config:quickStartSecurity[]
 * config:reader-role[]
 * config:trustAssociation[]
+* config:webAppSecurity[]
 // end::config[]
 // tag::apis[]
 
@@ -62,6 +63,7 @@ include::./appSecurity-4.0/examples.adoc[opts=optional]
 
 == Features that this feature enables
 * feature:cdi-3.0[]
+* feature:distributedMap-1.0[]
 * feature:expressionLanguage-4.0[]
 * feature:servlet-5.0[]
 * feature:ssl-1.0[]
@@ -73,7 +75,7 @@ include::./appSecurity-4.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-20.0
 // end::java-versions[]
 // tag::dependencies[]
 

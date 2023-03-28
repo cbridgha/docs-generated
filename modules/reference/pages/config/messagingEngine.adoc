@@ -56,7 +56,7 @@ Required
 |===
 [#+fileStore+]*fileStore*
 
-+Messaging file store.+
++Messaging file store. Important: Do not delete any of the file store files. Deleting them can lead to corruption of the message store. If any of these files are deleted accidentally, then delete the remaining files and restart the messaging engine. The messaging engine restarts in a clean state, but all messages are lost.+
 
 
 [cols="a,a,a,a",width="100%"]

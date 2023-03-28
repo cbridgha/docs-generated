@@ -50,20 +50,25 @@ include::./mpConfig-3.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-20.0
 // end::java-versions[]
 // tag::dependencies[]
 
 == Features that enable this feature
 * feature:microProfile-5.0[]
+* feature:microProfile-6.0[]
 * feature:mpFaultTolerance-4.0[]
 * feature:mpGraphQL-2.0[]
 * feature:mpHealth-4.0[]
 * feature:mpJwt-2.0[]
+* feature:mpJwt-2.1[]
 * feature:mpMetrics-4.0[]
+* feature:mpMetrics-5.0[]
 * feature:mpOpenAPI-3.0[]
+* feature:mpOpenAPI-3.1[]
 * feature:mpOpenTracing-3.0[]
 * feature:mpRestClient-3.0[]
+* feature:mpTelemetry-1.0[]
 // end::dependencies[]
 // tag::feature-require[]
 
