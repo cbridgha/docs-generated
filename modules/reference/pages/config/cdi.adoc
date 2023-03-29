@@ -1,0 +1,27 @@
+= +Contexts And Dependency Injection+ (+cdi+)
+:linkcss: 
+:page-layout: config
+:nofooter: 
+
++Defines the behavior of the Contexts and Dependency Injection (CDI).+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+emptyBeansXmlCDI3Compatibility+
+
+|boolean
+
+|
+
+|+CDI 4.0 and later consider an archive with an empty beans.xml file to be an implicit bean archive (bean-discovery-mode=ANNOTATED). This property allows an empty beans.xml file to be treated as it was in CDI 3.0 (bean-discovery-mode=ALL). The default value is false. Only applies to CDI 4.0 or newer.+
+
+|+enableImplicitBeanArchives+
+
+|boolean
+
+|
+
+|+The implicit bean archives are scanned for any bean discoveries. The default value is true. Only applies to CDI 1.2 or newer.+
+|===

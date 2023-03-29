@@ -90,6 +90,14 @@ Required
 
 |+Specifies a JSON Web Key service URL.+
 
+|+keyManagementKeyAlgorithm+
+
+|string
+
+|
+
+|+Specifies the decryption algorithm that is used to decrypt the Content Encryption Key. This attribute is used only in versions 2.1 and later of the MP-JWT feature. The specified decryption algorithm overrides the mp.jwt.decrypt.key.algorithm MicroProfile Config property if it is configured.+
+
 |+keyManagementKeyAlias+
 
 |string
@@ -164,6 +172,14 @@ Required
 |
 
 |+Specifies an ID of the SSL configuration that is used for SSL connections.+
+
+|+tokenAge+
+
+|A period of time with millisecond precision
+
+|+0s+
+
+|+Specifies the allowed token age in seconds when validating the JSON web token. This attribute is used only in versions 2.1 and later of the MP-JWT feature. The issued at (iat) claim must be present in the JWT token. The configured number of seconds since iat must not have elapsed. If it has elapsed, then the request is rejected with an unauthorized response. The specified token age overrides the mp.jwt.verify.token.age MicroProfile Config property if it is configured. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
 
 |+tokenHeader+
 

@@ -44,7 +44,7 @@ include::./monitor-1.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-20.0
 // end::java-versions[]
 // tag::dependencies[]
 
@@ -52,6 +52,7 @@ include::./monitor-1.0/examples.adoc[opts=optional]
 * feature:mpMetrics-2.3[]
 * feature:mpMetrics-3.0[]
 * feature:mpMetrics-4.0[]
+* feature:mpMetrics-5.0[]
 // end::dependencies[]
 // tag::feature-require[]
 

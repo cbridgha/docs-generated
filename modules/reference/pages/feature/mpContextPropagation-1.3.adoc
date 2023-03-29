@@ -34,6 +34,7 @@ include::./mpContextPropagation-1.3/examples.adoc[opts=optional]
 
 == Features that this feature enables
 * feature:concurrent-2.0[]
+* feature:concurrent-3.0[]
 // end::requirements[]
 // tag::java-versions[]
 
@@ -42,7 +43,7 @@ include::./mpContextPropagation-1.3/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-19.0
+* JavaSE-20.0
 // end::java-versions[]
 // tag::dependencies[]
 
