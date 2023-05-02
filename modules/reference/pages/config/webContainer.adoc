@@ -305,6 +305,14 @@
 
 |+Log servlet container class loading errors as warnings rather than logging them only when debug is enabled. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.logservletcontainerinitializerclassloadingerrors.+
 
+|+maxFileCount+
+
+|int
+
+|+5000+
+
+|+The maximum number of files that can be uploaded by a multipart/form-data request. The default value is 5000. For unlimited file upload, set the value to -1.+
+
 |+metaInfResourcesCacheSize+
 
 |int

@@ -49,6 +49,16 @@
 
 |+Specifies whether the HTTP channel creates an I/O exception when an inbound connection is closed while still in use by the servlet. The default value is set according to the configured servlet feature. Prior to Servlet 4.0, the default value is false; starting with Servlet 4.0, the default value is true.+
 
+|+connectionWindowSize+
+
+|int +
+Min: +65535+ +
+Max: +2147483647+
+
+|+65535+
+
+|+Specifies the window size in octets for HTTP/2 connection-level flow control. This value can be configured to any size within the range of 65,535 to 2,147,483,647 octets, inclusive. If no value is specified, the default value is 65,535 octets.+
+
 |+decompressionRatioLimit+
 
 |int +
@@ -121,6 +131,14 @@ Max: +500+
 
 |+Limits the number of HTTP headers that can exist in an incoming message. When this limit is exceeded, an error is returned to the remote client.+
 
+|+limitWindowUpdateFrames+
+
+|boolean
+
+|+false+
+
+|+Specifies whether the server waits until half of the HTTP/2 connection-level and stream-level windows are exhausted before it sends WINDOW_UPDATE frames. Valid values are true or false. If no value is specified, the default value is false.+
+
 |+maxConcurrentStreams+
 
 |int
@@ -171,6 +189,16 @@ Min: +-1+
 |+false+
 
 |+Removes server implementation information from HTTP headers.+
+
+|+settingsInitialWindowSize+
+
+|int +
+Min: +1+ +
+Max: +2147483647+
+
+|+65535+
+
+|+Specifies the initial window size in octets for HTTP/2 stream-level flow control. This value can be configured to any size within the range of 1 to 2,147,483,647 octets, inclusive. If no value is specified, the default value is 65,535 octets.+
 
 |+writeTimeout+
 

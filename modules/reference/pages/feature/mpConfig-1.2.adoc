@@ -57,6 +57,7 @@ include::./mpConfig-1.2/examples.adoc[opts=optional]
 * feature:mpMetrics-1.1[]
 * feature:mpOpenAPI-1.0[]
 * feature:mpOpenAPI-1.1[]
+* feature:openapi-3.1[]
 // end::dependencies[]
 // tag::feature-require[]
 
