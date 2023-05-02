@@ -187,7 +187,7 @@ Min: +0+
 *+mbean+* +
 +Server will only update the keystore when prompted by the FileNotificationMbean. The FileNotificationMbean is typically called by an external program such as an integrated development environment or a management application.+ +
 *+polled+* +
-+Server will scan for keystore file changes at the polling interval and update if the keystore file has detectable changes.+
++Server will scan for keystore file changes at the polling interval and update if the keystore file has detectable changes. Polled does not apply to non file-based keystores such as SAF keyrings.+
 |===
 [#+encryptKeyStore/keyEntry+]*encryptKeyStore > keyEntry*
 
@@ -399,7 +399,7 @@ Required
 *+mbean+* +
 +Server will only update the keystore when prompted by the FileNotificationMbean. The FileNotificationMbean is typically called by an external program such as an integrated development environment or a management application.+ +
 *+polled+* +
-+Server will scan for keystore file changes at the polling interval and update if the keystore file has detectable changes.+
++Server will scan for keystore file changes at the polling interval and update if the keystore file has detectable changes. Polled does not apply to non file-based keystores such as SAF keyrings.+
 |===
 [#+signingKeyStore/keyEntry+]*signingKeyStore > keyEntry*
 

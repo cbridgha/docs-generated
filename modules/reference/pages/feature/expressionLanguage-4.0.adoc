@@ -45,6 +45,7 @@ include::./expressionLanguage-4.0/examples.adoc[opts=optional]
 == Features that enable this feature
 * feature:appSecurity-4.0[]
 * feature:beanValidation-3.0[]
+* feature:jakartaeeClient-9.1[]
 * feature:pages-3.0[]
 * feature:webProfile-9.1[]
 // end::dependencies[]
