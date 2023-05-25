@@ -322,7 +322,7 @@ Min: +0+
 
 |
 
-|+Specifies a timeout for validation of pooled connections. When specified, pooled connections are validated before being reused from the connection pool. The validation timeout is also used when the connection manager validates connections in response to a stale connection for PurgePolicy=ValidateAllConnections. A value of 0 means that connections are validated without applying any timeout. Validation timeout requires a JDBC driver that complies with the JDBC 4.0 specification or higher. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
+|+When specified, pooled connections are validated before being reused from the connection pool. The validation timeout is also used when the connection manager validates connections in response to a stale connection for PurgePolicy=ValidateAllConnections. The full amount of the validation timeout applies to each connection that is validated, which is done via the Connection.isValid(timeout) JDBC API operation. A value of 0 means that connections are validated without applying any timeout. Validation timeout requires a JDBC driver that complies with the JDBC 4.0 specification or higher. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
 |===
 [#+dataSource/connectionManager+]*dataSource > connectionManager*
 
