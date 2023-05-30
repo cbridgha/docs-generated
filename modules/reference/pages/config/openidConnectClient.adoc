@@ -456,11 +456,14 @@ Min: +0+
 
 |* +basic+
 * +post+
+* +private_key_jwt+
 
 
 |+post+
 
-|+The method to use for sending credentials to the token endpoint of the OpenID Connect provider in order to authenticate the client.+
+|+The method to use for sending credentials to the token endpoint of the OpenID Connect provider in order to authenticate the client.+ +
+*+private_key_jwt+* +
++Private key JWT client authentication.+
 
 |+tokenEndpointUrl+
 

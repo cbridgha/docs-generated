@@ -87,6 +87,7 @@ include::./oauth-2.0/examples.adoc[opts=optional]
 == Features that enable this feature
 * feature:openidConnectClient-1.0[]
 * feature:openidConnectServer-1.0[]
+* feature:socialLogin-1.0[]
 // end::dependencies[]
 // tag::feature-require[]
 
