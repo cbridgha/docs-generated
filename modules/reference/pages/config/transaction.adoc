@@ -115,6 +115,22 @@ Max: +100+
 
 |+The percentage of the duration of the recovery log lease that passes before the lease is renewed+
 
+|+logRetryInterval+
+
+|int
+
+|+10+
+
+|+Specifies the interval in seconds between attempts to recover from a transient error accessing the transaction service logs.+
+
+|+logRetryLimit+
+
+|int
+
+|+180+
+
+|+Specifies the maximum number of attempts to recover from a transient error accessing the transaction service logs for an unrecoverable error condition.+
+
 |+lpsHeuristicCompletion+
 
 |* +COMMIT+
@@ -157,6 +173,14 @@ Max: +100+
 |
 
 |+Unique identity of this server for transaction peer recovery.+
+
+|+shutdownOnLogFailure+
+
+|boolean
+
+|+true+
+
+|+Specifies whether the transaction manager will stop an application server that is part of a recoveryGroup if an unrecoverable error occurs accessing its own transaction service logs.+
 
 |+timeoutGracePeriodEnabled+
 

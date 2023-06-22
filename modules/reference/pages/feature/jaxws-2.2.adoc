@@ -27,9 +27,7 @@ include::./jaxws-2.2/examples.adoc[opts=optional]
 // tag::config[]
 
 == Feature configuration elements
-* config:classloader[]
 * config:classloading[]
-* config:library[]
 // end::config[]
 // tag::apis[]
 

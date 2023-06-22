@@ -36,8 +36,7 @@ Required
 
 |+clientSecret+
 
-|Reversably encoded password (string) +
-Required
+|Reversably encoded password (string)
 
 |
 

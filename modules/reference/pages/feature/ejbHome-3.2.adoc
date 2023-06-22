@@ -24,12 +24,6 @@ To enable the Enterprise JavaBeans Home Interfaces 3.2 feature, add the followin
 include::./ejbHome/examples.adoc[opts=optional]
 include::./ejbHome-3.2/examples.adoc[opts=optional]
 
-// tag::config[]
-
-== Feature configuration elements
-* config:classloading[]
-* config:transaction[]
-// end::config[]
 // tag::apis[]
 // end::apis[]
 // tag::requirements[]

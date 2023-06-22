@@ -28,12 +28,10 @@ include::./enterpriseBeansRemote-4.0/examples.adoc[opts=optional]
 
 == Feature configuration elements
 * config:channelfw[]
-* config:classloading[]
 * config:iiopEndpoint[]
 * config:iiopServerPolicies[]
 * config:orb[]
 * config:tcpOptions[]
-* config:transaction[]
 // end::config[]
 // tag::apis[]
 // end::apis[]
