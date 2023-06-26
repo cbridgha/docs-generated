@@ -24,13 +24,6 @@ To enable the Jakarta Faces 4.0 feature, add the following element declaration i
 include::./faces/examples.adoc[opts=optional]
 include::./faces-4.0/examples.adoc[opts=optional]
 
-// tag::config[]
-
-== Feature configuration elements
-* config:classloader[]
-* config:classloading[]
-* config:library[]
-// end::config[]
 // tag::apis[]
 
 == Standard API packages provided by this feature

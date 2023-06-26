@@ -27,7 +27,6 @@ include::./jwtSso-1.0/examples.adoc[opts=optional]
 // tag::config[]
 
 == Feature configuration elements
-* config:authFilter[]
 * config:jwtSso[]
 * config:mpJwt[]
 // end::config[]

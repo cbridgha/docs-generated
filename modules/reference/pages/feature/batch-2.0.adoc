@@ -28,10 +28,8 @@ include::./batch-2.0/examples.adoc[opts=optional]
 
 == Feature configuration elements
 * config:batchPersistence[]
-* config:classloader[]
 * config:classloading[]
 * config:databaseStore[]
-* config:library[]
 * config:transaction[]
 // end::config[]
 // tag::apis[]

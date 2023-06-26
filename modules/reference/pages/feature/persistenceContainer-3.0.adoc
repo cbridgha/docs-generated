@@ -27,10 +27,8 @@ include::./persistenceContainer-3.0/examples.adoc[opts=optional]
 // tag::config[]
 
 == Feature configuration elements
-* config:classloader[]
 * config:classloading[]
 * config:jpa[]
-* config:library[]
 * config:transaction[]
 // end::config[]
 // tag::apis[]

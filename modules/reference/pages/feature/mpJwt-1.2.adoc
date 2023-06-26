@@ -27,7 +27,6 @@ include::./mpJwt-1.2/examples.adoc[opts=optional]
 // tag::config[]
 
 == Feature configuration elements
-* config:authFilter[]
 * config:mpJwt[]
 // end::config[]
 // tag::apis[]
