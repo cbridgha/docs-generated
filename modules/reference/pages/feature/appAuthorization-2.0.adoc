@@ -24,11 +24,6 @@ To enable the Jakarta Authorization 2.0 feature, add the following element decla
 include::./appAuthorization/examples.adoc[opts=optional]
 include::./appAuthorization-2.0/examples.adoc[opts=optional]
 
-// tag::config[]
-
-== Feature configuration elements
-* config:classloading[]
-// end::config[]
 // tag::apis[]
 
 == Standard API packages provided by this feature

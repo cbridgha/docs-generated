@@ -28,13 +28,11 @@ include::./jdbc-4.0/examples.adoc[opts=optional]
 
 == Feature configuration elements
 * config:authData[]
-* config:classloader[]
 * config:classloading[]
 * config:connectionManager[]
 * config:dataSource[]
 * config:jdbcDriver[]
 * config:kerberos[]
-* config:library[]
 * config:transaction[]
 // end::config[]
 // tag::apis[]
