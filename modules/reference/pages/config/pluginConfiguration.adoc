@@ -49,14 +49,6 @@
 
 |+Identifies the maximum amount of time that the application server should maintain a connection with the web server. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
 
-|+extendedHandshake+
-
-|boolean
-
-|+false+
-
-|+If true, the web server plugin uses an extended handshake to determine if the application server is running.+
-
 |+httpEndpointRef+
 
 |A reference to top level httpEndpoint element (string).

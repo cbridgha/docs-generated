@@ -177,6 +177,14 @@
 
 |+A semi-colon delimited list of classes to be completely disallowed from being served by classname. The equivalent custom property in the full application server profile is com.ibm.ws.webcontainer.donotservebyclassname.+
 
+|+donotCloseOutputOnForwardForServletError+
+
+|boolean
+
+|
+
+|+When this property is set to true, if a servlet called from dispatch forward throws an exception other than IOException and ServletException, the output is not automatically closed.+
+
 |+emptyServletMappings+
 
 |boolean
