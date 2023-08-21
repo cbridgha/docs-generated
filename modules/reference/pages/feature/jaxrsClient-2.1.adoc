@@ -43,8 +43,8 @@ include::./jaxrsClient-2.1/examples.adoc[opts=optional]
 * javadoc:javax.ws.rs.sse[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.jaxrs.providers.json4j[]
-* javadoc:com.ibm.websphere.jaxrs20.multipart[]
+* xref:javadoc/api/jaxrsClient-2.1.com.ibm.websphere.jaxrs.providers.json4j.adoc[com.ibm.websphere.jaxrs.providers.json4j]
+* xref:javadoc/api/jaxrsClient-2.1.com.ibm.websphere.jaxrs20.multipart.adoc[com.ibm.websphere.jaxrs20.multipart]
 // end::apis[]
 // tag::requirements[]
 
@@ -96,5 +96,5 @@ com.ibm.websphere.appserver.jaxrsClient-2.1; type="osgi.subsystem.feature"
 // tag::spi[]
 
 == SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.webservices.handler[]
+* xref:javadoc/spi/jaxrsClient-2.1.adoc[Java RESTful Services Client 2.1]
 // end::spi[]

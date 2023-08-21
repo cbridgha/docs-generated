@@ -54,15 +54,15 @@ include::./oauth-2.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.oauth.core.api.attributes[]
-* javadoc:com.ibm.oauth.core.api.config[]
-* javadoc:com.ibm.oauth.core.api.error[]
-* javadoc:com.ibm.oauth.core.api.error.oauth20[]
-* javadoc:com.ibm.oauth.core.api.oauth20.mediator[]
-* javadoc:com.ibm.websphere.security.oauth20[]
-* javadoc:com.ibm.websphere.security.oauth20.store[]
-* javadoc:com.ibm.websphere.security.openidconnect.token[]
-* javadoc:com.ibm.wsspi.security.oauth20.token[]
+* xref:javadoc/api/oauth-2.0.com.ibm.oauth.core.api.attributes.adoc[com.ibm.oauth.core.api.attributes]
+* xref:javadoc/api/oauth-2.0.com.ibm.oauth.core.api.config.adoc[com.ibm.oauth.core.api.config]
+* xref:javadoc/api/oauth-2.0.com.ibm.oauth.core.api.error.adoc[com.ibm.oauth.core.api.error]
+* xref:javadoc/api/oauth-2.0.com.ibm.oauth.core.api.error.oauth20.adoc[com.ibm.oauth.core.api.error.oauth20]
+* xref:javadoc/api/oauth-2.0.com.ibm.oauth.core.api.oauth20.mediator.adoc[com.ibm.oauth.core.api.oauth20.mediator]
+* xref:javadoc/api/oauth-2.0.com.ibm.websphere.security.oauth20.adoc[com.ibm.websphere.security.oauth20]
+* xref:javadoc/api/oauth-2.0.com.ibm.websphere.security.oauth20.store.adoc[com.ibm.websphere.security.oauth20.store]
+* xref:javadoc/api/oauth-2.0.com.ibm.websphere.security.openidconnect.token.adoc[com.ibm.websphere.security.openidconnect.token]
+* xref:javadoc/api/oauth-2.0.com.ibm.wsspi.security.oauth20.token.adoc[com.ibm.wsspi.security.oauth20.token]
 // end::apis[]
 // tag::requirements[]
 
@@ -103,6 +103,6 @@ com.ibm.websphere.appserver.oauth-2.0; type="osgi.subsystem.feature"
 // tag::spi[]
 
 == SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.security.oauth20[]
-* javadoc:com.ibm.wsspi.security.openidconnect[]
+* xref:javadoc/spi/oauth-2.0.com.ibm.wsspi.security.oauth20.adoc[com.ibm.wsspi.security.oauth20]
+* xref:javadoc/spi/oauth-2.0.com.ibm.wsspi.security.openidconnect.adoc[com.ibm.wsspi.security.openidconnect]
 // end::spi[]

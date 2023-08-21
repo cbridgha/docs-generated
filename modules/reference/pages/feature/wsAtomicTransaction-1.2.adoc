@@ -83,5 +83,5 @@ com.ibm.websphere.appserver.wsAtomicTransaction-1.2; type="osgi.subsystem.featur
 // tag::spi[]
 
 == SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.webservices.wsat[]
+* xref:javadoc/spi/wsAtomicTransaction-1.2.adoc[WS-AT Service 1.2]
 // end::spi[]

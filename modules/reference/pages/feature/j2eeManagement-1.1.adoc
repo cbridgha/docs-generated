@@ -41,7 +41,7 @@ include::./j2eeManagement-1.1/examples.adoc[opts=optional]
 * javadoc:org.omg.stub.javax.management.j2ee[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.management.j2ee[]
+* xref:javadoc/api/j2eeManagement-1.1.adoc[J2EE Management 1.1]
 // end::apis[]
 // tag::requirements[]
 // end::requirements[]

@@ -87,5 +87,5 @@ com.ibm.websphere.appserver.openapi-3.1; type="osgi.subsystem.feature"
 // tag::spi[]
 
 == SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.openapi31[]
+* xref:javadoc/spi/openapi-3.1.adoc[OpenAPI 3.1]
 // end::spi[]

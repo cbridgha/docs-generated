@@ -44,12 +44,12 @@ include::./sipServlet-1.1/examples.adoc[opts=optional]
 * javadoc:javax.servlet.sip.ar.spi[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.sip[]
-* javadoc:com.ibm.websphere.sip.resolver[]
-* javadoc:com.ibm.websphere.sip.resolver.events[]
-* javadoc:com.ibm.websphere.sip.resolver.exception[]
-* javadoc:com.ibm.websphere.sip.unmatchedMessages[]
-* javadoc:com.ibm.websphere.sip.unmatchedMessages.events[]
+* xref:javadoc/api/sipServlet-1.1.com.ibm.websphere.sip.adoc[com.ibm.websphere.sip]
+* xref:javadoc/api/sipServlet-1.1.com.ibm.websphere.sip.resolver.adoc[com.ibm.websphere.sip.resolver]
+* xref:javadoc/api/sipServlet-1.1.com.ibm.websphere.sip.resolver.events.adoc[com.ibm.websphere.sip.resolver.events]
+* xref:javadoc/api/sipServlet-1.1.com.ibm.websphere.sip.resolver.exception.adoc[com.ibm.websphere.sip.resolver.exception]
+* xref:javadoc/api/sipServlet-1.1.com.ibm.websphere.sip.unmatchedMessages.adoc[com.ibm.websphere.sip.unmatchedMessages]
+* xref:javadoc/api/sipServlet-1.1.com.ibm.websphere.sip.unmatchedMessages.events.adoc[com.ibm.websphere.sip.unmatchedMessages.events]
 // end::apis[]
 // tag::requirements[]
 

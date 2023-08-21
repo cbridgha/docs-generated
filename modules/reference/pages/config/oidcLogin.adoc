@@ -163,6 +163,17 @@ Required
 
 |+Specifies whether to map userIdentifier to registry user.+
 
+|+pkceCodeChallengeMethod+
+
+|* +S256+
+* +disabled+
+* +plain+
+
+
+|+disabled+
+
+|+Specifies the code challenge method to use for Proof Key for Code Exchange (PKCE).+
+
 |+realmNameAttribute+
 
 |string

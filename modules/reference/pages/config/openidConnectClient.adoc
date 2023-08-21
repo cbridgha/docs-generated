@@ -322,6 +322,17 @@ Min: +0+
 
 |+Enable the nonce parameter in the authorization code flow.+
 
+|+pkceCodeChallengeMethod+
+
+|* +S256+
+* +disabled+
+* +plain+
+
+
+|+disabled+
+
+|+Specifies the challenge method to use for Proof Key for Code Exchange (PKCE).+
+
 |+reAuthnCushion+
 
 |A period of time with millisecond precision

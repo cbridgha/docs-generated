@@ -27,7 +27,7 @@ include::./restfulWS-3.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.jaxrs.server[]
+* xref:javadoc/api/restfulWS-3.0.adoc[Jakarta RESTful Web Services 3.0]
 // end::apis[]
 // tag::requirements[]
 

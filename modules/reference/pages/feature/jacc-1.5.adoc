@@ -35,7 +35,7 @@ include::./jacc-1.5/examples.adoc[opts=optional]
 * javadoc:javax.security.jacc[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.wsspi.security.authorization.jacc[]
+* xref:javadoc/api/jacc-1.5.adoc[Java Authorization Contract for Containers 1.5]
 // end::apis[]
 // tag::requirements[]
 

@@ -38,7 +38,7 @@ include::./messagingServer-3.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.messaging.mbean[]
+* xref:javadoc/api/messagingServer-3.0.adoc[Messaging Server 3.0]
 // end::apis[]
 // tag::requirements[]
 // end::requirements[]

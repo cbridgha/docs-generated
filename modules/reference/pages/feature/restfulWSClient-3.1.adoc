@@ -67,7 +67,7 @@ include::./restfulWSClient-3.1/examples.adoc[opts=optional]
 * javadoc:jakarta.ws.rs.sse[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.jaxrs20.multipart[]
+* xref:javadoc/api/restfulWSClient-3.1.adoc[Jakarta RESTful Web Services 3.1 Client]
 // end::apis[]
 // tag::requirements[]
 
