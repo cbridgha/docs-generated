@@ -32,7 +32,7 @@ include::./openidConnectServer-1.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.security.openidconnect[]
+* xref:javadoc/api/openidConnectServer-1.0.adoc[OpenID Connect Provider 1.0]
 // end::apis[]
 // tag::requirements[]
 

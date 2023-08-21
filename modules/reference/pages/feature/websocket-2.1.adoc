@@ -36,7 +36,7 @@ include::./websocket-2.1/examples.adoc[opts=optional]
 * javadoc:jakarta.websocket.server[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.wsoc[]
+* xref:javadoc/api/websocket-2.1.adoc[Jakarta WebSocket 2.1]
 // end::apis[]
 // tag::requirements[]
 

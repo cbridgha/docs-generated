@@ -74,5 +74,5 @@ com.ibm.websphere.appserver.jaspic-1.1; type="osgi.subsystem.feature"
 // tag::spi[]
 
 == SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.security.jaspi[]
+* xref:javadoc/spi/jaspic-1.1.adoc[Java Authentication SPI for Containers 1.1]
 // end::spi[]

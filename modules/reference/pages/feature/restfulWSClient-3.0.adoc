@@ -43,7 +43,7 @@ include::./restfulWSClient-3.0/examples.adoc[opts=optional]
 * javadoc:jakarta.ws.rs.sse[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.jaxrs20.multipart[]
+* xref:javadoc/api/restfulWSClient-3.0.adoc[Jakarta RESTful Web Services 3.0 Client]
 // end::apis[]
 // tag::requirements[]
 
@@ -84,5 +84,5 @@ io.openliberty.restfulWSClient-3.0; type="osgi.subsystem.feature"
 // tag::spi[]
 
 == SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.webservices.handler[]
+* xref:javadoc/spi/restfulWSClient-3.0.adoc[Jakarta RESTful Web Services 3.0 Client]
 // end::spi[]

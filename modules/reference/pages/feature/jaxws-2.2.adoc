@@ -91,5 +91,5 @@ com.ibm.websphere.appserver.jaxws-2.2; type="osgi.subsystem.feature"
 // tag::spi[]
 
 == SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.webservices.handler[]
+* xref:javadoc/spi/jaxws-2.2.adoc[Java Web Services 2.2]
 // end::spi[]

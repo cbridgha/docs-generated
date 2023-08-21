@@ -52,8 +52,6 @@ include::./jsp-2.3/examples.adoc[opts=optional]
 
 == Supported Java versions
 
-* JavaSE-1.8
-* JavaSE-11.0
 * JavaSE-17.0
 * JavaSE-20.0
 // end::java-versions[]
@@ -81,5 +79,5 @@ com.ibm.websphere.appserver.jsp-2.3; type="osgi.subsystem.feature"
 // tag::spi[]
 
 == SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.jsp.taglib.config[]
+* xref:javadoc/spi/jsp-2.3.adoc[JavaServer Pages 2.3]
 // end::spi[]

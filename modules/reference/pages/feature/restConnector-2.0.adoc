@@ -65,9 +65,9 @@ include::./restConnector-2.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.filetransfer[]
-* javadoc:com.ibm.websphere.jmx.connector.rest[]
-* javadoc:com.ibm.ws.jmx.connector.client.rest[]
+* xref:javadoc/api/restConnector-2.0.com.ibm.websphere.filetransfer.adoc[com.ibm.websphere.filetransfer]
+* xref:javadoc/api/restConnector-2.0.com.ibm.websphere.jmx.connector.rest.adoc[com.ibm.websphere.jmx.connector.rest]
+* xref:javadoc/api/restConnector-2.0.com.ibm.ws.jmx.connector.client.rest.adoc[com.ibm.ws.jmx.connector.client.rest]
 // end::apis[]
 // tag::requirements[]
 

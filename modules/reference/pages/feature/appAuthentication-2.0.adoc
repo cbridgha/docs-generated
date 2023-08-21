@@ -67,5 +67,5 @@ io.openliberty.appAuthentication-2.0; type="osgi.subsystem.feature"
 // tag::spi[]
 
 == SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.security.jaspi[]
+* xref:javadoc/spi/appAuthentication-2.0.adoc[Jakarta Authentication 2.0]
 // end::spi[]

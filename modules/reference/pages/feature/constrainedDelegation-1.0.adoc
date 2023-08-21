@@ -32,7 +32,7 @@ include::./constrainedDelegation-1.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.security.s4u2proxy[]
+* xref:javadoc/api/constrainedDelegation-1.0.adoc[Kerberos Constrained Delegation for SPNEGO 1.0]
 // end::apis[]
 // tag::requirements[]
 

@@ -105,5 +105,5 @@ io.openliberty.cdi-4.0; type="osgi.subsystem.feature"
 // tag::spi[]
 
 == SPI packages provided by this feature
-* javadoc:io.openliberty.cdi.spi[]
+* xref:javadoc/spi/cdi-4.0.adoc[Jakarta Contexts and Dependency Injection 4.0]
 // end::spi[]
