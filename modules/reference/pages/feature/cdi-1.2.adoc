@@ -110,5 +110,5 @@ com.ibm.websphere.appserver.cdi-1.2; type="osgi.subsystem.feature"
 // tag::spi[]
 
 == SPI packages provided by this feature
-* javadoc:io.openliberty.cdi.spi[]
+* xref:javadoc/spi/cdi-1.2.adoc[Contexts and Dependency Injection 1.2]
 // end::spi[]

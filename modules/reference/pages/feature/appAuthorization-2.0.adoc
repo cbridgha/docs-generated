@@ -30,7 +30,7 @@ include::./appAuthorization-2.0/examples.adoc[opts=optional]
 * javadoc:jakarta.security.jacc[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.wsspi.security.authorization.jacc[]
+* xref:javadoc/api/appAuthorization-2.0.adoc[Jakarta Authorization 2.0]
 // end::apis[]
 // tag::requirements[]
 

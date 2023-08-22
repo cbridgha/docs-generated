@@ -42,7 +42,7 @@ include::./ssl-1.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.ssl[]
+* xref:javadoc/api/ssl-1.0.adoc[Secure Socket Layer 1.0]
 // end::apis[]
 // tag::requirements[]
 // end::requirements[]
@@ -103,5 +103,5 @@ com.ibm.websphere.appserver.ssl-1.0; type="osgi.subsystem.feature"
 // tag::spi[]
 
 == SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.ssl[]
+* xref:javadoc/spi/ssl-1.0.adoc[Secure Socket Layer 1.0]
 // end::spi[]

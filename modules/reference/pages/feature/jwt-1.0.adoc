@@ -52,7 +52,7 @@ include::./jwt-1.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.security.jwt[]
+* xref:javadoc/api/jwt-1.0.adoc[JSON Web Token 1.0]
 // end::apis[]
 // tag::requirements[]
 

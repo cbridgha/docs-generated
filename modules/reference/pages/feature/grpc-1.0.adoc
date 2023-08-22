@@ -52,7 +52,7 @@ include::./grpc-1.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:io.openliberty.grpc.annotation[]
+* xref:javadoc/api/grpc-1.0.adoc[gRPC 1.0]
 // end::apis[]
 // tag::requirements[]
 

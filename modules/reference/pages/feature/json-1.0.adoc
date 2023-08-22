@@ -27,8 +27,8 @@ include::./json-1.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.json.java[]
-* javadoc:com.ibm.json.xml[]
+* xref:javadoc/api/json-1.0.com.ibm.json.java.adoc[com.ibm.json.java]
+* xref:javadoc/api/json-1.0.com.ibm.json.xml.adoc[com.ibm.json.xml]
 // end::apis[]
 // tag::requirements[]
 // end::requirements[]

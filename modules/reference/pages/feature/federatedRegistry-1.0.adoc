@@ -69,7 +69,7 @@ com.ibm.websphere.appserver.federatedRegistry-1.0; type="osgi.subsystem.feature"
 // tag::spi[]
 
 == SPI packages provided by this feature
-* javadoc:com.ibm.wsspi.security.wim[]
-* javadoc:com.ibm.wsspi.security.wim.exception[]
-* javadoc:com.ibm.wsspi.security.wim.model[]
+* xref:javadoc/spi/federatedRegistry-1.0.com.ibm.wsspi.security.wim.adoc[com.ibm.wsspi.security.wim]
+* xref:javadoc/spi/federatedRegistry-1.0.com.ibm.wsspi.security.wim.exception.adoc[com.ibm.wsspi.security.wim.exception]
+* xref:javadoc/spi/federatedRegistry-1.0.com.ibm.wsspi.security.wim.model.adoc[com.ibm.wsspi.security.wim.model]
 // end::spi[]

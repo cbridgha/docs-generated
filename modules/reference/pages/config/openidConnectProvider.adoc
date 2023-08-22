@@ -47,7 +47,7 @@
 
 |+2h+
 
-|+Time that ID token is valid (seconds). Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
+|+Time that ID token is valid (seconds). You can also specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30 or 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
 
 |+issuerIdentifier+
 
@@ -71,7 +71,7 @@
 
 |+720m+
 
-|+Amount of time after which a new JWK will be generated. Specify a positive integer followed by a unit of time, which can be hours (h) or minutes (m). For example, specify 30 minutes as 30m. You can include multiple values in a single entry. For example, 1h30m is equivalent to 90 minutes.+
+|+Amount of time after which a new JWK is generated (minutes). For example, specify 90 minutes as 90 or 90m. Minimum value is 60 minutes. Specify a positive integer followed by a unit of time, which can be hours (h) or minutes (m). For example, specify 30 minutes as 30m. You can include multiple values in a single entry. For example, 1h30m is equivalent to 90 minutes.+
 
 |+jwkSigningKeySize+
 

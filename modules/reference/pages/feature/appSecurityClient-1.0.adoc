@@ -36,9 +36,9 @@ include::./appSecurityClient-1.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* javadoc:com.ibm.websphere.security[]
-* javadoc:com.ibm.websphere.security.auth.callback[]
-* javadoc:com.ibm.wsspi.security.auth.callback[]
+* xref:javadoc/api/appSecurityClient-1.0.com.ibm.websphere.security.adoc[com.ibm.websphere.security]
+* xref:javadoc/api/appSecurityClient-1.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]
+* xref:javadoc/api/appSecurityClient-1.0.com.ibm.wsspi.security.auth.callback.adoc[com.ibm.wsspi.security.auth.callback]
 // end::apis[]
 // tag::requirements[]
 
