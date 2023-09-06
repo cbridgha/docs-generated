@@ -1,4 +1,4 @@
-* Open Liberty APIs
+* xref:api/open-liberty-apis.adoc[Open Liberty APIs]
   ** Admin REST Connector 2.0
     *** xref:javadoc/api/restConnector-2.0.com.ibm.websphere.filetransfer.adoc[com.ibm.websphere.filetransfer]
     *** xref:javadoc/api/restConnector-2.0.com.ibm.websphere.jmx.connector.rest.adoc[com.ibm.websphere.jmx.connector.rest]

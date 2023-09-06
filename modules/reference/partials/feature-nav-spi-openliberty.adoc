@@ -1,4 +1,4 @@
-* Open Liberty SPIs
+* xref:spi/open-liberty-spis.adoc[Open Liberty SPIs]
   ** Contexts and Dependency Injection 1.2
     *** xref:javadoc/spi/cdi-1.2.adoc[io.openliberty.cdi.spi]
   ** Contexts and Dependency Injection 2.0
