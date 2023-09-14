@@ -230,6 +230,14 @@
 
 |+Specifies whether authentication data can be used when accessing an unprotected resource. The unprotected resource can access validated authenticated data that it previously could not access. This option enables the unprotected resource to call the getRemoteUser, isUserInRole, and getUserPrincipal methods to retrieve an authenticated identity. The equivalent custom property in the full application server profile is com.ibm.wsspi.security.web.webAuthReq=persisting.+
 
+|+useContextRootForSSOCookiePath+
+
+|boolean
+
+|+false+
+
+|+Specifies that the cookie path equals the context root of the web module instead of the backslash character (/).+
+
 |+useLtpaSSOForJaspic+
 
 |boolean

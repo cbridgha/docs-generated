@@ -369,6 +369,14 @@
 
 |+Set the servlet path value to the request URI minus the context path. The path information is null when a servlet is used as a default mapping. The default value is true for version 4.0 or later of the servlet feature. It is false for other servlet features. When mapping is to the /* pattern, the servlet path is empty and the path information starts with a leading slash (/).+
 
+|+set400SCOnTooManyParentDirs+
+
+|boolean
+
+|+false+
+
+|+When this property is set to true, a request with an invalid path traversal is returned with a 400 status code instead of 500. The default is false. You can use this property with servlet-5.0 and earlier. For servlet-6.0 and later, the 400 response code is returned by default and this property has no effect.+
+
 |+setContentLengthOnClose+
 
 |boolean

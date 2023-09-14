@@ -82,7 +82,6 @@ include::./acmeCA-2.0/examples.adoc[opts=optional]
 
 == Supported Java versions
 
-* JavaSE-1.7
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
