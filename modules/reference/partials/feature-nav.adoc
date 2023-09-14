@@ -254,6 +254,7 @@
   ** xref:feature/socialLogin-1.0.adoc[Social Media Login]
   ** xref:feature/springBoot-1.5.adoc[Spring Boot Support]
   ** xref:feature/springBoot-2.0.adoc[Spring Boot Support]
+  ** xref:feature/springBoot-3.0.adoc[Spring Boot Support]
   ** xref:feature/transportSecurity-1.0.adoc[Transport Security]
   ** xref:feature/webCache-1.0.adoc[Web Response Cache]
   ** xref:feature/wsSecurity-1.1.adoc[Web Service Security]

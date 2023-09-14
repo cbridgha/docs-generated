@@ -31,7 +31,7 @@
 
 |+${server.output.dir}/resources/security/ltpa.keys+
 
-|+Path of the file containing the token keys.+
+|+The path to the file that contains the LTPA primary keys, which are used to create and validate LTPA tokens.+
 
 |+keysPassword+
 
@@ -39,7 +39,7 @@
 
 |+{xor}CDo9Hgw=+
 
-|+Password for the token keys. The value can be stored in clear text or encoded form. It is recommended to encode the password, use the securityUtility tool with the encode option.+
+|+Password for the LTPA primary keys. The best practice is to encrypt the password by using the securityUtility tool.+
 
 |+monitorInterval+
 
@@ -47,7 +47,7 @@
 
 |+0ms+
 
-|+Rate at which the server checks for updates to the LTPA token keys file. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+|+Rate at which the server checks for updates to the LTPA keys file. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
 |===
 [#+authFilter+]*authFilter*
 
