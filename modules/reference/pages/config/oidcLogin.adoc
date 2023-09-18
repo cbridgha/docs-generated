@@ -147,6 +147,14 @@ Required
 
 |+Specifies a JSON Web Key service URL.+
 
+|+keyAliasName+
+
+|string
+
+|
+
+|+The alias for the private key that is used for signing client authentication tokens. The public key that corresponds to the private key must also use this alias. The private key must be in the keystore that is specified by the SSL configuration that is referenced by the sslRef attribute. The public key must be in one of the following locations: the truststore that is specified by the trustStoreRef attribute, the truststore that is specified by the SSL configuration that is referenced by the sslRef attribute, or the keystore that is specified by the SSL configuration that is referenced by the sslRef attribute.+
+
 |+keyManagementKeyAlias+
 
 |string
@@ -248,6 +256,40 @@ Required
 |+Specifies required authentication method.+ +
 *+private_key_jwt+* +
 +Private key JWT client authentication.+
+
+|+tokenEndpointAuthSigningAlgorithm+
+
+|* +ES256+
+* +ES384+
+* +ES512+
+* +RS256+
+* +RS384+
+* +RS512+
+
+
+|+RS256+
+
+|+The signature algorithm to use to sign tokens that are used for client authentication.+ +
+*+ES256+* +
++Use the ES256 signature algorithm to sign tokens that are used for client authentication+ +
+*+ES384+* +
++Use the ES384 signature algorithm to sign tokens that are used for client authentication+ +
+*+ES512+* +
++Use the ES512 signature algorithm to sign tokens that are used for client authentication+ +
+*+RS256+* +
++Use the RS256 signature algorithm to sign tokens that are used for client authentication+ +
+*+RS384+* +
++Use the RS384 signature algorithm to sign tokens that are used for client authentication+ +
+*+RS512+* +
++Use the RS512 signature algorithm to sign tokens that are used for client authentication+
+
+|+tokenRequestOriginHeader+
+
+|string
+
+|
+
+|+Specifies the value to use in the Origin HTTP header that is included in the HTTP POST request to the token endpoint of the OpenID Connect provider. If not specified, an Origin HTTP header is not included in the request.+
 
 |+trustAliasName+
 

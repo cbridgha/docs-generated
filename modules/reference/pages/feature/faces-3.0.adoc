@@ -1,7 +1,7 @@
 = Jakarta Server Faces 3.0
-:linkcss: 
+:linkcss:
 :page-layout: feature
-:nofooter: 
+:nofooter:
 
 // tag::description[]
 This feature enables support for web applications that use the Jakarta Server Faces 3.0 framework. This framework simplifies the construction of user interfaces.
@@ -74,6 +74,8 @@ include::./faces-3.0/examples.adoc[opts=optional]
 
 == Supported Java versions
 
+* JavaSE-1.8
+* JavaSE-11.0
 * JavaSE-17.0
 * JavaSE-20.0
 // end::java-versions[]

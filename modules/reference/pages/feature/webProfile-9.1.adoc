@@ -1,7 +1,7 @@
 = Jakarta EE Web Profile 9.1
-:linkcss: 
+:linkcss:
 :page-layout: feature
-:nofooter: 
+:nofooter:
 
 // tag::description[]
 This feature combines the Liberty features that support the Jakarta EE 9.1 Web Profile.
@@ -58,6 +58,8 @@ include::./webProfile-9.1/examples.adoc[opts=optional]
 
 == Supported Java versions
 
+* JavaSE-1.8
+* JavaSE-11.0
 * JavaSE-17.0
 * JavaSE-20.0
 // end::java-versions[]

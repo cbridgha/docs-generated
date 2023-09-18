@@ -1,7 +1,7 @@
 = JavaServer Pages 2.2
-:linkcss: 
+:linkcss:
 :page-layout: feature
-:nofooter: 
+:nofooter:
 
 // tag::description[]
 This feature enables support for Java Server Pages (JSPs) that are written to the JSP 2.2 specification. This framework simplifies the construction of user interfaces.
@@ -48,6 +48,8 @@ include::./jsp-2.2/examples.adoc[opts=optional]
 
 == Supported Java versions
 
+* JavaSE-1.8
+* JavaSE-11.0
 * JavaSE-17.0
 * JavaSE-20.0
 // end::java-versions[]
