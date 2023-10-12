@@ -25,6 +25,14 @@
 
 |+Specifies whether all applications on this server accept the possibility of a heuristic hazard occurring in a two-phase transaction that contains a one-phase resource.+
 
+|+backendURL+
+
+|string
+
+|
+
+|+When backend routing is active, the URL is used by peer servers to contact this server.+
+
 |+clientInactivityTimeout+
 
 |A period of time with second precision
@@ -5630,7 +5638,8 @@ Max: +10485760+
 
 |+authentication+
 
-|* +ActiveDirectoryIntegrated+
+|* +ActiveDirectoryDefault+
+* +ActiveDirectoryIntegrated+
 * +ActiveDirectoryMSI+
 * +ActiveDirectoryPassword+
 * +NotSpecified+

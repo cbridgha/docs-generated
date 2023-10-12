@@ -6244,7 +6244,8 @@ Max: +10485760+
 
 |+authentication+
 
-|* +ActiveDirectoryIntegrated+
+|* +ActiveDirectoryDefault+
+* +ActiveDirectoryIntegrated+
 * +ActiveDirectoryMSI+
 * +ActiveDirectoryPassword+
 * +NotSpecified+
