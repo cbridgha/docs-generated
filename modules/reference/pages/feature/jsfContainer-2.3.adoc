@@ -1,7 +1,7 @@
 = JavaServer Faces Container 2.3
-:linkcss:
+:linkcss: 
 :page-layout: feature
-:nofooter:
+:nofooter: 
 
 // tag::description[]
 This feature enables CDI integrations for web applications that use the Java Server Faces (JSF) 2.3 framework. This feature only includes container integration code for JSF, and does not include any JSF interfaces or implementation.  To use this feature, JSF interfaces and implementation must be packaged within web applications that use JSF.
@@ -42,7 +42,7 @@ include::./jsfContainer-2.3/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-20.0
+* JavaSE-21.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]

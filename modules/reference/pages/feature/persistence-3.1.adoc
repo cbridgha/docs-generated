@@ -247,13 +247,12 @@ include::./persistence-3.1/examples.adoc[opts=optional]
 
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-20.0
+* JavaSE-21.0
 // end::java-versions[]
 // tag::dependencies[]
 
 == Features that enable this feature
 * feature:batch-2.1[]
-* feature:jakartaee-10.0[]
 * feature:jakartaeeClient-10.0[]
 * feature:webProfile-10.0[]
 // end::dependencies[]
