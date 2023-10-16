@@ -1,7 +1,7 @@
 = Jakarta Server Pages 3.0
-:linkcss:
+:linkcss: 
 :page-layout: feature
-:nofooter:
+:nofooter: 
 
 // tag::description[]
 This feature enables support for Jakarta Server Pages that are written to the Jakarta Server Pages 3.0 specification. This framework simplifies the construction of user interfaces. Enabling this feature also enables the Jakarta Expression Language version 4.0 feature.
@@ -54,7 +54,7 @@ include::./pages-3.0/examples.adoc[opts=optional]
 * JavaSE-1.8
 * JavaSE-11.0
 * JavaSE-17.0
-* JavaSE-20.0
+* JavaSE-21.0
 // end::java-versions[]
 // tag::dependencies[]
 

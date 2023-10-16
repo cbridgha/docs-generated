@@ -44,6 +44,14 @@ Required
 
 4+|*+Advanced Performance+*
 
+|+connectionRetryCount+
+
+|int
+
+|+2+
+
+|+Use this property to select the number of retry attempts on a database connection. The default value for this property is 2. For example, when ConnectionRetryCount set to 0, the session manager attempts a database connection once only, with no retry attempt.+
+
 |+noAffinitySwitchBack+
 
 |boolean
