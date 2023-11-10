@@ -2597,7 +2597,7 @@ Max: +1+
 
 |
 
-|+JDBC driver property: databaseName.+
+|+JDBC driver property: databaseName. This property overrides the databaseName specified in the URL if one was configured.+
 
 |+driverType+
 
@@ -2619,15 +2619,15 @@ Max: +1+
 
 |+50000+
 
-|+Port on which to obtain database connections.+
+|+JDBC driver property: portNumber. This property overrides the portNumber specified in the URL if one was configured.+
 
 |+serverName+
 
 |string
 
-|+localhost+
+|
 
-|+Server where the database is running.+
+|+JDBC driver property: serverName. This property overrides the serverName specified in the URL if one was configured.+
 
 4+|*+Advanced Properties+*
 
@@ -4201,7 +4201,7 @@ Max: +10485760+
 
 |
 
-|+JDBC driver property: databaseName.+
+|+JDBC driver property: databaseName. This property is ignored by the driver if a URL is configured.+
 
 |+portNumber+
 
@@ -4209,7 +4209,7 @@ Max: +10485760+
 
 |+1527+
 
-|+Port on which to obtain database connections.+
+|+JDBC driver property: portNumber. This property is ignored by the driver if a URL is configured.+
 
 |+serverName+
 
@@ -4217,7 +4217,7 @@ Max: +10485760+
 
 |+localhost+
 
-|+Server where the database is running.+
+|+JDBC driver property: serverName. This property is ignored by the driver if a URL is configured.+
 
 4+|*+Advanced Properties+*
 
@@ -4370,7 +4370,7 @@ Max: +10485760+
 
 |
 
-|+JDBC driver property: databaseName.+
+|+JDBC driver property: databaseName. This property is ignored by the driver if a URL is configured.+
 
 4+|*+Advanced Properties+*
 
@@ -5454,7 +5454,7 @@ Max: +10485760+
 
 |
 
-|+JDBC driver property: databaseName.+
+|+JDBC driver property: databaseName. This property overrides the databaseName specified in the URL if one was configured.+
 
 |+instanceName+
 
@@ -5462,7 +5462,7 @@ Max: +10485760+
 
 |
 
-|+JDBC driver property: instanceName.+
+|+JDBC driver property: instanceName. This property overrides the instanceName specified in the URL if one was configured.+
 
 |+portNumber+
 
@@ -5470,15 +5470,15 @@ Max: +10485760+
 
 |
 
-|+Port on which to obtain database connections.+
+|+JDBC driver property: portNumber. This property overrides the portNumber specified in the URL if one was configured.+
 
 |+serverName+
 
 |string
 
-|+localhost+
+|
 
-|+Server where the database is running.+
+|+JDBC driver property: serverName. This property overrides the serverName specified in the URL if one was configured.+
 
 4+|*+Advanced Properties+*
 
@@ -5789,7 +5789,7 @@ Max: +32767+
 
 |
 
-|+JDBC driver property: databaseName.+
+|+JDBC driver property: databaseName. This property is ignored by the driver if a URL is configured.+
 
 |+driverType+
 
@@ -5807,7 +5807,7 @@ Max: +32767+
 
 |+1521+
 
-|+Port on which to obtain database connections.+
+|+JDBC driver property: portNumber. This property is ignored by the driver if a URL is configured.+
 
 |+serverName+
 
@@ -5815,7 +5815,7 @@ Max: +32767+
 
 |+localhost+
 
-|+Server where the database is running.+
+|+JDBC driver property: serverName. This property is ignored by the driver if a URL is configured.+
 
 4+|*+Advanced Properties+*
 
@@ -5881,7 +5881,7 @@ Max: +32767+
 
 |
 
-|+JDBC driver property: serviceName.+
+|+JDBC driver property: serviceName. This property is ignored by the driver if a URL is configured.+
 
 |+user+
 
@@ -5933,7 +5933,7 @@ Max: +32767+
 
 |
 
-|+JDBC driver property: databaseName.+
+|+JDBC driver property: databaseName. This property is ignored by the driver if a URL is configured.+
 
 |+portNumber+
 
@@ -5941,7 +5941,7 @@ Max: +32767+
 
 |+1521+
 
-|+Port on which to obtain database connections.+
+|+JDBC driver property: portNumber. This property is ignored by the driver if a URL is configured.+
 
 |+serverName+
 
@@ -5949,7 +5949,7 @@ Max: +32767+
 
 |+localhost+
 
-|+Server where the database is running.+
+|+JDBC driver property: serverName. This property is ignored by the driver if a URL is configured.+
 
 4+|*+Advanced Properties+*
 
@@ -6176,7 +6176,7 @@ Max: +32767+
 
 |
 
-|+JDBC driver property: databaseName.+
+|+JDBC driver property: databaseName. When the PostgreSQL driver uses type java.sql.Driver and a URL and this property are configured, the PostgreSQL driver ignores this property. When the PostgreSQL driver uses type javax.sql.DataSource, and a URL and this property are configured, the PostgreSQL driver ignores the databaseName property.+
 
 |+portNumber+
 
@@ -6184,7 +6184,7 @@ Max: +32767+
 
 |
 
-|+Port on which to obtain database connections.+
+|+JDBC driver property: portNumber. When the PostgreSQL driver uses type java.sql.Driver and a URL and this property are configured, the PostgreSQL driver ignores this property. When the PostgreSQL driver uses type javax.sql.DataSource, and a URL and this property are configured, the PostgreSQL driver ignores the portNumber property.+
 
 |+serverName+
 
@@ -6192,7 +6192,7 @@ Max: +32767+
 
 |
 
-|+Server where the database is running.+
+|+JDBC driver property: serverName. When the PostgreSQL driver uses type java.sql.Driver and a URL and this property are configured, the PostgreSQL driver ignores this property. When the PostgreSQL driver uses type javax.sql.DataSource, and a URL and this property are configured, the PostgreSQL driver ignores the serverName property.+
 
 4+|*+Advanced Properties+*
 
