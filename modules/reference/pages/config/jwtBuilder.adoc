@@ -42,7 +42,7 @@
 
 |+-1+
 
-|+Indicates the token expiration time in seconds. Takes precedence over expiry. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
+|+Indicates the token expiration time in seconds. Takes precedence over expiry. When this attribute is set to a negative number, the value of the expiry attribute is used. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
 
 |+expiry+
 
