@@ -33,6 +33,9 @@ include::./ejbPersistentTimer-3.2/examples.adoc[opts=optional]
 * config:transaction[]
 // end::config[]
 // tag::apis[]
+
+== Liberty API packages provided by this feature
+* xref:javadoc/api/ejbPersistentTimer-3.2.adoc[Enterprise JavaBeans Persistent Timers 3.2]
 // end::apis[]
 // tag::requirements[]
 

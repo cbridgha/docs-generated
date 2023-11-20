@@ -35,6 +35,7 @@ include::./restfulWSClient-3.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Standard API packages provided by this feature
+* javadoc:jakarta.activation[]
 * javadoc:jakarta.ws.rs[]
 * javadoc:jakarta.ws.rs.client[]
 * javadoc:jakarta.ws.rs.container[]

@@ -51,8 +51,12 @@ include::./grpc-1.0/examples.adoc[opts=optional]
 // end::config[]
 // tag::apis[]
 
+== Stable API packages provided by this feature
+* javadoc:io.grpc[]
+
 == Liberty API packages provided by this feature
-* xref:javadoc/api/grpc-1.0.adoc[gRPC 1.0]
+* xref:javadoc/api/grpc-1.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
+* xref:javadoc/api/grpc-1.0.io.openliberty.grpc.annotation.adoc[io.openliberty.grpc.annotation]
 // end::apis[]
 // tag::requirements[]
 
@@ -84,4 +88,8 @@ io.openliberty.grpc-1.0; type="osgi.subsystem.feature"
 ----
 // end::feature-require[]
 // tag::spi[]
+
+== SPI packages provided by this feature
+* xref:javadoc/spi/grpc-1.0.com.ibm.wsspi.http.adoc[com.ibm.wsspi.http]
+* xref:javadoc/spi/grpc-1.0.com.ibm.wsspi.http.ee8.adoc[com.ibm.wsspi.http.ee8]
 // end::spi[]

@@ -54,6 +54,15 @@ include::./messaging-3.1/examples.adoc[opts=optional]
 
 == Standard API packages provided by this feature
 * javadoc:jakarta.jms[]
+* javadoc:jakarta.resource[]
+* javadoc:jakarta.resource.cci[]
+* javadoc:jakarta.resource.spi[]
+* javadoc:jakarta.resource.spi.endpoint[]
+* javadoc:jakarta.resource.spi.security[]
+* javadoc:jakarta.resource.spi.work[]
+
+== Liberty API packages provided by this feature
+* xref:javadoc/api/messaging-3.1.adoc[Jakarta Messaging 3.1]
 // end::apis[]
 // tag::requirements[]
 

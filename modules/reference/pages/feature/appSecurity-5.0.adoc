@@ -60,6 +60,14 @@ include::./appSecurity-5.0/examples.adoc[opts=optional]
 * javadoc:jakarta.security.enterprise.credential[]
 * javadoc:jakarta.security.enterprise.identitystore[]
 * javadoc:jakarta.security.enterprise.identitystore.openid[]
+
+== Liberty API packages provided by this feature
+* xref:javadoc/api/appSecurity-5.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]
+* xref:javadoc/api/appSecurity-5.0.com.ibm.websphere.security.web.adoc[com.ibm.websphere.security.web]
+* xref:javadoc/api/appSecurity-5.0.com.ibm.wsspi.security.auth.callback.adoc[com.ibm.wsspi.security.auth.callback]
+* xref:javadoc/api/appSecurity-5.0.com.ibm.wsspi.security.common.auth.module.adoc[com.ibm.wsspi.security.common.auth.module]
+* xref:javadoc/api/appSecurity-5.0.com.ibm.wsspi.security.tai.adoc[com.ibm.wsspi.security.tai]
+* xref:javadoc/api/appSecurity-5.0.com.ibm.wsspi.security.token.adoc[com.ibm.wsspi.security.token]
 // end::apis[]
 // tag::requirements[]
 

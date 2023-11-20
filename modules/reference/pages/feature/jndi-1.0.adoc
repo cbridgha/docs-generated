@@ -105,4 +105,20 @@ com.ibm.websphere.appserver.jndi-1.0; type="osgi.subsystem.feature"
 ----
 // end::feature-require[]
 // tag::spi[]
+
+== SPI packages provided by this feature
+* xref:javadoc/spi/jndi-1.0.com.ibm.ws.adaptable.module.structure.adoc[com.ibm.ws.adaptable.module.structure]
+* xref:javadoc/spi/jndi-1.0.com.ibm.ws.anno.classsource.specification.adoc[com.ibm.ws.anno.classsource.specification]
+* xref:javadoc/spi/jndi-1.0.com.ibm.wsspi.adaptable.module.adoc[com.ibm.wsspi.adaptable.module]
+* xref:javadoc/spi/jndi-1.0.com.ibm.wsspi.adaptable.module.adapters.adoc[com.ibm.wsspi.adaptable.module.adapters]
+* xref:javadoc/spi/jndi-1.0.com.ibm.wsspi.anno.classsource.adoc[com.ibm.wsspi.anno.classsource]
+* xref:javadoc/spi/jndi-1.0.com.ibm.wsspi.anno.info.adoc[com.ibm.wsspi.anno.info]
+* xref:javadoc/spi/jndi-1.0.com.ibm.wsspi.anno.service.adoc[com.ibm.wsspi.anno.service]
+* xref:javadoc/spi/jndi-1.0.com.ibm.wsspi.anno.targets.adoc[com.ibm.wsspi.anno.targets]
+* xref:javadoc/spi/jndi-1.0.com.ibm.wsspi.anno.util.adoc[com.ibm.wsspi.anno.util]
+* xref:javadoc/spi/jndi-1.0.com.ibm.wsspi.artifact.adoc[com.ibm.wsspi.artifact]
+* xref:javadoc/spi/jndi-1.0.com.ibm.wsspi.artifact.equinox.module.adoc[com.ibm.wsspi.artifact.equinox.module]
+* xref:javadoc/spi/jndi-1.0.com.ibm.wsspi.artifact.factory.adoc[com.ibm.wsspi.artifact.factory]
+* xref:javadoc/spi/jndi-1.0.com.ibm.wsspi.artifact.factory.contributor.adoc[com.ibm.wsspi.artifact.factory.contributor]
+* xref:javadoc/spi/jndi-1.0.com.ibm.wsspi.artifact.overlay.adoc[com.ibm.wsspi.artifact.overlay]
 // end::spi[]
