@@ -44,6 +44,17 @@ include::./jca-1.7/examples.adoc[opts=optional]
 * config:transaction[]
 // end::config[]
 // tag::apis[]
+
+== Standard API packages provided by this feature
+* javadoc:javax.resource[]
+* javadoc:javax.resource.cci[]
+* javadoc:javax.resource.spi[]
+* javadoc:javax.resource.spi.endpoint[]
+* javadoc:javax.resource.spi.security[]
+* javadoc:javax.resource.spi.work[]
+
+== Liberty API packages provided by this feature
+* xref:javadoc/api/jca-1.7.adoc[Java Connector Architecture 1.7]
 // end::apis[]
 // tag::requirements[]
 // end::requirements[]

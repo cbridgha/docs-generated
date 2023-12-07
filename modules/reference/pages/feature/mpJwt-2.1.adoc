@@ -59,9 +59,17 @@ include::./mpJwt-2.1/examples.adoc[opts=optional]
 // end::config[]
 // tag::apis[]
 
+== Standard API packages provided by this feature
+* javadoc:jakarta.annotation[]
+* javadoc:jakarta.annotation.security[]
+* javadoc:jakarta.annotation.sql[]
+
 == Stable API packages provided by this feature
 * javadoc:org.eclipse.microprofile.auth[]
 * javadoc:org.eclipse.microprofile.jwt[]
+
+== Liberty API packages provided by this feature
+* xref:javadoc/api/mpJwt-2.1.adoc[MicroProfile JSON Web Token 2.1]
 // end::apis[]
 // tag::requirements[]
 
@@ -70,6 +78,7 @@ include::./mpJwt-2.1/examples.adoc[opts=optional]
 * feature:jsonp-2.1[]
 * feature:jwt-1.0[]
 * feature:mpConfig-3.0[]
+* feature:mpConfig-3.1[]
 // end::requirements[]
 // tag::java-versions[]
 
@@ -83,6 +92,7 @@ include::./mpJwt-2.1/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:microProfile-6.0[]
+* feature:microProfile-6.1[]
 // end::dependencies[]
 // tag::feature-require[]
 
@@ -96,4 +106,22 @@ io.openliberty.mpJwt-2.1; type="osgi.subsystem.feature"
 ----
 // end::feature-require[]
 // tag::spi[]
+
+== SPI packages provided by this feature
+* xref:javadoc/spi/mpJwt-2.1.com.ibm.ws.adaptable.module.structure.adoc[com.ibm.ws.adaptable.module.structure]
+* xref:javadoc/spi/mpJwt-2.1.com.ibm.ws.anno.classsource.specification.adoc[com.ibm.ws.anno.classsource.specification]
+* xref:javadoc/spi/mpJwt-2.1.com.ibm.wsspi.adaptable.module.adoc[com.ibm.wsspi.adaptable.module]
+* xref:javadoc/spi/mpJwt-2.1.com.ibm.wsspi.adaptable.module.adapters.adoc[com.ibm.wsspi.adaptable.module.adapters]
+* xref:javadoc/spi/mpJwt-2.1.com.ibm.wsspi.anno.classsource.adoc[com.ibm.wsspi.anno.classsource]
+* xref:javadoc/spi/mpJwt-2.1.com.ibm.wsspi.anno.info.adoc[com.ibm.wsspi.anno.info]
+* xref:javadoc/spi/mpJwt-2.1.com.ibm.wsspi.anno.service.adoc[com.ibm.wsspi.anno.service]
+* xref:javadoc/spi/mpJwt-2.1.com.ibm.wsspi.anno.targets.adoc[com.ibm.wsspi.anno.targets]
+* xref:javadoc/spi/mpJwt-2.1.com.ibm.wsspi.anno.util.adoc[com.ibm.wsspi.anno.util]
+* xref:javadoc/spi/mpJwt-2.1.com.ibm.wsspi.artifact.adoc[com.ibm.wsspi.artifact]
+* xref:javadoc/spi/mpJwt-2.1.com.ibm.wsspi.artifact.equinox.module.adoc[com.ibm.wsspi.artifact.equinox.module]
+* xref:javadoc/spi/mpJwt-2.1.com.ibm.wsspi.artifact.factory.adoc[com.ibm.wsspi.artifact.factory]
+* xref:javadoc/spi/mpJwt-2.1.com.ibm.wsspi.artifact.factory.contributor.adoc[com.ibm.wsspi.artifact.factory.contributor]
+* xref:javadoc/spi/mpJwt-2.1.com.ibm.wsspi.artifact.overlay.adoc[com.ibm.wsspi.artifact.overlay]
+* xref:javadoc/spi/mpJwt-2.1.com.ibm.wsspi.http.adoc[com.ibm.wsspi.http]
+* xref:javadoc/spi/mpJwt-2.1.com.ibm.wsspi.http.ee8.adoc[com.ibm.wsspi.http.ee8]
 // end::spi[]

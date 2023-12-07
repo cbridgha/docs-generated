@@ -411,7 +411,7 @@ Max: +500+
 
 |int
 
-|+200+
+|+100+
 
 |+Specifies the maximum number of streams that an HTTP/2 connection can have active at any given point. Opening streams over the limit, will result on a REFUSED_STREAM (0x7). If not specified, the default value of concurrent streams will be set to 200.+
 
@@ -433,6 +433,24 @@ Min: +-1+
 |+-1+
 
 |+Maximum number of persistent requests that are allowed on a single HTTP connection if persistent connections are enabled. A value of -1 means unlimited. This option supports low latency or high throughput applications, and SSL connections for use in situations where building up a new connection can be costly.+
+
+|+maxResetFrames+
+
+|int +
+Min: +0+
+
+|+100+
+
+|+Specifies the maximum number of reset frames per connection that are allowed during the reset frame window. If this value is exceeded, the connection is closed. Set this parameter to 0 to disable the check.+
+
+|+maxStreamsRefused+
+
+|int +
+Min: +0+
+
+|+100+
+
+|+Specifies the maximum number of streams that are refused after the maximum concurrent streams limit is reached. If this value is exceeded, the connection is closed. Set this parameter to 0 to disable the check.+
 
 |+persistTimeout+
 
@@ -457,6 +475,14 @@ Min: +-1+
 |+false+
 
 |+Removes server implementation information from HTTP headers.+
+
+|+resetFramesWindow+
+
+|A period of time with millisecond precision
+
+|+30s+
+
+|+Specifies the window of time during which reset frames are counted on each connection. Set this parameter to 0 for unlimited time window. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
 
 |+settingsInitialWindowSize+
 

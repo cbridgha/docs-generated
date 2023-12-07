@@ -77,4 +77,7 @@ com.ibm.websphere.appserver.jaxrs-2.0; type="osgi.subsystem.feature"
 ----
 // end::feature-require[]
 // tag::spi[]
+
+== SPI packages provided by this feature
+* xref:javadoc/spi/jaxrs-2.0.adoc[Java RESTful Services 2.0]
 // end::spi[]

@@ -52,7 +52,12 @@ include::./jwt-1.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* xref:javadoc/api/jwt-1.0.adoc[JSON Web Token 1.0]
+* xref:javadoc/api/jwt-1.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]
+* xref:javadoc/api/jwt-1.0.com.ibm.websphere.security.jwt.adoc[com.ibm.websphere.security.jwt]
+* xref:javadoc/api/jwt-1.0.com.ibm.wsspi.security.auth.callback.adoc[com.ibm.wsspi.security.auth.callback]
+* xref:javadoc/api/jwt-1.0.com.ibm.wsspi.security.common.auth.module.adoc[com.ibm.wsspi.security.common.auth.module]
+* xref:javadoc/api/jwt-1.0.com.ibm.wsspi.security.tai.adoc[com.ibm.wsspi.security.tai]
+* xref:javadoc/api/jwt-1.0.com.ibm.wsspi.security.token.adoc[com.ibm.wsspi.security.token]
 // end::apis[]
 // tag::requirements[]
 

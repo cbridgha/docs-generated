@@ -16,7 +16,7 @@ Required
 
 |
 
-|+Specifies the resource location. This can be a file path or a URI for a remote resource.+
+|+Specifies the resource location. The value can be a file path, a directory, or a URI for a remote resource.+
 
 |+onConflict+
 

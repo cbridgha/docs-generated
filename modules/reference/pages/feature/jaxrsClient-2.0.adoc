@@ -33,6 +33,24 @@ include::./jaxrsClient-2.0/examples.adoc[opts=optional]
 * config:webTarget[]
 // end::config[]
 // tag::apis[]
+
+== Standard API packages provided by this feature
+* javadoc:javax.activation[]
+* javadoc:javax.ws.rs[]
+* javadoc:javax.ws.rs.client[]
+* javadoc:javax.ws.rs.container[]
+* javadoc:javax.ws.rs.core[]
+* javadoc:javax.ws.rs.ext[]
+* javadoc:javax.xml.bind[]
+* javadoc:javax.xml.bind.annotation[]
+* javadoc:javax.xml.bind.annotation.adapters[]
+* javadoc:javax.xml.bind.attachment[]
+* javadoc:javax.xml.bind.helpers[]
+* javadoc:javax.xml.bind.util[]
+
+== Liberty API packages provided by this feature
+* xref:javadoc/api/jaxrsClient-2.0.com.ibm.websphere.jaxrs.providers.json4j.adoc[com.ibm.websphere.jaxrs.providers.json4j]
+* xref:javadoc/api/jaxrsClient-2.0.com.ibm.websphere.jaxrs20.multipart.adoc[com.ibm.websphere.jaxrs20.multipart]
 // end::apis[]
 // tag::requirements[]
 
@@ -70,4 +88,7 @@ com.ibm.websphere.appserver.jaxrsClient-2.0; type="osgi.subsystem.feature"
 ----
 // end::feature-require[]
 // tag::spi[]
+
+== SPI packages provided by this feature
+* xref:javadoc/spi/jaxrsClient-2.0.adoc[Java RESTful Services Client 2.0]
 // end::spi[]

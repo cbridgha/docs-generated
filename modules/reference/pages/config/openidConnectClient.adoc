@@ -518,6 +518,20 @@ Min: +0+
 
 |+Specifies a token endpoint URL.+
 
+|+tokenOrderToFetchCallerClaims+
+
+|* +AccessToken IDToken UserInfo+
+* +IDToken+
+
+
+|+IDToken+
+
+|+Specifies token order to fetch the caller name and group claim values. If the claim does not exist in the first token, then the OpenID Connect client continues the search with other tokens in the list.+ +
+*+AccessToken IDToken UserInfo+* +
++Uses the AccessToken, IDToken, and Userinfo tokens in that order to determine the caller claims+ +
+*+IDToken+* +
++Uses only the IDToken to determine the caller claims+
+
 |+tokenRequestOriginHeader+
 
 |string

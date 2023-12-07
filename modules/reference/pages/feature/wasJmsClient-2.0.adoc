@@ -57,6 +57,16 @@ include::./wasJmsClient-2.0/examples.adoc[opts=optional]
 
 == Standard API packages provided by this feature
 * javadoc:javax.jms[]
+* javadoc:javax.resource[]
+* javadoc:javax.resource.cci[]
+* javadoc:javax.resource.spi[]
+* javadoc:javax.resource.spi.endpoint[]
+* javadoc:javax.resource.spi.security[]
+* javadoc:javax.resource.spi.work[]
+
+== Liberty API packages provided by this feature
+* xref:javadoc/api/wasJmsClient-2.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
+* xref:javadoc/api/wasJmsClient-2.0.com.ibm.ws.jca.cm.mbean.adoc[com.ibm.ws.jca.cm.mbean]
 // end::apis[]
 // tag::requirements[]
 // end::requirements[]
