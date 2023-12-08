@@ -33,6 +33,9 @@ include::./enterpriseBeansPersistentTimer-4.0/examples.adoc[opts=optional]
 * config:transaction[]
 // end::config[]
 // tag::apis[]
+
+== Liberty API packages provided by this feature
+* xref:javadoc/api/enterpriseBeansPersistentTimer-4.0.adoc[Jakarta Enterprise Beans 4.0 Persistent Timers]
 // end::apis[]
 // tag::requirements[]
 

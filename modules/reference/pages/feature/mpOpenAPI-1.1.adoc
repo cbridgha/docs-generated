@@ -30,6 +30,7 @@ include::./mpOpenAPI-1.1/examples.adoc[opts=optional]
 * config:classloader[]
 * config:classloading[]
 * config:library[]
+* config:mpOpenAPI[]
 // end::config[]
 // tag::apis[]
 

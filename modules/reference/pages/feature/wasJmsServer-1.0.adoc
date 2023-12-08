@@ -38,7 +38,8 @@ include::./wasJmsServer-1.0/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Liberty API packages provided by this feature
-* xref:javadoc/api/wasJmsServer-1.0.adoc[Message Server 1.0]
+* xref:javadoc/api/wasJmsServer-1.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
+* xref:javadoc/api/wasJmsServer-1.0.com.ibm.websphere.messaging.mbean.adoc[com.ibm.websphere.messaging.mbean]
 // end::apis[]
 // tag::requirements[]
 // end::requirements[]

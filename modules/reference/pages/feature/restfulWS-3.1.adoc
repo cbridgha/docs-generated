@@ -46,8 +46,10 @@ include::./restfulWS-3.1/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:microProfile-6.0[]
+* feature:microProfile-6.1[]
 * feature:mpOpenAPI-3.1[]
 * feature:mpTelemetry-1.0[]
+* feature:mpTelemetry-1.1[]
 * feature:webProfile-10.0[]
 // end::dependencies[]
 // tag::feature-require[]

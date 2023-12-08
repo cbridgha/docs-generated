@@ -95,14 +95,6 @@
 
 |+Allow JSPs to use jsx and tsx tag libs.+
 
-|+useInMemory+
-
-|boolean
-
-|+false+
-
-|+Generate Java source and classes in memory (without writing to disk).+
-
 |+useJDKCompiler+
 
 |boolean

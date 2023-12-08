@@ -46,6 +46,9 @@ include::./batch-1.0/examples.adoc[opts=optional]
 * javadoc:javax.batch.runtime[]
 * javadoc:javax.batch.runtime.context[]
 * javadoc:javax.inject[]
+
+== Liberty API packages provided by this feature
+* xref:javadoc/api/batch-1.0.adoc[Batch API 1.0]
 // end::apis[]
 // tag::requirements[]
 

@@ -44,6 +44,17 @@ include::./connectors-2.1/examples.adoc[opts=optional]
 * config:transaction[]
 // end::config[]
 // tag::apis[]
+
+== Standard API packages provided by this feature
+* javadoc:jakarta.resource[]
+* javadoc:jakarta.resource.cci[]
+* javadoc:jakarta.resource.spi[]
+* javadoc:jakarta.resource.spi.endpoint[]
+* javadoc:jakarta.resource.spi.security[]
+* javadoc:jakarta.resource.spi.work[]
+
+== Liberty API packages provided by this feature
+* xref:javadoc/api/connectors-2.1.adoc[Jakarta Connectors 2.1]
 // end::apis[]
 // tag::requirements[]
 // end::requirements[]

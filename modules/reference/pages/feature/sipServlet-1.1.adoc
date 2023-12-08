@@ -44,6 +44,7 @@ include::./sipServlet-1.1/examples.adoc[opts=optional]
 * javadoc:javax.servlet.sip.ar.spi[]
 
 == Liberty API packages provided by this feature
+* xref:javadoc/api/sipServlet-1.1.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
 * xref:javadoc/api/sipServlet-1.1.com.ibm.websphere.sip.adoc[com.ibm.websphere.sip]
 * xref:javadoc/api/sipServlet-1.1.com.ibm.websphere.sip.resolver.adoc[com.ibm.websphere.sip.resolver]
 * xref:javadoc/api/sipServlet-1.1.com.ibm.websphere.sip.resolver.events.adoc[com.ibm.websphere.sip.resolver.events]

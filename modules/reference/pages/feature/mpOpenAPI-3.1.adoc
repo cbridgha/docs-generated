@@ -24,6 +24,11 @@ To enable the MicroProfile OpenAPI 3.1 feature, add the following element declar
 include::./mpOpenAPI/examples.adoc[opts=optional]
 include::./mpOpenAPI-3.1/examples.adoc[opts=optional]
 
+// tag::config[]
+
+== Feature configuration elements
+* config:mpOpenAPI[]
+// end::config[]
 // tag::apis[]
 
 == Stable API packages provided by this feature
@@ -59,6 +64,7 @@ include::./mpOpenAPI-3.1/examples.adoc[opts=optional]
 
 == Features that this feature enables
 * feature:mpConfig-3.0[]
+* feature:mpConfig-3.1[]
 * feature:restfulWS-3.1[]
 // end::requirements[]
 // tag::java-versions[]
@@ -73,6 +79,7 @@ include::./mpOpenAPI-3.1/examples.adoc[opts=optional]
 
 == Features that enable this feature
 * feature:microProfile-6.0[]
+* feature:microProfile-6.1[]
 // end::dependencies[]
 // tag::feature-require[]
 
