@@ -51,6 +51,12 @@ include::./grpcClient-1.0/examples.adoc[opts=optional]
 // end::config[]
 // tag::apis[]
 
+== Stable API packages provided by this feature
+* javadoc:io.grpc[]
+
+== Liberty API packages provided by this feature
+* xref:javadoc/api/grpcClient-1.0.adoc[gRPC Client 1.0]
+
 == Third-party API packages provided by this feature
 * javadoc:io.grpc.netty[]
 * javadoc:io.netty.handler.ssl[]
@@ -85,4 +91,8 @@ io.openliberty.grpcClient-1.0; type="osgi.subsystem.feature"
 ----
 // end::feature-require[]
 // tag::spi[]
+
+== SPI packages provided by this feature
+* xref:javadoc/spi/grpcClient-1.0.com.ibm.wsspi.http.adoc[com.ibm.wsspi.http]
+* xref:javadoc/spi/grpcClient-1.0.com.ibm.wsspi.http.ee8.adoc[com.ibm.wsspi.http.ee8]
 // end::spi[]

@@ -24,6 +24,11 @@ To enable the MicroProfile OpenAPI 3.0 feature, add the following element declar
 include::./mpOpenAPI/examples.adoc[opts=optional]
 include::./mpOpenAPI-3.0/examples.adoc[opts=optional]
 
+// tag::config[]
+
+== Feature configuration elements
+* config:mpOpenAPI[]
+// end::config[]
 // tag::apis[]
 
 == Stable API packages provided by this feature

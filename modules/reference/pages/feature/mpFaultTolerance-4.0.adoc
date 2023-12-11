@@ -36,6 +36,7 @@ include::./mpFaultTolerance-4.0/examples.adoc[opts=optional]
 * feature:cdi-3.0[]
 * feature:cdi-4.0[]
 * feature:mpConfig-3.0[]
+* feature:mpConfig-3.1[]
 // end::requirements[]
 // tag::java-versions[]
 
@@ -51,6 +52,7 @@ include::./mpFaultTolerance-4.0/examples.adoc[opts=optional]
 == Features that enable this feature
 * feature:microProfile-5.0[]
 * feature:microProfile-6.0[]
+* feature:microProfile-6.1[]
 // end::dependencies[]
 // tag::feature-require[]
 

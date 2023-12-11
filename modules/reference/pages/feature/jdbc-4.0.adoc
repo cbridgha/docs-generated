@@ -36,6 +36,9 @@ include::./jdbc-4.0/examples.adoc[opts=optional]
 * config:transaction[]
 // end::config[]
 // tag::apis[]
+
+== Liberty API packages provided by this feature
+* xref:javadoc/api/jdbc-4.0.adoc[Java Database Connectivity 4.0]
 // end::apis[]
 // tag::requirements[]
 

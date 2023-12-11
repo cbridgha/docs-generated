@@ -36,10 +36,17 @@ include::./jpaContainer-2.2/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Standard API packages provided by this feature
+* javadoc:javax.activation[]
 * javadoc:javax.persistence[]
 * javadoc:javax.persistence.criteria[]
 * javadoc:javax.persistence.metamodel[]
 * javadoc:javax.persistence.spi[]
+* javadoc:javax.xml.bind[]
+* javadoc:javax.xml.bind.annotation[]
+* javadoc:javax.xml.bind.annotation.adapters[]
+* javadoc:javax.xml.bind.attachment[]
+* javadoc:javax.xml.bind.helpers[]
+* javadoc:javax.xml.bind.util[]
 // end::apis[]
 // tag::requirements[]
 

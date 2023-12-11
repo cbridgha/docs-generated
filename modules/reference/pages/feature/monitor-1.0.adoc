@@ -53,6 +53,7 @@ include::./monitor-1.0/examples.adoc[opts=optional]
 * feature:mpMetrics-3.0[]
 * feature:mpMetrics-4.0[]
 * feature:mpMetrics-5.0[]
+* feature:mpMetrics-5.1[]
 // end::dependencies[]
 // tag::feature-require[]
 

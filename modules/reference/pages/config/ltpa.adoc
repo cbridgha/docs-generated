@@ -23,7 +23,7 @@
 
 |+120m+
 
-|+Amount of time after which a token expires in minutes. Specify a positive integer followed by a unit of time, which can be hours (h) or minutes (m). For example, specify 30 minutes as 30m. You can include multiple values in a single entry. For example, 1h30m is equivalent to 90 minutes.+
+|+Amount of time after which a token expires in seconds. The value can be specified in milliseconds, seconds, and minutes by using the following suffixes: "ms", "s", and "m". Specify a positive integer followed by a unit of time, which can be hours (h) or minutes (m). For example, specify 30 minutes as 30m. You can include multiple values in a single entry. For example, 1h30m is equivalent to 90 minutes.+
 
 |+keysFileName+
 
@@ -47,7 +47,32 @@
 
 |+0ms+
 
-|+Rate at which the server checks for updates to the LTPA keys file. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+|+Rate at which the server checks for updates to the LTPA keys file. This rate applies to both the primary keys and the validation keys. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), seconds (s), or milliseconds (ms). For example, specify 500 milliseconds as 500ms. You can include multiple values in a single entry. For example, 1s500ms is equivalent to 1.5 seconds.+
+
+|+monitorValidationKeysDir+
+
+|boolean
+
+|+false+
+
+|+If set to "true", the directory that contains LTPA primary keys is monitored for any modifications on files with the .keys suffix. The default value is false. All validation files must use the same password as the LTPA primary keys password and must have the .keys suffix.+
+
+|+updateTrigger+
+
+|* +disabled+
+* +mbean+
+* +polled+
+
+
+|+polled+
+
+|+Specifies the update method or trigger that is used to update the LTPA keys. The following values are supported: "polled", "mbean" and "disabled". The default value is "polled".+ +
+*+disabled+* +
++This disables all update monitoring on all LTPA key files including primary key and validation keys (configured and non-configured). Changes to the LTPA key files are not applied while the server is running.+ +
+*+mbean+* +
++%ltpa.updateTrigger.external+ +
+*+polled+* +
++The server scans for LTPA key file changes at the monitor interval and updates if the LTPA key files have any detectable changes.+
 |===
 [#+authFilter+]*authFilter*
 
@@ -321,4 +346,47 @@ Required
 |
 
 |+Specifies the name.+
+|===
+[#+validationKeys+]*validationKeys*
+
++A unique configuration ID.+
+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+fileName+
+
+|string +
+Required
+
+|
+
+|+The name of the file that contains the LTPA validation keys. The path must be the same as the LTPA primary keys file.+
+
+|+id+
+
+|string
+
+|
+
+|+A unique configuration ID.+
+
+|+password+
+
+|Reversably encoded password (string) +
+Required
+
+|
+
+|+The password for the LTPA validation keys. The best practice is to encrypt the password by using the securityUtility tool.+
+
+|+validUntilDate+
+
+|string
+
+|
+
+|+A date and time value in ISO date format that the LTPA validation key is valid until. After the specified time, the validation keys is no longer used for LTPA token validation. The following example shows the ISO date format: "2023-11-18T18:08:35Z". If no value is specified, the LTPA validation keys can be used indefinitely.+
 |===

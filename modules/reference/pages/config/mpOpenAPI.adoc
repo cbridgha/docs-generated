@@ -1,0 +1,27 @@
+= +MicroProfile OpenAPI+ (+mpOpenAPI+)
+:linkcss: 
+:page-layout: config
+:nofooter: 
+
++Configuration for MicroProfile OpenAPI.+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+docPath+
+
+|string
+
+|+/openapi+
+
+|+Specifies the URL path for obtaining OpenAPI documents. The URL path must be constructed with Unicode alphanumeric characters A-Za-z0-9, underscore (_), dash (-), forward slash (/), or period (.).+
+
+|+uiPath+
+
+|string
+
+|
+
+|+Specifies the URL path for accessing the MicroProfile OpenAPI UI. The URL path must be constructed with Unicode alphanumeric characters A-Za-z0-9, underscore (_), dash (-), forward slash (/), or period (.) If no value is specified, the path is set to $docPath/ui.+
+|===

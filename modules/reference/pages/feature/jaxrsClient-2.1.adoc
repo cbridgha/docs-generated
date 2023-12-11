@@ -35,12 +35,19 @@ include::./jaxrsClient-2.1/examples.adoc[opts=optional]
 // tag::apis[]
 
 == Standard API packages provided by this feature
+* javadoc:javax.activation[]
 * javadoc:javax.ws.rs[]
 * javadoc:javax.ws.rs.client[]
 * javadoc:javax.ws.rs.container[]
 * javadoc:javax.ws.rs.core[]
 * javadoc:javax.ws.rs.ext[]
 * javadoc:javax.ws.rs.sse[]
+* javadoc:javax.xml.bind[]
+* javadoc:javax.xml.bind.annotation[]
+* javadoc:javax.xml.bind.annotation.adapters[]
+* javadoc:javax.xml.bind.attachment[]
+* javadoc:javax.xml.bind.helpers[]
+* javadoc:javax.xml.bind.util[]
 
 == Liberty API packages provided by this feature
 * xref:javadoc/api/jaxrsClient-2.1.com.ibm.websphere.jaxrs.providers.json4j.adoc[com.ibm.websphere.jaxrs.providers.json4j]
