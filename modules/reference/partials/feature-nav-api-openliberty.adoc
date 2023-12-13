@@ -3,10 +3,41 @@
     *** xref:javadoc/api/restConnector-2.0.com.ibm.websphere.filetransfer.adoc[com.ibm.websphere.filetransfer]
     *** xref:javadoc/api/restConnector-2.0.com.ibm.websphere.jmx.connector.rest.adoc[com.ibm.websphere.jmx.connector.rest]
     *** xref:javadoc/api/restConnector-2.0.com.ibm.ws.jmx.connector.client.rest.adoc[com.ibm.ws.jmx.connector.client.rest]
+  ** Application Client Support for Server 1.0
+    *** xref:javadoc/api/appClientSupport-1.0.adoc[com.ibm.websphere.endpoint]
+  ** Application Security 2.0
+    *** xref:javadoc/api/appSecurity-2.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]
+    *** xref:javadoc/api/appSecurity-2.0.com.ibm.wsspi.security.auth.callback.adoc[com.ibm.wsspi.security.auth.callback]
+    *** xref:javadoc/api/appSecurity-2.0.com.ibm.wsspi.security.common.auth.module.adoc[com.ibm.wsspi.security.common.auth.module]
+    *** xref:javadoc/api/appSecurity-2.0.com.ibm.wsspi.security.tai.adoc[com.ibm.wsspi.security.tai]
+    *** xref:javadoc/api/appSecurity-2.0.com.ibm.wsspi.security.token.adoc[com.ibm.wsspi.security.token]
+  ** Application Security 3.0
+    *** xref:javadoc/api/appSecurity-3.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]
+    *** xref:javadoc/api/appSecurity-3.0.com.ibm.wsspi.security.auth.callback.adoc[com.ibm.wsspi.security.auth.callback]
+    *** xref:javadoc/api/appSecurity-3.0.com.ibm.wsspi.security.common.auth.module.adoc[com.ibm.wsspi.security.common.auth.module]
+    *** xref:javadoc/api/appSecurity-3.0.com.ibm.wsspi.security.tai.adoc[com.ibm.wsspi.security.tai]
+    *** xref:javadoc/api/appSecurity-3.0.com.ibm.wsspi.security.token.adoc[com.ibm.wsspi.security.token]
+  ** Application Security 4.0 (Jakarta Security 2.0)
+    *** xref:javadoc/api/appSecurity-4.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]
+    *** xref:javadoc/api/appSecurity-4.0.com.ibm.websphere.security.web.adoc[com.ibm.websphere.security.web]
+    *** xref:javadoc/api/appSecurity-4.0.com.ibm.wsspi.security.auth.callback.adoc[com.ibm.wsspi.security.auth.callback]
+    *** xref:javadoc/api/appSecurity-4.0.com.ibm.wsspi.security.common.auth.module.adoc[com.ibm.wsspi.security.common.auth.module]
+    *** xref:javadoc/api/appSecurity-4.0.com.ibm.wsspi.security.tai.adoc[com.ibm.wsspi.security.tai]
+    *** xref:javadoc/api/appSecurity-4.0.com.ibm.wsspi.security.token.adoc[com.ibm.wsspi.security.token]
+  ** Application Security 5.0 (Jakarta Security 3.0)
+    *** xref:javadoc/api/appSecurity-5.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]
+    *** xref:javadoc/api/appSecurity-5.0.com.ibm.websphere.security.web.adoc[com.ibm.websphere.security.web]
+    *** xref:javadoc/api/appSecurity-5.0.com.ibm.wsspi.security.auth.callback.adoc[com.ibm.wsspi.security.auth.callback]
+    *** xref:javadoc/api/appSecurity-5.0.com.ibm.wsspi.security.common.auth.module.adoc[com.ibm.wsspi.security.common.auth.module]
+    *** xref:javadoc/api/appSecurity-5.0.com.ibm.wsspi.security.tai.adoc[com.ibm.wsspi.security.tai]
+    *** xref:javadoc/api/appSecurity-5.0.com.ibm.wsspi.security.token.adoc[com.ibm.wsspi.security.token]
   ** Application Security for Client 1.0
+    *** xref:javadoc/api/appSecurityClient-1.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
     *** xref:javadoc/api/appSecurityClient-1.0.com.ibm.websphere.security.adoc[com.ibm.websphere.security]
     *** xref:javadoc/api/appSecurityClient-1.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]
     *** xref:javadoc/api/appSecurityClient-1.0.com.ibm.wsspi.security.auth.callback.adoc[com.ibm.wsspi.security.auth.callback]
+  ** Batch API 1.0
+    *** xref:javadoc/api/batch-1.0.adoc[com.ibm.websphere.persistence.mbean]
   ** Distributed Map interface for Dynamic Caching 1.0
     *** xref:javadoc/api/distributedMap-1.0.com.ibm.websphere.cache.adoc[com.ibm.websphere.cache]
     *** xref:javadoc/api/distributedMap-1.0.com.ibm.websphere.cache.exception.adoc[com.ibm.websphere.cache.exception]
@@ -16,22 +47,67 @@
   ** Enterprise JavaBeans Lite 3.2
     *** xref:javadoc/api/ejbLite-3.2.com.ibm.websphere.ejbcontainer.adoc[com.ibm.websphere.ejbcontainer]
     *** xref:javadoc/api/ejbLite-3.2.com.ibm.websphere.ejbcontainer.mbean.adoc[com.ibm.websphere.ejbcontainer.mbean]
+  ** Enterprise JavaBeans Persistent Timers 3.2
+    *** xref:javadoc/api/ejbPersistentTimer-3.2.adoc[com.ibm.websphere.persistence.mbean]
+  ** Enterprise JavaBeans Remote 3.2
+    *** xref:javadoc/api/ejbRemote-3.2.adoc[com.ibm.websphere.endpoint]
   ** J2EE Management 1.1
-    *** xref:javadoc/api/j2eeManagement-1.1.adoc[com.ibm.websphere.management.j2ee]
+    *** xref:javadoc/api/j2eeManagement-1.1.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
+    *** xref:javadoc/api/j2eeManagement-1.1.com.ibm.websphere.management.j2ee.adoc[com.ibm.websphere.management.j2ee]
+  ** JMS 2.0 Client for Message Server
+    *** xref:javadoc/api/wasJmsClient-2.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
+    *** xref:javadoc/api/wasJmsClient-2.0.com.ibm.ws.jca.cm.mbean.adoc[com.ibm.ws.jca.cm.mbean]
   ** JSON Web Token 1.0
-    *** xref:javadoc/api/jwt-1.0.adoc[com.ibm.websphere.security.jwt]
+    *** xref:javadoc/api/jwt-1.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]
+    *** xref:javadoc/api/jwt-1.0.com.ibm.websphere.security.jwt.adoc[com.ibm.websphere.security.jwt]
+    *** xref:javadoc/api/jwt-1.0.com.ibm.wsspi.security.auth.callback.adoc[com.ibm.wsspi.security.auth.callback]
+    *** xref:javadoc/api/jwt-1.0.com.ibm.wsspi.security.common.auth.module.adoc[com.ibm.wsspi.security.common.auth.module]
+    *** xref:javadoc/api/jwt-1.0.com.ibm.wsspi.security.tai.adoc[com.ibm.wsspi.security.tai]
+    *** xref:javadoc/api/jwt-1.0.com.ibm.wsspi.security.token.adoc[com.ibm.wsspi.security.token]
+  ** Jakarta Application Client Support for Server 2.0
+    *** xref:javadoc/api/appClientSupport-2.0.adoc[com.ibm.websphere.endpoint]
   ** Jakarta Authorization 2.0
     *** xref:javadoc/api/appAuthorization-2.0.adoc[com.ibm.wsspi.security.authorization.jacc]
   ** Jakarta Authorization 2.1
     *** xref:javadoc/api/appAuthorization-2.1.adoc[com.ibm.wsspi.security.authorization.jacc]
+  ** Jakarta Batch 2.0
+    *** xref:javadoc/api/batch-2.0.adoc[com.ibm.websphere.persistence.mbean]
+  ** Jakarta Batch 2.1
+    *** xref:javadoc/api/batch-2.1.adoc[com.ibm.websphere.persistence.mbean]
+  ** Jakarta Connectors 2.0
+    *** xref:javadoc/api/connectors-2.0.adoc[com.ibm.ws.jca.cm.mbean]
+  ** Jakarta Connectors 2.0 Inbound Security
+    *** xref:javadoc/api/connectorsInboundSecurity-2.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]
+    *** xref:javadoc/api/connectorsInboundSecurity-2.0.com.ibm.wsspi.security.auth.callback.adoc[com.ibm.wsspi.security.auth.callback]
+    *** xref:javadoc/api/connectorsInboundSecurity-2.0.com.ibm.wsspi.security.common.auth.module.adoc[com.ibm.wsspi.security.common.auth.module]
+    *** xref:javadoc/api/connectorsInboundSecurity-2.0.com.ibm.wsspi.security.tai.adoc[com.ibm.wsspi.security.tai]
+    *** xref:javadoc/api/connectorsInboundSecurity-2.0.com.ibm.wsspi.security.token.adoc[com.ibm.wsspi.security.token]
+  ** Jakarta Connectors 2.1
+    *** xref:javadoc/api/connectors-2.1.adoc[com.ibm.ws.jca.cm.mbean]
+  ** Jakarta EE 10.0 Application Client
+    *** xref:javadoc/api/jakartaeeClient-10.0.com.ibm.websphere.ejbcontainer.adoc[com.ibm.websphere.ejbcontainer]
+    *** xref:javadoc/api/jakartaeeClient-10.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
+  ** Jakarta EE 9.1 Application Client
+    *** xref:javadoc/api/jakartaeeClient-9.1.com.ibm.websphere.ejbcontainer.adoc[com.ibm.websphere.ejbcontainer]
+    *** xref:javadoc/api/jakartaeeClient-9.1.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
   ** Jakarta Enterprise Beans 4.0 Lite
     *** xref:javadoc/api/enterpriseBeansLite-4.0.com.ibm.websphere.ejbcontainer.adoc[com.ibm.websphere.ejbcontainer]
     *** xref:javadoc/api/enterpriseBeansLite-4.0.com.ibm.websphere.ejbcontainer.mbean.adoc[com.ibm.websphere.ejbcontainer.mbean]
+  ** Jakarta Enterprise Beans 4.0 Persistent Timers
+    *** xref:javadoc/api/enterpriseBeansPersistentTimer-4.0.adoc[com.ibm.websphere.persistence.mbean]
+  ** Jakarta Enterprise Beans 4.0 Remote
+    *** xref:javadoc/api/enterpriseBeansRemote-4.0.adoc[com.ibm.websphere.endpoint]
+  ** Jakarta Messaging 3.0
+    *** xref:javadoc/api/messaging-3.0.adoc[com.ibm.ws.jca.cm.mbean]
+  ** Jakarta Messaging 3.1
+    *** xref:javadoc/api/messaging-3.1.adoc[com.ibm.ws.jca.cm.mbean]
   ** Jakarta RESTful Web Services 3.0 Client
     *** xref:javadoc/api/restfulWSClient-3.0.adoc[com.ibm.websphere.jaxrs20.multipart]
   ** Jakarta RESTful Web Services 3.1 Client
-    *** xref:javadoc/api/restfulWSClient-3.1.adoc[com.ibm.websphere.jaxrs20.multipart]
+    *** xref:javadoc/api/restfulWSClient-3.1.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
+    *** xref:javadoc/api/restfulWSClient-3.1.com.ibm.websphere.jaxrs20.multipart.adoc[com.ibm.websphere.jaxrs20.multipart]
   ** Jakarta Servlet 5.0
+    *** xref:javadoc/api/servlet-5.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
     *** xref:javadoc/api/servlet-5.0.com.ibm.websphere.servlet.container.adoc[com.ibm.websphere.servlet.container]
     *** xref:javadoc/api/servlet-5.0.com.ibm.websphere.servlet.context.adoc[com.ibm.websphere.servlet.context]
     *** xref:javadoc/api/servlet-5.0.com.ibm.websphere.servlet.error.adoc[com.ibm.websphere.servlet.error]
@@ -40,6 +116,7 @@
     *** xref:javadoc/api/servlet-5.0.com.ibm.websphere.webcontainer.adoc[com.ibm.websphere.webcontainer]
     *** xref:javadoc/api/servlet-5.0.com.ibm.wsspi.servlet.session.adoc[com.ibm.wsspi.servlet.session]
   ** Jakarta Servlet 6.0
+    *** xref:javadoc/api/servlet-6.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
     *** xref:javadoc/api/servlet-6.0.com.ibm.websphere.servlet.container.adoc[com.ibm.websphere.servlet.container]
     *** xref:javadoc/api/servlet-6.0.com.ibm.websphere.servlet.context.adoc[com.ibm.websphere.servlet.context]
     *** xref:javadoc/api/servlet-6.0.com.ibm.websphere.servlet.error.adoc[com.ibm.websphere.servlet.error]
@@ -53,10 +130,38 @@
     *** xref:javadoc/api/websocket-2.1.adoc[com.ibm.websphere.wsoc]
   ** Java Authorization Contract for Containers 1.5
     *** xref:javadoc/api/jacc-1.5.adoc[com.ibm.wsspi.security.authorization.jacc]
+  ** Java Connector Architecture 1.7
+    *** xref:javadoc/api/jca-1.7.adoc[com.ibm.ws.jca.cm.mbean]
+  ** Java Connector Architecture Security Inflow 1.0
+    *** xref:javadoc/api/jcaInboundSecurity-1.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]
+    *** xref:javadoc/api/jcaInboundSecurity-1.0.com.ibm.wsspi.security.auth.callback.adoc[com.ibm.wsspi.security.auth.callback]
+    *** xref:javadoc/api/jcaInboundSecurity-1.0.com.ibm.wsspi.security.common.auth.module.adoc[com.ibm.wsspi.security.common.auth.module]
+    *** xref:javadoc/api/jcaInboundSecurity-1.0.com.ibm.wsspi.security.tai.adoc[com.ibm.wsspi.security.tai]
+    *** xref:javadoc/api/jcaInboundSecurity-1.0.com.ibm.wsspi.security.token.adoc[com.ibm.wsspi.security.token]
+  ** Java Database Connectivity 4.0
+    *** xref:javadoc/api/jdbc-4.0.adoc[com.ibm.ws.jca.cm.mbean]
+  ** Java Database Connectivity 4.1
+    *** xref:javadoc/api/jdbc-4.1.adoc[com.ibm.ws.jca.cm.mbean]
+  ** Java Database Connectivity 4.2
+    *** xref:javadoc/api/jdbc-4.2.adoc[com.ibm.ws.jca.cm.mbean]
+  ** Java Database Connectivity 4.3
+    *** xref:javadoc/api/jdbc-4.3.adoc[com.ibm.ws.jca.cm.mbean]
+  ** Java EE 7 Application Client
+    *** xref:javadoc/api/javaeeClient-7.0.com.ibm.websphere.ejbcontainer.adoc[com.ibm.websphere.ejbcontainer]
+    *** xref:javadoc/api/javaeeClient-7.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
+  ** Java EE 8 Application Client
+    *** xref:javadoc/api/javaeeClient-8.0.com.ibm.websphere.ejbcontainer.adoc[com.ibm.websphere.ejbcontainer]
+    *** xref:javadoc/api/javaeeClient-8.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
+  ** Java Message Service 2.0
+    *** xref:javadoc/api/jms-2.0.adoc[com.ibm.ws.jca.cm.mbean]
+  ** Java RESTful Services Client 2.0
+    *** xref:javadoc/api/jaxrsClient-2.0.com.ibm.websphere.jaxrs.providers.json4j.adoc[com.ibm.websphere.jaxrs.providers.json4j]
+    *** xref:javadoc/api/jaxrsClient-2.0.com.ibm.websphere.jaxrs20.multipart.adoc[com.ibm.websphere.jaxrs20.multipart]
   ** Java RESTful Services Client 2.1
     *** xref:javadoc/api/jaxrsClient-2.1.com.ibm.websphere.jaxrs.providers.json4j.adoc[com.ibm.websphere.jaxrs.providers.json4j]
     *** xref:javadoc/api/jaxrsClient-2.1.com.ibm.websphere.jaxrs20.multipart.adoc[com.ibm.websphere.jaxrs20.multipart]
   ** Java Servlets 3.1
+    *** xref:javadoc/api/servlet-3.1.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
     *** xref:javadoc/api/servlet-3.1.com.ibm.websphere.servlet.container.adoc[com.ibm.websphere.servlet.container]
     *** xref:javadoc/api/servlet-3.1.com.ibm.websphere.servlet.context.adoc[com.ibm.websphere.servlet.context]
     *** xref:javadoc/api/servlet-3.1.com.ibm.websphere.servlet.error.adoc[com.ibm.websphere.servlet.error]
@@ -65,6 +170,7 @@
     *** xref:javadoc/api/servlet-3.1.com.ibm.websphere.webcontainer.adoc[com.ibm.websphere.webcontainer]
     *** xref:javadoc/api/servlet-3.1.com.ibm.wsspi.servlet.session.adoc[com.ibm.wsspi.servlet.session]
   ** Java Servlets 4.0
+    *** xref:javadoc/api/servlet-4.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
     *** xref:javadoc/api/servlet-4.0.com.ibm.websphere.servlet.container.adoc[com.ibm.websphere.servlet.container]
     *** xref:javadoc/api/servlet-4.0.com.ibm.websphere.servlet.context.adoc[com.ibm.websphere.servlet.context]
     *** xref:javadoc/api/servlet-4.0.com.ibm.websphere.servlet.error.adoc[com.ibm.websphere.servlet.error]
@@ -82,9 +188,42 @@
   ** Kerberos Constrained Delegation for SPNEGO 1.0
     *** xref:javadoc/api/constrainedDelegation-1.0.adoc[com.ibm.websphere.security.s4u2proxy]
   ** Message Server 1.0
-    *** xref:javadoc/api/wasJmsServer-1.0.adoc[com.ibm.websphere.messaging.mbean]
+    *** xref:javadoc/api/wasJmsServer-1.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
+    *** xref:javadoc/api/wasJmsServer-1.0.com.ibm.websphere.messaging.mbean.adoc[com.ibm.websphere.messaging.mbean]
+  ** Message Server Security 1.0
+    *** xref:javadoc/api/wasJmsSecurity-1.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]
+    *** xref:javadoc/api/wasJmsSecurity-1.0.com.ibm.wsspi.security.auth.callback.adoc[com.ibm.wsspi.security.auth.callback]
+    *** xref:javadoc/api/wasJmsSecurity-1.0.com.ibm.wsspi.security.common.auth.module.adoc[com.ibm.wsspi.security.common.auth.module]
+    *** xref:javadoc/api/wasJmsSecurity-1.0.com.ibm.wsspi.security.tai.adoc[com.ibm.wsspi.security.tai]
+    *** xref:javadoc/api/wasJmsSecurity-1.0.com.ibm.wsspi.security.token.adoc[com.ibm.wsspi.security.token]
   ** Messaging Server 3.0
-    *** xref:javadoc/api/messagingServer-3.0.adoc[com.ibm.websphere.messaging.mbean]
+    *** xref:javadoc/api/messagingServer-3.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
+    *** xref:javadoc/api/messagingServer-3.0.com.ibm.websphere.messaging.mbean.adoc[com.ibm.websphere.messaging.mbean]
+  ** Messaging Server 3.0 Client
+    *** xref:javadoc/api/messagingClient-3.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
+    *** xref:javadoc/api/messagingClient-3.0.com.ibm.ws.jca.cm.mbean.adoc[com.ibm.ws.jca.cm.mbean]
+  ** Messaging Server 3.0 Security
+    *** xref:javadoc/api/messagingSecurity-3.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]
+    *** xref:javadoc/api/messagingSecurity-3.0.com.ibm.wsspi.security.auth.callback.adoc[com.ibm.wsspi.security.auth.callback]
+    *** xref:javadoc/api/messagingSecurity-3.0.com.ibm.wsspi.security.common.auth.module.adoc[com.ibm.wsspi.security.common.auth.module]
+    *** xref:javadoc/api/messagingSecurity-3.0.com.ibm.wsspi.security.tai.adoc[com.ibm.wsspi.security.tai]
+    *** xref:javadoc/api/messagingSecurity-3.0.com.ibm.wsspi.security.token.adoc[com.ibm.wsspi.security.token]
+  ** MicroProfile JSON Web Token 2.1
+    *** xref:javadoc/api/mpJwt-2.1.adoc[com.ibm.websphere.endpoint]
+  ** MicroProfile Metrics 5.0
+    *** xref:javadoc/api/mpMetrics-5.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
+    *** xref:javadoc/api/mpMetrics-5.0.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]
+    *** xref:javadoc/api/mpMetrics-5.0.com.ibm.wsspi.security.auth.callback.adoc[com.ibm.wsspi.security.auth.callback]
+    *** xref:javadoc/api/mpMetrics-5.0.com.ibm.wsspi.security.common.auth.module.adoc[com.ibm.wsspi.security.common.auth.module]
+    *** xref:javadoc/api/mpMetrics-5.0.com.ibm.wsspi.security.tai.adoc[com.ibm.wsspi.security.tai]
+    *** xref:javadoc/api/mpMetrics-5.0.com.ibm.wsspi.security.token.adoc[com.ibm.wsspi.security.token]
+  ** MicroProfile Metrics 5.1
+    *** xref:javadoc/api/mpMetrics-5.1.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
+    *** xref:javadoc/api/mpMetrics-5.1.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]
+    *** xref:javadoc/api/mpMetrics-5.1.com.ibm.wsspi.security.auth.callback.adoc[com.ibm.wsspi.security.auth.callback]
+    *** xref:javadoc/api/mpMetrics-5.1.com.ibm.wsspi.security.common.auth.module.adoc[com.ibm.wsspi.security.common.auth.module]
+    *** xref:javadoc/api/mpMetrics-5.1.com.ibm.wsspi.security.tai.adoc[com.ibm.wsspi.security.tai]
+    *** xref:javadoc/api/mpMetrics-5.1.com.ibm.wsspi.security.token.adoc[com.ibm.wsspi.security.token]
   ** OAuth 2.0
     *** xref:javadoc/api/oauth-2.0.com.ibm.oauth.core.api.attributes.adoc[com.ibm.oauth.core.api.attributes]
     *** xref:javadoc/api/oauth-2.0.com.ibm.oauth.core.api.config.adoc[com.ibm.oauth.core.api.config]
@@ -95,6 +234,12 @@
     *** xref:javadoc/api/oauth-2.0.com.ibm.websphere.security.oauth20.store.adoc[com.ibm.websphere.security.oauth20.store]
     *** xref:javadoc/api/oauth-2.0.com.ibm.websphere.security.openidconnect.token.adoc[com.ibm.websphere.security.openidconnect.token]
     *** xref:javadoc/api/oauth-2.0.com.ibm.wsspi.security.oauth20.token.adoc[com.ibm.wsspi.security.oauth20.token]
+  ** OpenAPI 3.1
+    *** xref:javadoc/api/openapi-3.1.com.ibm.websphere.security.auth.callback.adoc[com.ibm.websphere.security.auth.callback]
+    *** xref:javadoc/api/openapi-3.1.com.ibm.wsspi.security.auth.callback.adoc[com.ibm.wsspi.security.auth.callback]
+    *** xref:javadoc/api/openapi-3.1.com.ibm.wsspi.security.common.auth.module.adoc[com.ibm.wsspi.security.common.auth.module]
+    *** xref:javadoc/api/openapi-3.1.com.ibm.wsspi.security.tai.adoc[com.ibm.wsspi.security.tai]
+    *** xref:javadoc/api/openapi-3.1.com.ibm.wsspi.security.token.adoc[com.ibm.wsspi.security.token]
   ** OpenID Connect Client 1.0
     *** xref:javadoc/api/openidConnectClient-1.0.adoc[com.ibm.websphere.security.openidconnect]
   ** OpenID Connect Provider 1.0
@@ -110,6 +255,7 @@
   ** Performance Monitoring 1.0
     *** xref:javadoc/api/monitor-1.0.adoc[com.ibm.websphere.monitor.jmx]
   ** SIP Servlet 1.1
+    *** xref:javadoc/api/sipServlet-1.1.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
     *** xref:javadoc/api/sipServlet-1.1.com.ibm.websphere.sip.adoc[com.ibm.websphere.sip]
     *** xref:javadoc/api/sipServlet-1.1.com.ibm.websphere.sip.resolver.adoc[com.ibm.websphere.sip.resolver]
     *** xref:javadoc/api/sipServlet-1.1.com.ibm.websphere.sip.resolver.events.adoc[com.ibm.websphere.sip.resolver.events]
@@ -117,7 +263,8 @@
     *** xref:javadoc/api/sipServlet-1.1.com.ibm.websphere.sip.unmatchedMessages.adoc[com.ibm.websphere.sip.unmatchedMessages]
     *** xref:javadoc/api/sipServlet-1.1.com.ibm.websphere.sip.unmatchedMessages.events.adoc[com.ibm.websphere.sip.unmatchedMessages.events]
   ** Secure Socket Layer 1.0
-    *** xref:javadoc/api/ssl-1.0.adoc[com.ibm.websphere.ssl]
+    *** xref:javadoc/api/ssl-1.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
+    *** xref:javadoc/api/ssl-1.0.com.ibm.websphere.ssl.adoc[com.ibm.websphere.ssl]
   ** Social Media Login 1.0
     *** xref:javadoc/api/socialLogin-1.0.adoc[com.ibm.websphere.security.social]
   ** Web Response Cache 1.0
@@ -125,4 +272,7 @@
     *** xref:javadoc/api/webCache-1.0.com.ibm.websphere.command.web.adoc[com.ibm.websphere.command.web]
     *** xref:javadoc/api/webCache-1.0.com.ibm.websphere.servlet.cache.adoc[com.ibm.websphere.servlet.cache]
   ** gRPC 1.0
-    *** xref:javadoc/api/grpc-1.0.adoc[io.openliberty.grpc.annotation]
+    *** xref:javadoc/api/grpc-1.0.com.ibm.websphere.endpoint.adoc[com.ibm.websphere.endpoint]
+    *** xref:javadoc/api/grpc-1.0.io.openliberty.grpc.annotation.adoc[io.openliberty.grpc.annotation]
+  ** gRPC Client 1.0
+    *** xref:javadoc/api/grpcClient-1.0.adoc[com.ibm.websphere.endpoint]
