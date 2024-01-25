@@ -589,11 +589,23 @@
     *** xref:javadoc/spi/mpMetrics-5.1.com.ibm.wsspi.artifact.overlay.adoc[com.ibm.wsspi.artifact.overlay]
     *** xref:javadoc/spi/mpMetrics-5.1.com.ibm.wsspi.http.adoc[com.ibm.wsspi.http]
     *** xref:javadoc/spi/mpMetrics-5.1.com.ibm.wsspi.http.ee8.adoc[com.ibm.wsspi.http.ee8]
+  ** MicroProfile OpenTracing 3.0
+    *** xref:javadoc/spi/mpOpenTracing-3.0.adoc[io.openliberty.opentracing.spi.tracer]
   ** OAuth 2.0
     *** xref:javadoc/spi/oauth-2.0.com.ibm.wsspi.security.oauth20.adoc[com.ibm.wsspi.security.oauth20]
     *** xref:javadoc/spi/oauth-2.0.com.ibm.wsspi.security.openidconnect.adoc[com.ibm.wsspi.security.openidconnect]
   ** OpenAPI 3.1
     *** xref:javadoc/spi/openapi-3.1.adoc[com.ibm.wsspi.openapi31]
+  ** Opentracing 1.0
+    *** xref:javadoc/spi/opentracing-1.0.adoc[com.ibm.ws.opentracing.tracer]
+  ** Opentracing 1.1
+    *** xref:javadoc/spi/opentracing-1.1.adoc[com.ibm.ws.opentracing.tracer]
+  ** Opentracing 1.2
+    *** xref:javadoc/spi/opentracing-1.2.adoc[com.ibm.ws.opentracing.tracer]
+  ** Opentracing 1.3
+    *** xref:javadoc/spi/opentracing-1.3.adoc[com.ibm.ws.opentracing.tracer]
+  ** Opentracing 2.0
+    *** xref:javadoc/spi/opentracing-2.0.adoc[io.openliberty.opentracing.spi.tracer]
   ** Secure Socket Layer 1.0
     *** xref:javadoc/spi/ssl-1.0.adoc[com.ibm.wsspi.ssl]
   ** WS-AT Service 1.2
