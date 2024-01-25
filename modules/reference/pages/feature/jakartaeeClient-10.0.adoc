@@ -127,7 +127,6 @@ include::./jakartaeeClient-10.0/examples.adoc[opts=optional]
 == Features that this feature enables
 * feature:beanValidation-3.0[]
 * feature:cdi-4.0[]
-* feature:expressionLanguage-5.0[]
 * feature:jdbc-4.2[]
 * feature:jdbc-4.3[]
 * feature:jndi-1.0[]

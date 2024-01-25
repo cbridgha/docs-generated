@@ -67,4 +67,7 @@ io.openliberty.mpOpenTracing-3.0; type="osgi.subsystem.feature"
 ----
 // end::feature-require[]
 // tag::spi[]
+
+== SPI packages provided by this feature
+* xref:javadoc/spi/mpOpenTracing-3.0.adoc[MicroProfile OpenTracing 3.0]
 // end::spi[]

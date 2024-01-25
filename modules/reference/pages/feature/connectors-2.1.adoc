@@ -69,9 +69,7 @@ include::./connectors-2.1/examples.adoc[opts=optional]
 // tag::dependencies[]
 
 == Features that enable this feature
-* feature:enterpriseBeans-4.0[]
 * feature:jakartaee-10.0[]
-* feature:mdb-4.0[]
 * feature:messaging-3.1[]
 // end::dependencies[]
 // tag::feature-require[]
