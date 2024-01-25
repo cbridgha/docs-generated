@@ -105,6 +105,15 @@
 
 |+The interval after which the lease check strategy is implemented. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
 
+|+leaseExpiryThreshold+
+
+|int +
+Min: +1+
+
+|+1+
+
+|+The number of times an expired lease must be seen before peer recovery is attempted+
+
 |+leaseLength+
 
 |A period of time with second precision

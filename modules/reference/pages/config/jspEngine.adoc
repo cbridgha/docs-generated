@@ -33,19 +33,17 @@
 
 |+Directory that the JSP engine will search for additional JSP files to serve.+
 
-|+jdkSourceLevel+
+|+javaSourceLevel+
 
-|* +13+
-* +14+
-* +15+
-* +16+
+|* +8+
+* +11+
 * +17+
-* +18+
+* +21+
 
 
 |
 
-|+Default Java source level for JSPs compiled by the JSP engine.+
+|+Specifies the default Java source level for JSPs that are compiled by the JSP engine. Accepts one of the following LTS releases as a value: 8, 11, 17, and 21.+
 
 |+keepGenerated+
 
