@@ -65,4 +65,7 @@ com.ibm.websphere.appserver.opentracing-1.3; type="osgi.subsystem.feature"
 ----
 // end::feature-require[]
 // tag::spi[]
+
+== SPI packages provided by this feature
+* xref:javadoc/spi/opentracing-1.3.adoc[Opentracing 1.3]
 // end::spi[]
