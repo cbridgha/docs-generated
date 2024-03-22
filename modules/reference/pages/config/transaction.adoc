@@ -159,6 +159,14 @@ Max: +100+
 
 |+Specifies the direction that is used to complete a transaction that has a heuristic outcome; either the application server commits or rolls back the transaction, or depends on manual completion by the administrator.  Allowed values are: COMMIT, ROLLBACK and MANUAL+
 
+|+propagateXAResourceTransactionTimeout+
+
+|boolean
+
+|+false+
+
+|+Specifies whether the remaining time left in a global transaction is propagated to XAResources on enlistment.+
+
 |+propogatedOrBMTTranLifetimeTimeout+
 
 |A period of time with second precision

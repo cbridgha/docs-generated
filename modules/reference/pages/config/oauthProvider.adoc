@@ -7143,6 +7143,14 @@ Required
 
 |+The type of application best describing the client.+
 
+|+backchannelLogoutUri+
+
+|string
+
+|
+
+|+Specifies the back-channel logout URI for an OpenID Connect client.+
+
 |+displayname+
 
 |string
