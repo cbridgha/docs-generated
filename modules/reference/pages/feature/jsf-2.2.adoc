@@ -69,6 +69,7 @@ include::./jsf-2.2/examples.adoc[opts=optional]
 * JavaSE-11.0
 * JavaSE-17.0
 * JavaSE-21.0
+* JavaSE-22.0
 // end::java-versions[]
 // tag::dependencies[]
 
