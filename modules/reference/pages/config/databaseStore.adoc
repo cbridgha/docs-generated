@@ -5912,6 +5912,9 @@ Max: +32767+
 
 |* +oracle.jdbc.pool.OracleConnectionPoolDataSource+
 * +oracle.jdbc.pool.OracleDataSource+
+* +oracle.jdbc.replay.OracleConnectionPoolDataSourceImpl+
+* +oracle.jdbc.replay.OracleDataSourceImpl+
+* +oracle.jdbc.replay.OracleXADataSourceImpl+
 * +oracle.jdbc.xa.client.OracleXADataSource+
 
 
