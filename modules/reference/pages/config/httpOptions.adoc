@@ -115,7 +115,7 @@ Max: +1048576+
 
 |int +
 Min: +50+ +
-Max: +32768+
+Max: +2147483647+
 
 |+32768+
 
@@ -156,6 +156,15 @@ Max: +16777215+
 |+57344+
 
 |+Specifies the maximum allowed size of a frame payload the server will advertise in the SETTINGS_MAX_FRAME_SIZE HTTP/2 settings frame. This can be configured to any size within the range of 16,384 to 16,777,215 bytes, inclusive. If not specified, the default is set to 57,344 bytes.+
+
+|+maxHeaderBlockSize+
+
+|long +
+Min: +0+
+
+|+512000+
+
+|+Specifies the maximum size in bytes for the header block of individual HTTP2 streams. If this value is exceeded, the connection is closed with an error. Set this parameter to 0 to disable the check.+
 
 |+maxKeepAliveRequests+
 

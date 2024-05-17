@@ -135,6 +135,14 @@
 
 |+Size of the POST parameter cookie. If the size of the cookie is larger than the browser limit, unexpected behavior may occur. The value of this property must be a positive integer and represents the maximum size of the cookie in bytes. The equivalent custom property in the full application server profile is com.ibm.websphere.security.util.postParamMaxCookieSize.+
 
+|+postParamMaxRequestBodySize+
+
+|long
+
+|+134217728+
+
+|+Specifies the maximum size of the request body of an HTTP POST request to save request parameters. If the content length of the request is larger than the maximum allowed size, any POST parameters in the request are not saved. If the content length of the request is unknown, request parameters are not saved regardless of the value of this attribute. Setting this attribute to -1 means that POST parameters are always saved if the content length of the request is known.+
+
 |+postParamSaveMethod+
 
 |* +Cookie+
