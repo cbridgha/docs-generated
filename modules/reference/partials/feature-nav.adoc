@@ -248,6 +248,7 @@
   ** xref:feature/opentracing-1.2.adoc[Opentracing]
   ** xref:feature/opentracing-1.3.adoc[Opentracing]
   ** xref:feature/opentracing-2.0.adoc[Opentracing]
+  ** xref:feature/crac-1.4.adoc[orgcrac API]
   ** xref:feature/osgiConsole-1.0.adoc[OSGi Debug Console]
   ** xref:feature/passwordUtilities-1.0.adoc[Password Utilities]
   ** xref:feature/passwordUtilities-1.1.adoc[Password Utilities]
