@@ -1,7 +1,7 @@
-= org.crac API 1.4
-:linkcss: 
+= Coordinated Restore at Checkpoint 1.4
+:linkcss:
 :page-layout: feature
-:nofooter: 
+:nofooter:
 
 // tag::description[]
 This feature enables the org.crac Coordinated Restore at Checkpoint APIs.
@@ -13,7 +13,7 @@ include::./crac-1.4/description.adoc[opts=optional]
 
 // tag::enable[]
 == Enabling this feature
-To enable the org.crac API 1.4 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
+To enable the Coordinated Restore at Checkpoint 1.4 feature, add the following element declaration into your `server.xml` file, inside the `featureManager` element:
 
 
 ----
