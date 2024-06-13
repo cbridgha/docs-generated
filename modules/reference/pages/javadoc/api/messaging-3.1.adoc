@@ -9,6 +9,6 @@
 :page-layout: javadoc
  
 ++++
-<iframe id="javadoc_container" title="Open Liberty application programming interface" style="width: 100%;" frameBorder="0" src="/docs/modules/reference/24.0.0.5/com.ibm.websphere.appserver.api.connectionmanager_1.3-javadoc/com/ibm/ws/jca/cm/mbean/package-summary.html">
+<iframe id="javadoc_container" title="Open Liberty application programming interface" style="width: 100%;" frameBorder="0" src="/docs/modules/reference/24.0.0.6/com.ibm.websphere.appserver.api.connectionmanager_1.3-javadoc/com/ibm/ws/jca/cm/mbean/package-summary.html">
 </iframe>
 ++++

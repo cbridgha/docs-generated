@@ -20,6 +20,7 @@
   ** xref:feature/concurrent-1.0.adoc[Concurrency Utilities for Java EE]
   ** xref:feature/cdi-1.2.adoc[Contexts and Dependency Injection]
   ** xref:feature/cdi-2.0.adoc[Contexts and Dependency Injection]
+  ** xref:feature/crac-1.4.adoc[Coordinated Restore at Checkpoint]
   ** xref:feature/couchdb-1.0.adoc[CouchDB Integration]
   ** xref:feature/sessionDatabase-1.0.adoc[Database Session Persistence]
   ** xref:feature/distributedMap-1.0.adoc[Distributed Map interface for Dynamic Caching]
