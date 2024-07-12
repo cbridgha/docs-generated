@@ -9,6 +9,6 @@
 :page-layout: javadoc
  
 ++++
-<iframe id="javadoc_container" title="Open Liberty application programming interface" style="width: 100%;" frameBorder="0" src="/docs/modules/reference/24.0.0.6/io.openliberty.servlet.spi_2.14-javadoc/com/ibm/wsspi/webcontainer/osgi/extension/package-summary.html">
+<iframe id="javadoc_container" title="Open Liberty application programming interface" style="width: 100%;" frameBorder="0" src="/docs/modules/reference/24.0.0.7/io.openliberty.servlet.spi_2.14-javadoc/com/ibm/wsspi/webcontainer/osgi/extension/package-summary.html">
 </iframe>
 ++++
