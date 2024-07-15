@@ -47,7 +47,7 @@
 
 |
 
-|+This is an optional property. By default the transaction service stores its recovery logs in a file. As an alternative it is possible to store the logs in an RDBMS. This is achieved by setting this property which defines a non-transactional data source where the transaction logs will be stored.+
+|+This attribute is optional. By default, the transaction service stores its recovery logs in files. Alternatively, you can store the logs in an RDBMS. Set this attribute to the ID value for a non-transactional data source where the transaction logs are stored. Do not change the syncQueryTimeoutWithTransactionTimeout value on this data source from the default, which is false.+
 
 |+defaultMaxShutdownDelay+
 
@@ -223,6 +223,14 @@ Max: +100+
 
 |+Default maximum time allowed for transactions started on this server to complete. Any such transactions that do not complete before this timeout occurs are rolled back. Specify a positive integer followed by a unit of time, which can be hours (h), minutes (m), or seconds (s). For example, specify 30 seconds as 30s. You can include multiple values in a single entry. For example, 1m30s is equivalent to 90 seconds.+
 
+|+transactionLogDBName+
+
+|string
+
+|
+
+|+Specifies the name of the database where recovery log tables are created.+
+
 |+transactionLogDBTableSuffix+
 
 |string
@@ -257,7 +265,7 @@ Max: +100+
 |===
 [#+dataSource+]*dataSource*
 
-+This is an optional property. By default the transaction service stores its recovery logs in a file. As an alternative it is possible to store the logs in an RDBMS. This is achieved by setting this property which defines a non-transactional data source where the transaction logs will be stored.+
++This attribute is optional. By default, the transaction service stores its recovery logs in files. Alternatively, you can store the logs in an RDBMS. Set this attribute to the ID value for a non-transactional data source where the transaction logs are stored. Do not change the syncQueryTimeoutWithTransactionTimeout value on this data source from the default, which is false.+
 
 
 [cols="a,a,a,a",width="100%"]
