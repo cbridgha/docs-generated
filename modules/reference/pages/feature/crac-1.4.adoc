@@ -1,7 +1,7 @@
 = Coordinated Restore at Checkpoint 1.4
-:linkcss:
+:linkcss: 
 :page-layout: feature
-:nofooter:
+:nofooter: 
 
 // tag::description[]
 This feature enables the org.crac Coordinated Restore at Checkpoint APIs.
