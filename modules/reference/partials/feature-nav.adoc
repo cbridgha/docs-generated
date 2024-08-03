@@ -10,6 +10,7 @@
   ** xref:feature/appSecurity-5.0.adoc[Application Security (Jakarta Security )]
   ** xref:feature/appSecurityClient-1.0.adoc[Application Security for Client]
   ** xref:feature/audit-1.0.adoc[Audit]
+  ** xref:feature/audit-2.0.adoc[Audit]
   ** xref:feature/acmeCA-2.0.adoc[Automatic Certificate Management Environment (ACME) Support]
   ** xref:feature/bells-1.0.adoc[Basic Extensions using Liberty Libraries]
   ** xref:feature/batch-1.0.adoc[Batch API]
