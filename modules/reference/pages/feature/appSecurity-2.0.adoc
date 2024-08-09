@@ -74,6 +74,7 @@ include::./appSecurity-2.0/examples.adoc[opts=optional]
 == Features that enable this feature
 * feature:appSecurity-1.0[]
 * feature:audit-1.0[]
+* feature:audit-2.0[]
 * feature:constrainedDelegation-1.0[]
 * feature:jacc-1.5[]
 * feature:jaspic-1.1[]

@@ -180,7 +180,7 @@ Required
 
 |+disabled+
 
-|+Specifies the code challenge method to use for Proof Key for Code Exchange (PKCE).+
+|+Specifies the code challenge method to use for Proof Key for Code Exchange (PKCE). When PKCE is enabled, session affinity is required because a local cache is used.+
 
 |+realmNameAttribute+
 
