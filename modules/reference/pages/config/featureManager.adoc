@@ -9,6 +9,15 @@
 |===
 |Name|Type|Default|Description
 
+|+platform+
+
+|string +
+This is specified as a child element rather than as an XML attribute.
+
+|
+
+|+The platform specifies a programming model version; for example "jakartaee-10". The platform determines the version of features for which no version is specified.+
+
 |+feature+
 
 |string +
