@@ -16,7 +16,7 @@ This is specified as a child element rather than as an XML attribute.
 
 |
 
-|+The platform specifies a programming model version, for example jakartaee-10. The platform version determines the version of for any enabled versionless features that are included in the specified platform.+
+|+The platform specifies a programming model version, for example jakartaee-10. The platform version determines the version of any enabled versionless features that are included in the specified platform.+
 
 |+feature+
 
