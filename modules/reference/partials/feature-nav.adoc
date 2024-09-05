@@ -239,6 +239,7 @@
   ** xref:feature/mpRestClient-3.0.adoc[MicroProfile Rest Client]
   ** xref:feature/mpTelemetry-1.0.adoc[MicroProfile Telemetry]
   ** xref:feature/mpTelemetry-1.1.adoc[MicroProfile Telemetry]
+  ** xref:feature/mpTelemetry-2.0.adoc[MicroProfile Telemetry]
   ** xref:feature/mongodb-2.0.adoc[MongoDB Integration]
   ** xref:feature/oauth-2.0.adoc[OAuth]
   ** xref:feature/openapi-3.1.adoc[OpenAPI]

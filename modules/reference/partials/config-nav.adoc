@@ -117,6 +117,7 @@
   ** xref:config/mpJwt.adoc[mpJwt]
   ** xref:config/mpMetrics.adoc[mpMetrics]
   ** xref:config/mpOpenAPI.adoc[mpOpenAPI]
+  ** xref:config/mpTelemetry.adoc[mpTelemetry]
   ** xref:config/netscapeLdapFilterProperties.adoc[netscapeLdapFilterProperties]
   ** xref:config/oauth-roles.adoc[oauth-roles]
   ** xref:config/oauth2Login.adoc[oauth2Login]

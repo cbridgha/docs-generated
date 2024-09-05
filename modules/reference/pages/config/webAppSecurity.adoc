@@ -3,7 +3,7 @@
 :page-layout: config
 :nofooter: 
 
-+Configures web container application security.+
++Configures web container security for user applications only.+
 
 [cols="a,a,a,a",width="100%"]
 |===
@@ -126,6 +126,23 @@
 |
 
 |+Specifies the authentication method to be used for all applications. This specified value overrides any application defined authentication method. The acceptable value is BASIC, FORM or CLIENT_CERT. When FORM is used, loginFormURL and loginErrorURL attributes are required to be set.+
+
+|+partitionedCookie+
+
+|* +defer+
+* +false+
+* +true+
+
+
+|+defer+
+
+|+Specifies whether to partition SSO cookies with SameSite set to None and therefore send them in cross-site requests. By default, the HTTP transport settings determine whether to partition SSO cookies.+ +
+*+defer+* +
++Allow the HTTP transport settings to determine whether to partition SSO cookies.+ +
+*+false+* +
++Do not partition SSO cookies.+ +
+*+true+* +
++Always partition SSO cookies that have SameSite set to None.+
 
 |+postParamCookieSize+
 

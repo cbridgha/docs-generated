@@ -9,19 +9,9 @@
 |===
 |Name|Type|Default|Description
 
-|+platform+
-
-|string +
-This is specified as a child element rather than as an XML attribute.
-
-|
-
-|+The platform specifies a programming model version, for example jakartaee-10. The platform version determines the version of any enabled versionless features that are included in the specified platform.+
-
 |+feature+
 
-|string +
-This is specified as a child element rather than as an XML attribute.
+|string
 
 |
 
@@ -43,4 +33,12 @@ This is specified as a child element rather than as an XML attribute.
 +Server will not issue any warning and error messages when it incurs a configuration error.+ +
 *+WARN+* +
 +Server will issue warning and error messages when it incurs a configuration error.+
+
+|+platform+
+
+|string
+
+|
+
+|+The platform specifies a programming model version, for example jakartaee-10.0. The platform version determines the version of any enabled versionless features that are included in the specified platform.+
 |===

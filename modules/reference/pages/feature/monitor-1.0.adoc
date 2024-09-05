@@ -55,6 +55,7 @@ include::./monitor-1.0/examples.adoc[opts=optional]
 * feature:mpMetrics-4.0[]
 * feature:mpMetrics-5.0[]
 * feature:mpMetrics-5.1[]
+* feature:mpTelemetry-2.0[]
 // end::dependencies[]
 // tag::feature-require[]
 

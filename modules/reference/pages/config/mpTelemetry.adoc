@@ -1,0 +1,20 @@
+= +MicroProfile Telemetry 2.0+ (+mpTelemetry+)
+:linkcss: 
+:page-layout: config
+:nofooter: 
+
++MicroProfile Telemetry Logging gathers data from various sources and forwards the data to the configured MicroProfile Telemetry Log Exporter.+
+
+[cols="a,a,a,a",width="100%"]
+|===
+|Name|Type|Default|Description
+
+|+source+
+
+|string +
+This is specified as a child element rather than as an XML attribute (maximum occurrences 1024).
+
+|+message+
+
+|+Specifies a list of comma-separated sources for the MicroProfile Telemetry. Valid values for the source attribute are message, trace, and ffdc.+
+|===
