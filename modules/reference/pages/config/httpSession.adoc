@@ -125,6 +125,23 @@
 
 |+A unique name for a session management cookie.+
 
+|+cookiePartitioned+
+
+|* +defer+
+* +false+
+* +true+
+
+
+|+defer+
+
+|+Specifies that session cookies include the Partitioned attribute. The Partitioned attribute only applies when the SameSite attribute is set to none, and is only used by browsers that support cookie partitioning. The default value is Defer.+ +
+*+defer+* +
++Allow the HTTP transport settings to determine whether Partitioned is set.+ +
+*+false+* +
++Do not add Partitioned to session cookies.+ +
+*+true+* +
++Always add Partitioned to session cookies that have SameSite set to None.+
+
 |+cookiePath+
 
 |string

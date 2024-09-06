@@ -602,6 +602,14 @@ Max: +2147483647+
 
 |+List of cookie names or patterns for which the SameSite attribute is set to a value of None, if not already defined. A single wildcard (*) character is supported as a stand-alone value, or following cookie name prefixes. Any cookie name or pattern that is defined by this list must be unique and not present in the 'lax' nor 'strict' configurations. Each cookie that is modified to contain a SameSite value of None as a result of this configuration is also set to Secure.+
 
+|+partitioned+
+
+|boolean
+
+|+false+
+
+|+When this attribute is set to true, all SameSite=None cookies are partitioned and therefore are sent in cross-site requests. The default value is false, which means that cookies are not partitioned.+
+
 |+strict+
 
 |string
