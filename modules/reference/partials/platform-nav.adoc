@@ -1,0 +1,8 @@
+ 
+* Platforms Table of Contents
+** MicroProfile
+*** xref:platform/MicroProfile.adoc[MicroProfile]
+** JavaEE
+*** xref:platform/JavaEE.adoc[JavaEE]
+** JakartaEE
+*** xref:platform/JakartaEE.adoc[JakartaEE]

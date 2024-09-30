@@ -42,8 +42,14 @@ include::./jsfContainer-2.2/examples.adoc[opts=optional]
 * JavaSE-11.0
 * JavaSE-17.0
 * JavaSE-21.0
-* JavaSE-22.0
+* JavaSE-23.0
 // end::java-versions[]
+// tag::platform-versions[]
+
+== Platform Versions
+
+* javaee-7.0
+// end::platform-versions[]
 // tag::dependencies[]
 // end::dependencies[]
 // tag::feature-require[]

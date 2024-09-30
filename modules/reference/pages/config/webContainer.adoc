@@ -17,6 +17,14 @@
 
 |+Enables the HTTP Strict Transport Security (HSTS) header for HTTPS responses and allows a value to be set for that header, for example: "max-age=31536000;includeSubDomains". HSTS can also be configured in the web.xml file by setting the "com.ibm.ws.webcontainer.ADD_STS_HEADER_WEBAPP" context parameter.+
 
+|+allowAbsoluteFileNameForPartWrite+
+
+|boolean
+
+|
+
+|+When this property is set to true, the runtime treats the filename argument on the part.write method call as an absolute location, rather than saving the filename arguement under the temporary location. In servlet-6.0 and earlier, the default value is false. In servlet-6.1 and later, the default value is true.+
+
 |+allowExpressionFactoryPerApp+
 
 |boolean
