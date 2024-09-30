@@ -1,0 +1,551 @@
+.microProfile-1.2 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`MicroProfile Config 1.1`
+|feature:mpConfig-1.1[]
+|`mpConfig`
+|`MicroProfile Context Propagation 1.0`
+|feature:mpContextPropagation-1.0[]
+|`mpContextPropagation`
+|`MicroProfile Fault Tolerance 1.0`
+|feature:mpFaultTolerance-1.0[]
+|`mpFaultTolerance`
+|`MicroProfile Health 1.0`
+|feature:mpHealth-1.0[]
+|`mpHealth`
+|`MicroProfile JSON Web Token 1.0`
+|feature:mpJwt-1.0[]
+|`mpJwt`
+|`MicroProfile Metrics 1.0`
+|feature:mpMetrics-1.0[]
+|`mpMetrics`
+|`MicroProfile Reactive Streams 1.0`
+|feature:mpReactiveStreams-1.0[]
+|`mpReactiveStreams`
+|===
+.microProfile-1.3 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`MicroProfile Config 1.2`
+|feature:mpConfig-1.2[]
+|`mpConfig`
+|`MicroProfile Context Propagation 1.0`
+|feature:mpContextPropagation-1.0[]
+|`mpContextPropagation`
+|`MicroProfile Fault Tolerance 1.0`
+|feature:mpFaultTolerance-1.0[]
+|`mpFaultTolerance`
+|`MicroProfile Health 1.0`
+|feature:mpHealth-1.0[]
+|`mpHealth`
+|`MicroProfile JSON Web Token 1.0`
+|feature:mpJwt-1.0[]
+|`mpJwt`
+|`MicroProfile Metrics 1.1`
+|feature:mpMetrics-1.1[]
+|`mpMetrics`
+|`MicroProfile OpenAPI 1.0`
+|feature:mpOpenAPI-1.0[]
+|`mpOpenAPI`
+|`MicroProfile OpenTracing 1.0`
+|feature:mpOpenTracing-1.0[]
+|`mpOpenTracing`
+|`MicroProfile Reactive Streams 1.0`
+|feature:mpReactiveStreams-1.0[]
+|`mpReactiveStreams`
+|`MicroProfile Rest Client 1.0`
+|feature:mpRestClient-1.0[]
+|`mpRestClient`
+|===
+.microProfile-1.4 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`MicroProfile Config 1.3`
+|feature:mpConfig-1.3[]
+|`mpConfig`
+|`MicroProfile Context Propagation 1.0`
+|feature:mpContextPropagation-1.0[]
+|`mpContextPropagation`
+|`MicroProfile Fault Tolerance 1.1`
+|feature:mpFaultTolerance-1.1[]
+|`mpFaultTolerance`
+|`MicroProfile Health 1.0`
+|feature:mpHealth-1.0[]
+|`mpHealth`
+|`MicroProfile JSON Web Token 1.1`
+|feature:mpJwt-1.1[]
+|`mpJwt`
+|`MicroProfile Metrics 1.1`
+|feature:mpMetrics-1.1[]
+|`mpMetrics`
+|`MicroProfile OpenAPI 1.0`
+|feature:mpOpenAPI-1.0[]
+|`mpOpenAPI`
+|`MicroProfile OpenTracing 1.1`
+|feature:mpOpenTracing-1.1[]
+|`mpOpenTracing`
+|`MicroProfile Reactive Messaging 1.0`
+|feature:mpReactiveMessaging-1.0[]
+|`mpReactiveMessaging`
+|`MicroProfile Reactive Streams 1.0`
+|feature:mpReactiveStreams-1.0[]
+|`mpReactiveStreams`
+|`MicroProfile Rest Client 1.1`
+|feature:mpRestClient-1.1[]
+|`mpRestClient`
+|===
+.microProfile-2.0 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`MicroProfile Config 1.3`
+|feature:mpConfig-1.3[]
+|`mpConfig`
+|`MicroProfile Context Propagation 1.0`
+|feature:mpContextPropagation-1.0[]
+|`mpContextPropagation`
+|`MicroProfile Fault Tolerance 1.1`
+|feature:mpFaultTolerance-1.1[]
+|`mpFaultTolerance`
+|`MicroProfile Health 1.0`
+|feature:mpHealth-1.0[]
+|`mpHealth`
+|`MicroProfile JSON Web Token 1.1`
+|feature:mpJwt-1.1[]
+|`mpJwt`
+|`MicroProfile Metrics 1.1`
+|feature:mpMetrics-1.1[]
+|`mpMetrics`
+|`MicroProfile OpenAPI 1.0`
+|feature:mpOpenAPI-1.0[]
+|`mpOpenAPI`
+|`MicroProfile OpenTracing 1.1`
+|feature:mpOpenTracing-1.1[]
+|`mpOpenTracing`
+|`MicroProfile Reactive Messaging 1.0`
+|feature:mpReactiveMessaging-1.0[]
+|`mpReactiveMessaging`
+|`MicroProfile Reactive Streams 1.0`
+|feature:mpReactiveStreams-1.0[]
+|`mpReactiveStreams`
+|`MicroProfile Rest Client 1.1`
+|feature:mpRestClient-1.1[]
+|`mpRestClient`
+|===
+.microProfile-2.1 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`MicroProfile Config 1.3`
+|feature:mpConfig-1.3[]
+|`mpConfig`
+|`MicroProfile Context Propagation 1.0`
+|feature:mpContextPropagation-1.0[]
+|`mpContextPropagation`
+|`MicroProfile Fault Tolerance 1.1`
+|feature:mpFaultTolerance-1.1[]
+|`mpFaultTolerance`
+|`MicroProfile Health 1.0`
+|feature:mpHealth-1.0[]
+|`mpHealth`
+|`MicroProfile JSON Web Token 1.1`
+|feature:mpJwt-1.1[]
+|`mpJwt`
+|`MicroProfile Metrics 1.1`
+|feature:mpMetrics-1.1[]
+|`mpMetrics`
+|`MicroProfile OpenAPI 1.0`
+|feature:mpOpenAPI-1.0[]
+|`mpOpenAPI`
+|`MicroProfile OpenTracing 1.2`
+|feature:mpOpenTracing-1.2[]
+|`mpOpenTracing`
+|`MicroProfile Reactive Messaging 1.0`
+|feature:mpReactiveMessaging-1.0[]
+|`mpReactiveMessaging`
+|`MicroProfile Reactive Streams 1.0`
+|feature:mpReactiveStreams-1.0[]
+|`mpReactiveStreams`
+|`MicroProfile Rest Client 1.1`
+|feature:mpRestClient-1.1[]
+|`mpRestClient`
+|===
+.microProfile-2.2 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`MicroProfile Config 1.3`
+|feature:mpConfig-1.3[]
+|`mpConfig`
+|`MicroProfile Context Propagation 1.0`
+|feature:mpContextPropagation-1.0[]
+|`mpContextPropagation`
+|`MicroProfile Fault Tolerance 2.0`
+|feature:mpFaultTolerance-2.0[]
+|`mpFaultTolerance`
+|`MicroProfile Health 1.0`
+|feature:mpHealth-1.0[]
+|`mpHealth`
+|`MicroProfile JSON Web Token 1.1`
+|feature:mpJwt-1.1[]
+|`mpJwt`
+|`MicroProfile Metrics 1.1`
+|feature:mpMetrics-1.1[]
+|`mpMetrics`
+|`MicroProfile OpenAPI 1.1`
+|feature:mpOpenAPI-1.1[]
+|`mpOpenAPI`
+|`MicroProfile OpenTracing 1.3`
+|feature:mpOpenTracing-1.3[]
+|`mpOpenTracing`
+|`MicroProfile Reactive Messaging 1.0`
+|feature:mpReactiveMessaging-1.0[]
+|`mpReactiveMessaging`
+|`MicroProfile Reactive Streams 1.0`
+|feature:mpReactiveStreams-1.0[]
+|`mpReactiveStreams`
+|`MicroProfile Rest Client 1.2`
+|feature:mpRestClient-1.2[]
+|`mpRestClient`
+|===
+.microProfile-3.0 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`MicroProfile Config 1.3`
+|feature:mpConfig-1.3[]
+|`mpConfig`
+|`MicroProfile Context Propagation 1.0`
+|feature:mpContextPropagation-1.0[]
+|`mpContextPropagation`
+|`MicroProfile Fault Tolerance 2.0`
+|feature:mpFaultTolerance-2.0[]
+|`mpFaultTolerance`
+|`MicroProfile Health 2.0`
+|feature:mpHealth-2.0[]
+|`mpHealth`
+|`MicroProfile JSON Web Token 1.1`
+|feature:mpJwt-1.1[]
+|`mpJwt`
+|`MicroProfile Metrics 2.0`
+|feature:mpMetrics-2.0[]
+|`mpMetrics`
+|`MicroProfile OpenAPI 1.1`
+|feature:mpOpenAPI-1.1[]
+|`mpOpenAPI`
+|`MicroProfile OpenTracing 1.3`
+|feature:mpOpenTracing-1.3[]
+|`mpOpenTracing`
+|`MicroProfile Reactive Messaging 1.0`
+|feature:mpReactiveMessaging-1.0[]
+|`mpReactiveMessaging`
+|`MicroProfile Reactive Streams 1.0`
+|feature:mpReactiveStreams-1.0[]
+|`mpReactiveStreams`
+|`MicroProfile Rest Client 1.3`
+|feature:mpRestClient-1.3[]
+|`mpRestClient`
+|===
+.microProfile-3.2 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`MicroProfile Config 1.3`
+|feature:mpConfig-1.3[]
+|`mpConfig`
+|`MicroProfile Context Propagation 1.0`
+|feature:mpContextPropagation-1.0[]
+|`mpContextPropagation`
+|`MicroProfile Fault Tolerance 2.0`
+|feature:mpFaultTolerance-2.0[]
+|`mpFaultTolerance`
+|`MicroProfile Health 2.1`
+|feature:mpHealth-2.1[]
+|`mpHealth`
+|`MicroProfile JSON Web Token 1.1`
+|feature:mpJwt-1.1[]
+|`mpJwt`
+|`MicroProfile Metrics 2.2`
+|feature:mpMetrics-2.2[]
+|`mpMetrics`
+|`MicroProfile OpenAPI 1.1`
+|feature:mpOpenAPI-1.1[]
+|`mpOpenAPI`
+|`MicroProfile OpenTracing 1.3`
+|feature:mpOpenTracing-1.3[]
+|`mpOpenTracing`
+|`MicroProfile Reactive Messaging 1.0`
+|feature:mpReactiveMessaging-1.0[]
+|`mpReactiveMessaging`
+|`MicroProfile Reactive Streams 1.0`
+|feature:mpReactiveStreams-1.0[]
+|`mpReactiveStreams`
+|`MicroProfile Rest Client 1.3`
+|feature:mpRestClient-1.3[]
+|`mpRestClient`
+|===
+.microProfile-3.3 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`MicroProfile Config 1.4`
+|feature:mpConfig-1.4[]
+|`mpConfig`
+|`MicroProfile Context Propagation 1.0`
+|feature:mpContextPropagation-1.0[]
+|`mpContextPropagation`
+|`MicroProfile Fault Tolerance 2.1`
+|feature:mpFaultTolerance-2.1[]
+|`mpFaultTolerance`
+|`MicroProfile GraphQL 1.0`
+|feature:mpGraphQL-1.0[]
+|`mpGraphQL`
+|`MicroProfile Health 2.2`
+|feature:mpHealth-2.2[]
+|`mpHealth`
+|`MicroProfile JSON Web Token 1.1`
+|feature:mpJwt-1.1[]
+|`mpJwt`
+|`MicroProfile Metrics 2.3`
+|feature:mpMetrics-2.3[]
+|`mpMetrics`
+|`MicroProfile OpenAPI 1.1`
+|feature:mpOpenAPI-1.1[]
+|`mpOpenAPI`
+|`MicroProfile OpenTracing 1.3`
+|feature:mpOpenTracing-1.3[]
+|`mpOpenTracing`
+|`MicroProfile Reactive Messaging 1.0`
+|feature:mpReactiveMessaging-1.0[]
+|`mpReactiveMessaging`
+|`MicroProfile Reactive Streams 1.0`
+|feature:mpReactiveStreams-1.0[]
+|`mpReactiveStreams`
+|`MicroProfile Rest Client 1.4`
+|feature:mpRestClient-1.4[]
+|`mpRestClient`
+|===
+.microProfile-4.0 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`MicroProfile Config 2.0`
+|feature:mpConfig-2.0[]
+|`mpConfig`
+|`MicroProfile Context Propagation 1.2`
+|feature:mpContextPropagation-1.2[]
+|`mpContextPropagation`
+|`MicroProfile Fault Tolerance 3.0`
+|feature:mpFaultTolerance-3.0[]
+|`mpFaultTolerance`
+|`MicroProfile GraphQL 1.0`
+|feature:mpGraphQL-1.0[]
+|`mpGraphQL`
+|`MicroProfile Health 3.0`
+|feature:mpHealth-3.0[]
+|`mpHealth`
+|`MicroProfile JSON Web Token 1.2`
+|feature:mpJwt-1.2[]
+|`mpJwt`
+|`MicroProfile Metrics 3.0`
+|feature:mpMetrics-3.0[]
+|`mpMetrics`
+|`MicroProfile OpenAPI 2.0`
+|feature:mpOpenAPI-2.0[]
+|`mpOpenAPI`
+|`MicroProfile OpenTracing 2.0`
+|feature:mpOpenTracing-2.0[]
+|`mpOpenTracing`
+|`MicroProfile Rest Client 2.0`
+|feature:mpRestClient-2.0[]
+|`mpRestClient`
+|===
+.microProfile-4.1 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`MicroProfile Config 2.0`
+|feature:mpConfig-2.0[]
+|`mpConfig`
+|`MicroProfile Context Propagation 1.2`
+|feature:mpContextPropagation-1.2[]
+|`mpContextPropagation`
+|`MicroProfile Fault Tolerance 3.0`
+|feature:mpFaultTolerance-3.0[]
+|`mpFaultTolerance`
+|`MicroProfile GraphQL 1.0`
+|feature:mpGraphQL-1.0[]
+|`mpGraphQL`
+|`MicroProfile Health 3.1`
+|feature:mpHealth-3.1[]
+|`mpHealth`
+|`MicroProfile JSON Web Token 1.2`
+|feature:mpJwt-1.2[]
+|`mpJwt`
+|`MicroProfile Metrics 3.0`
+|feature:mpMetrics-3.0[]
+|`mpMetrics`
+|`MicroProfile OpenAPI 2.0`
+|feature:mpOpenAPI-2.0[]
+|`mpOpenAPI`
+|`MicroProfile OpenTracing 2.0`
+|feature:mpOpenTracing-2.0[]
+|`mpOpenTracing`
+|`MicroProfile Rest Client 2.0`
+|feature:mpRestClient-2.0[]
+|`mpRestClient`
+|===
+.microProfile-5.0 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`MicroProfile Config 3.0`
+|feature:mpConfig-3.0[]
+|`mpConfig`
+|`MicroProfile Context Propagation 1.3`
+|feature:mpContextPropagation-1.3[]
+|`mpContextPropagation`
+|`MicroProfile Fault Tolerance 4.0`
+|feature:mpFaultTolerance-4.0[]
+|`mpFaultTolerance`
+|`MicroProfile GraphQL 2.0`
+|feature:mpGraphQL-2.0[]
+|`mpGraphQL`
+|`MicroProfile Health 4.0`
+|feature:mpHealth-4.0[]
+|`mpHealth`
+|`MicroProfile JSON Web Token 2.0`
+|feature:mpJwt-2.0[]
+|`mpJwt`
+|`MicroProfile Metrics 4.0`
+|feature:mpMetrics-4.0[]
+|`mpMetrics`
+|`MicroProfile OpenAPI 3.0`
+|feature:mpOpenAPI-3.0[]
+|`mpOpenAPI`
+|`MicroProfile OpenTracing 3.0`
+|feature:mpOpenTracing-3.0[]
+|`mpOpenTracing`
+|`MicroProfile Reactive Messaging 3.0`
+|feature:mpReactiveMessaging-3.0[]
+|`mpReactiveMessaging`
+|`MicroProfile Reactive Streams 3.0`
+|feature:mpReactiveStreams-3.0[]
+|`mpReactiveStreams`
+|`MicroProfile Rest Client 3.0`
+|feature:mpRestClient-3.0[]
+|`mpRestClient`
+|===
+.microProfile-6.0 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`MicroProfile Config 3.0`
+|feature:mpConfig-3.0[]
+|`mpConfig`
+|`MicroProfile Context Propagation 1.3`
+|feature:mpContextPropagation-1.3[]
+|`mpContextPropagation`
+|`MicroProfile Fault Tolerance 4.0`
+|feature:mpFaultTolerance-4.0[]
+|`mpFaultTolerance`
+|`MicroProfile GraphQL 2.0`
+|feature:mpGraphQL-2.0[]
+|`mpGraphQL`
+|`MicroProfile Health 4.0`
+|feature:mpHealth-4.0[]
+|`mpHealth`
+|`MicroProfile JSON Web Token 2.1`
+|feature:mpJwt-2.1[]
+|`mpJwt`
+|`MicroProfile Metrics 5.0`
+|feature:mpMetrics-5.0[]
+|`mpMetrics`
+|`MicroProfile OpenAPI 3.1`
+|feature:mpOpenAPI-3.1[]
+|`mpOpenAPI`
+|`MicroProfile Reactive Messaging 3.0`
+|feature:mpReactiveMessaging-3.0[]
+|`mpReactiveMessaging`
+|`MicroProfile Reactive Streams 3.0`
+|feature:mpReactiveStreams-3.0[]
+|`mpReactiveStreams`
+|`MicroProfile Rest Client 3.0`
+|feature:mpRestClient-3.0[]
+|`mpRestClient`
+|`MicroProfile Telemetry 1.0`
+|feature:mpTelemetry-1.0[]
+|`mpTelemetry`
+|===
+.microProfile-6.1 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`MicroProfile Config 3.1`
+|feature:mpConfig-3.1[]
+|`mpConfig`
+|`MicroProfile Context Propagation 1.3`
+|feature:mpContextPropagation-1.3[]
+|`mpContextPropagation`
+|`MicroProfile Fault Tolerance 4.0`
+|feature:mpFaultTolerance-4.0[]
+|`mpFaultTolerance`
+|`MicroProfile GraphQL 2.0`
+|feature:mpGraphQL-2.0[]
+|`mpGraphQL`
+|`MicroProfile Health 4.0`
+|feature:mpHealth-4.0[]
+|`mpHealth`
+|`MicroProfile JSON Web Token 2.1`
+|feature:mpJwt-2.1[]
+|`mpJwt`
+|`MicroProfile Metrics 5.1`
+|feature:mpMetrics-5.1[]
+|`mpMetrics`
+|`MicroProfile OpenAPI 3.1`
+|feature:mpOpenAPI-3.1[]
+|`mpOpenAPI`
+|`MicroProfile Reactive Messaging 3.0`
+|feature:mpReactiveMessaging-3.0[]
+|`mpReactiveMessaging`
+|`MicroProfile Reactive Streams 3.0`
+|feature:mpReactiveStreams-3.0[]
+|`mpReactiveStreams`
+|`MicroProfile Rest Client 3.0`
+|feature:mpRestClient-3.0[]
+|`mpRestClient`
+|`MicroProfile Telemetry 1.1`
+|feature:mpTelemetry-1.1[]
+|`mpTelemetry`
+|===

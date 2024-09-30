@@ -63,8 +63,14 @@ include::./restfulWSClient-3.0/examples.adoc[opts=optional]
 * JavaSE-11.0
 * JavaSE-17.0
 * JavaSE-21.0
-* JavaSE-22.0
+* JavaSE-23.0
 // end::java-versions[]
+// tag::platform-versions[]
+
+== Platform Versions
+
+* jakartaee-9.1
+// end::platform-versions[]
 // tag::dependencies[]
 
 == Features that enable this feature

@@ -1,0 +1,245 @@
+.jakartaee-9.1 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`Java Database Connectivity 4.2`
+|feature:jdbc-4.2[]
+|`jdbc`
+|`Jakarta Servlet 5.0`
+|feature:servlet-5.0[]
+|`servlet`
+|`Jakarta Authentication 2.0`
+|feature:appAuthentication-2.0[]
+|`appAuthentication`
+|`Jakarta Authorization 2.0`
+|feature:appAuthorization-2.0[]
+|`appAuthorization`
+|`Jakarta Application Client Support for Server 2.0`
+|feature:appClientSupport-2.0[]
+|`appClientSupport`
+|`Application Security 4.0 (Jakarta Security 2.0)`
+|feature:appSecurity-4.0[]
+|`appSecurity`
+|`Jakarta Batch 2.0`
+|feature:batch-2.0[]
+|`batch`
+|`Jakarta Bean Validation 3.0`
+|feature:beanValidation-3.0[]
+|`beanValidation`
+|`Jakarta Contexts and Dependency Injection 3.0`
+|feature:cdi-3.0[]
+|`cdi`
+|`Jakarta Concurrency 2.0`
+|feature:concurrent-2.0[]
+|`concurrent`
+|`Jakarta Connectors 2.0`
+|feature:connectors-2.0[]
+|`connectors`
+|`Jakarta Connectors 2.0 Inbound Security`
+|feature:connectorsInboundSecurity-2.0[]
+|`connectorsInboundSecurity`
+|`Jakarta Enterprise Beans 4.0`
+|feature:enterpriseBeans-4.0[]
+|`enterpriseBeans`
+|`Jakarta Enterprise Beans 4.0 Home Interfaces`
+|feature:enterpriseBeansHome-4.0[]
+|`enterpriseBeansHome`
+|`Jakarta Enterprise Beans 4.0 Lite`
+|feature:enterpriseBeansLite-4.0[]
+|`enterpriseBeansLite`
+|`Jakarta Enterprise Beans 4.0 Persistent Timers`
+|feature:enterpriseBeansPersistentTimer-4.0[]
+|`enterpriseBeansPersistentTimer`
+|`Jakarta Enterprise Beans 4.0 Remote`
+|feature:enterpriseBeansRemote-4.0[]
+|`enterpriseBeansRemote`
+|`Jakarta Expression Language 4.0`
+|feature:expressionLanguage-4.0[]
+|`expressionLanguage`
+|`Jakarta Server Faces 3.0`
+|feature:faces-3.0[]
+|`faces`
+|`Jakarta Server Faces 3.0 Container`
+|feature:facesContainer-3.0[]
+|`facesContainer`
+|`Jakarta JSON Binding 2.0`
+|feature:jsonb-2.0[]
+|`jsonb`
+|`Jakarta JSON Binding 2.0 Container`
+|feature:jsonbContainer-2.0[]
+|`jsonbContainer`
+|`Jakarta JSON Processing 2.0`
+|feature:jsonp-2.0[]
+|`jsonp`
+|`Jakarta JSON Processing 2.0 Container`
+|feature:jsonpContainer-2.0[]
+|`jsonpContainer`
+|`Jakarta Mail 2.0`
+|feature:mail-2.0[]
+|`mail`
+|`Jakarta Managed Beans 2.0`
+|feature:managedBeans-2.0[]
+|`managedBeans`
+|`Jakarta Enterprise Beans 4.0 Message-Driven Beans`
+|feature:mdb-4.0[]
+|`mdb`
+|`Jakarta Messaging 3.0`
+|feature:messaging-3.0[]
+|`messaging`
+|`Messaging Server 3.0 Client`
+|feature:messagingClient-3.0[]
+|`messagingClient`
+|`Messaging Server 3.0 Security`
+|feature:messagingSecurity-3.0[]
+|`messagingSecurity`
+|`Messaging Server 3.0`
+|feature:messagingServer-3.0[]
+|`messagingServer`
+|`Jakarta Server Pages 3.0`
+|feature:pages-3.0[]
+|`pages`
+|`Jakarta Persistence 3.0`
+|feature:persistence-3.0[]
+|`persistence`
+|`Jakarta Persistence 3.0 Container`
+|feature:persistenceContainer-3.0[]
+|`persistenceContainer`
+|`Jakarta RESTful Web Services 3.0`
+|feature:restfulWS-3.0[]
+|`restfulWS`
+|`Jakarta RESTful Web Services 3.0 Client`
+|feature:restfulWSClient-3.0[]
+|`restfulWSClient`
+|`Jakarta WebSocket 2.0`
+|feature:websocket-2.0[]
+|`websocket`
+|`Jakarta XML Binding 3.0`
+|feature:xmlBinding-3.0[]
+|`xmlBinding`
+|`Jakarta XML Web Services 3.0`
+|feature:xmlWS-3.0[]
+|`xmlWS`
+|===
+.jakartaee-10.0 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`Java Database Connectivity 4.2`
+|feature:jdbc-4.2[]
+|`jdbc`
+|`Jakarta Servlet 6.0`
+|feature:servlet-6.0[]
+|`servlet`
+|`Jakarta Authentication 3.0`
+|feature:appAuthentication-3.0[]
+|`appAuthentication`
+|`Jakarta Authorization 2.1`
+|feature:appAuthorization-2.1[]
+|`appAuthorization`
+|`Jakarta Application Client Support for Server 2.0`
+|feature:appClientSupport-2.0[]
+|`appClientSupport`
+|`Application Security 5.0 (Jakarta Security 3.0)`
+|feature:appSecurity-5.0[]
+|`appSecurity`
+|`Jakarta Batch 2.1`
+|feature:batch-2.1[]
+|`batch`
+|`Jakarta Bean Validation 3.0`
+|feature:beanValidation-3.0[]
+|`beanValidation`
+|`Jakarta Contexts and Dependency Injection 4.0`
+|feature:cdi-4.0[]
+|`cdi`
+|`Jakarta Concurrency 3.0`
+|feature:concurrent-3.0[]
+|`concurrent`
+|`Jakarta Connectors 2.1`
+|feature:connectors-2.1[]
+|`connectors`
+|`Jakarta Enterprise Beans 4.0`
+|feature:enterpriseBeans-4.0[]
+|`enterpriseBeans`
+|`Jakarta Enterprise Beans 4.0 Home Interfaces`
+|feature:enterpriseBeansHome-4.0[]
+|`enterpriseBeansHome`
+|`Jakarta Enterprise Beans 4.0 Lite`
+|feature:enterpriseBeansLite-4.0[]
+|`enterpriseBeansLite`
+|`Jakarta Enterprise Beans 4.0 Persistent Timers`
+|feature:enterpriseBeansPersistentTimer-4.0[]
+|`enterpriseBeansPersistentTimer`
+|`Jakarta Enterprise Beans 4.0 Remote`
+|feature:enterpriseBeansRemote-4.0[]
+|`enterpriseBeansRemote`
+|`Jakarta Expression Language 5.0`
+|feature:expressionLanguage-5.0[]
+|`expressionLanguage`
+|`Jakarta Faces 4.0`
+|feature:faces-4.0[]
+|`faces`
+|`Jakarta Faces 4.0 Container`
+|feature:facesContainer-4.0[]
+|`facesContainer`
+|`Jakarta JSON Binding 3.0`
+|feature:jsonb-3.0[]
+|`jsonb`
+|`Jakarta JSON Binding 3.0 Container`
+|feature:jsonbContainer-3.0[]
+|`jsonbContainer`
+|`Jakarta JSON Processing 2.1`
+|feature:jsonp-2.1[]
+|`jsonp`
+|`Jakarta JSON Processing 2.1 Container`
+|feature:jsonpContainer-2.1[]
+|`jsonpContainer`
+|`Jakarta Mail 2.1`
+|feature:mail-2.1[]
+|`mail`
+|`Jakarta Managed Beans 2.0`
+|feature:managedBeans-2.0[]
+|`managedBeans`
+|`Jakarta Enterprise Beans 4.0 Message-Driven Beans`
+|feature:mdb-4.0[]
+|`mdb`
+|`Jakarta Messaging 3.1`
+|feature:messaging-3.1[]
+|`messaging`
+|`Messaging Server 3.0 Client`
+|feature:messagingClient-3.0[]
+|`messagingClient`
+|`Messaging Server 3.0 Security`
+|feature:messagingSecurity-3.0[]
+|`messagingSecurity`
+|`Messaging Server 3.0`
+|feature:messagingServer-3.0[]
+|`messagingServer`
+|`Jakarta Server Pages 3.1`
+|feature:pages-3.1[]
+|`pages`
+|`Jakarta Persistence 3.1`
+|feature:persistence-3.1[]
+|`persistence`
+|`Jakarta Persistence 3.1 Container`
+|feature:persistenceContainer-3.1[]
+|`persistenceContainer`
+|`Jakarta RESTful Web Services 3.1`
+|feature:restfulWS-3.1[]
+|`restfulWS`
+|`Jakarta RESTful Web Services 3.1 Client`
+|feature:restfulWSClient-3.1[]
+|`restfulWSClient`
+|`Jakarta WebSocket 2.1`
+|feature:websocket-2.1[]
+|`websocket`
+|`Jakarta XML Binding 4.0`
+|feature:xmlBinding-4.0[]
+|`xmlBinding`
+|`Jakarta XML Web Services 4.0`
+|feature:xmlWS-4.0[]
+|`xmlWS`
+|===
