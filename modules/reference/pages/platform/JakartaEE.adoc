@@ -1,3 +1,15 @@
+= Java EE platforms
+
+The following tables list the currently available features and corresponding versionless features for each Jakarta EE platform version. You can declare up to 2 platform elements, one for MicroProfile and another for either Jakarta EE or Java EE. For more information, see xref:reference:feature/versionless-features.adoc[Simplify feature selection with versionless features].
+
+- <<9-1, Jakarta EE 9.1>>
+- <<10-0, Jakarta EE 10.0>>
+
+[#9-1]
+== Jakarta EE 9.1
+
+Platform short name: `jakartaee-9.1`
+
 .jakartaee-9.1 platform and versionless features
 [%header,cols=3*]
 |===
@@ -122,6 +134,12 @@
 |feature:xmlWS-3.0[]
 |`xmlWS`
 |===
+
+[#10-0]
+== Jakarta EE 10-0
+
+Platform short name: `jakartaee-10.0`
+
 .jakartaee-10.0 platform and versionless features
 [%header,cols=3*]
 |===
