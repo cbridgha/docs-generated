@@ -1,4 +1,16 @@
-.javaee-7.0 platform and versionless features
+= Java EE platforms
+
+The following tables list the currently available features and corresponding versionless features for each Java EE platform version. You can declare up to 2 platform elements, one for MicroProfile and another for either Jakarta EE or Java EE. For more information, see xref:reference:feature/versionless-features.adoc[Simplify feature selection with versionless features].
+
+- <<7-0, Java EE 7>>
+- <<8-0, Java EE 8>>
+
+[#7-0]
+== Java EE 7
+
+Platform short name: `javaee-7.0`
+
+.javaee-7.0 platform features
 [%header,cols=3*]
 |===
 |Feature name
@@ -116,6 +128,12 @@
 |feature:websocket-1.1[]
 |`websocket`
 |===
+
+[#8-0]
+== Java EE 8
+
+Platform short name: `javaee-8.0`
+
 .javaee-8.0 platform and versionless features
 [%header,cols=3*]
 |===
