@@ -1,9 +1,11 @@
 = Java EE platforms
 
-The following tables list the currently available features and corresponding versionless features for each Java EE platform version. You can declare up to 2 platform elements, one for MicroProfile and another for either Jakarta EE or Java EE. For more information, see xref:reference:feature/versionless-features.adoc[Simplify feature selection with versionless features].
+The following tables list the currently available features and corresponding versionless features for each Java EE platform version. You can declare up to 2 platform elements, one for MicroProfile and another for either Jakarta EE or Java EE.
 
 - <<7-0, Java EE 7>>
 - <<8-0, Java EE 8>>
+
+For more information, see xref:reference:feature/versionless-features.adoc[Simplify feature selection with versionless features].
 
 [#7-0]
 == Java EE 7
