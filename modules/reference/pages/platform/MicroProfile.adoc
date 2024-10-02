@@ -7,7 +7,7 @@ The following tables list the currently available features and corresponding ver
 - <<1-4, MicroProfile 1.4>>
 - <<2-0, MicroProfile 2.0>>
 - <<2-2, MicroProfile 2.2>>
-- <<3-0, MicroProfile 1.2>>
+- <<3-0, MicroProfile 3.0>>
 - <<3-2, MicroProfile 3.2>>
 - <<3-3, MicroProfile 3.3>>
 - <<4-0, MicroProfile 4.0>>
