@@ -481,6 +481,10 @@ Min: +0+
 |+post+
 
 |+The method to use for sending credentials to the token endpoint of the OpenID Connect provider in order to authenticate the client.+ +
+*+basic+* +
++Use the HTTP Basic authentication scheme to authenticate the client with the token endpoint of the OpenID Connect provider.+ +
+*+post+* +
++Include the client credentials in the request body to authenticate the client with the token endpoint of the OpenID Connect provider.+ +
 *+private_key_jwt+* +
 +Private key JWT client authentication.+
 

@@ -173,7 +173,11 @@ Required
 
 |+client_secret_post+
 
-|+Specifies required authentication method.+
+|+Specifies required authentication method.+ +
+*+client_secret_basic+* +
++Use the HTTP Basic authentication scheme to authenticate the client with the token endpoint of the OpenID Connect provider.+ +
+*+client_secret_post+* +
++Include the client credentials in the request body to authenticate the client with the token endpoint of the OpenID Connect provider.+
 
 |+useSystemPropertiesForHttpClientConnections+
 
