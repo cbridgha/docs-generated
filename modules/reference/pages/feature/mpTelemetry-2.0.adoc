@@ -81,7 +81,7 @@ include::./mpTelemetry-2.0/examples.adoc[opts=optional]
 * JavaSE-11.0
 * JavaSE-17.0
 * JavaSE-21.0
-* JavaSE-22.0
+* JavaSE-23.0
 // end::java-versions[]
 // tag::dependencies[]
 // end::dependencies[]
@@ -97,4 +97,7 @@ io.openliberty.mpTelemetry-2.0; type="osgi.subsystem.feature"
 ----
 // end::feature-require[]
 // tag::spi[]
+
+== SPI packages provided by this feature
+* xref:javadoc/spi/mpTelemetry-2.0.adoc[MicroProfile Telemetry 2.0]
 // end::spi[]

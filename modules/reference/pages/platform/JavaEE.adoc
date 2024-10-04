@@ -1,0 +1,265 @@
+= Java EE platforms
+
+The following tables list the currently available features and corresponding versionless features for each Java EE platform version. You can declare up to 2 platform elements, one for MicroProfile and another for either Jakarta EE or Java EE.
+
+- <<7-0, Java EE 7>>
+- <<8-0, Java EE 8>>
+
+For more information, see xref:reference:feature/versionless-features.adoc[Simplify feature selection with versionless features].
+
+[#7-0]
+== Java EE 7
+
+Platform short name: `javaee-7.0`
+
+.javaee-7.0 platform features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`Application Client Support for Server 1.0`
+|feature:appClientSupport-1.0[]
+|`appClientSupport`
+|`Application Security 2.0`
+|feature:appSecurity-2.0[]
+|`appSecurity`
+|`Batch API 1.0`
+|feature:batch-1.0[]
+|`batch`
+|`Bean Validation 1.1`
+|feature:beanValidation-1.1[]
+|`beanValidation`
+|`Contexts and Dependency Injection 1.2`
+|feature:cdi-1.2[]
+|`cdi`
+|`Concurrency Utilities for Java EE 1.0`
+|feature:concurrent-1.0[]
+|`concurrent`
+|`Enterprise JavaBeans 3.2`
+|feature:ejb-3.2[]
+|`ejb`
+|`Enterprise JavaBeans Home Interfaces 3.2`
+|feature:ejbHome-3.2[]
+|`ejbHome`
+|`Enterprise JavaBeans Lite 3.2`
+|feature:ejbLite-3.2[]
+|`ejbLite`
+|`Enterprise JavaBeans Persistent Timers 3.2`
+|feature:ejbPersistentTimer-3.2[]
+|`ejbPersistentTimer`
+|`Enterprise JavaBeans Remote 3.2`
+|feature:ejbRemote-3.2[]
+|`ejbRemote`
+|`Expression Language 3.0`
+|feature:el-3.0[]
+|`el`
+|`J2EE Management 1.1`
+|feature:j2eeManagement-1.1[]
+|`j2eeManagement`
+|`Java Authorization Contract for Containers 1.5`
+|feature:jacc-1.5[]
+|`jacc`
+|`Java Authentication SPI for Containers 1.1`
+|feature:jaspic-1.1[]
+|`jaspic`
+|`JavaMail 1.5`
+|feature:javaMail-1.5[]
+|`javaMail`
+|`Java XML Bindings 2.2`
+|feature:jaxb-2.2[]
+|`jaxb`
+|`Java RESTful Services 2.0`
+|feature:jaxrs-2.0[]
+|`jaxrs`
+|`Java RESTful Services Client 2.0`
+|feature:jaxrsClient-2.0[]
+|`jaxrsClient`
+|`Java Web Services 2.2`
+|feature:jaxws-2.2[]
+|`jaxws`
+|`Java Connector Architecture 1.7`
+|feature:jca-1.7[]
+|`jca`
+|`Java Connector Architecture Security Inflow 1.0`
+|feature:jcaInboundSecurity-1.0[]
+|`jcaInboundSecurity`
+|`Java Database Connectivity 4.1`
+|feature:jdbc-4.1[]
+|`jdbc`
+|`Java Message Service 2.0`
+|feature:jms-2.0[]
+|`jms`
+|`Java Persistence API 2.1`
+|feature:jpa-2.1[]
+|`jpa`
+|`Java Persistence API Container 2.1`
+|feature:jpaContainer-2.1[]
+|`jpaContainer`
+|`JavaServer Faces 2.2`
+|feature:jsf-2.2[]
+|`jsf`
+|`JavaServer Faces Container 2.2`
+|feature:jsfContainer-2.2[]
+|`jsfContainer`
+|`JavaScript Object Notation Processing 1.0`
+|feature:jsonp-1.0[]
+|`jsonp`
+|`JavaServer Pages 2.3`
+|feature:jsp-2.3[]
+|`jsp`
+|`Java EE Managed Bean 1.0`
+|feature:managedBeans-1.0[]
+|`managedBeans`
+|`Message-Driven Beans 3.2`
+|feature:mdb-3.2[]
+|`mdb`
+|`Java Servlets 3.1`
+|feature:servlet-3.1[]
+|`servlet`
+|`JMS 2.0 Client for Message Server`
+|feature:wasJmsClient-2.0[]
+|`wasJmsClient`
+|`Message Server Security 1.0`
+|feature:wasJmsSecurity-1.0[]
+|`wasJmsSecurity`
+|`Message Server 1.0`
+|feature:wasJmsServer-1.0[]
+|`wasJmsServer`
+|`Java WebSocket 1.1`
+|feature:websocket-1.1[]
+|`websocket`
+|===
+
+[#8-0]
+== Java EE 8
+
+Platform short name: `javaee-8.0`
+
+.javaee-8.0 platform and versionless features
+[%header,cols=3*]
+|===
+|Feature name
+|Feature version
+|Versionless feature short name
+|`Application Client Support for Server 1.0`
+|feature:appClientSupport-1.0[]
+|`appClientSupport`
+|`Application Security 3.0`
+|feature:appSecurity-3.0[]
+|`appSecurity`
+|`Batch API 1.0`
+|feature:batch-1.0[]
+|`batch`
+|`Bean Validation 2.0`
+|feature:beanValidation-2.0[]
+|`beanValidation`
+|`Contexts and Dependency Injection 2.0`
+|feature:cdi-2.0[]
+|`cdi`
+|`Concurrency Utilities for Java EE 1.0`
+|feature:concurrent-1.0[]
+|`concurrent`
+|`Enterprise JavaBeans 3.2`
+|feature:ejb-3.2[]
+|`ejb`
+|`Enterprise JavaBeans Home Interfaces 3.2`
+|feature:ejbHome-3.2[]
+|`ejbHome`
+|`Enterprise JavaBeans Lite 3.2`
+|feature:ejbLite-3.2[]
+|`ejbLite`
+|`Enterprise JavaBeans Persistent Timers 3.2`
+|feature:ejbPersistentTimer-3.2[]
+|`ejbPersistentTimer`
+|`Enterprise JavaBeans Remote 3.2`
+|feature:ejbRemote-3.2[]
+|`ejbRemote`
+|`Expression Language 3.0`
+|feature:el-3.0[]
+|`el`
+|`J2EE Management 1.1`
+|feature:j2eeManagement-1.1[]
+|`j2eeManagement`
+|`Java Authorization Contract for Containers 1.5`
+|feature:jacc-1.5[]
+|`jacc`
+|`Java Authentication SPI for Containers 1.1`
+|feature:jaspic-1.1[]
+|`jaspic`
+|`JavaMail 1.6`
+|feature:javaMail-1.6[]
+|`javaMail`
+|`Java XML Bindings 2.2`
+|feature:jaxb-2.2[]
+|`jaxb`
+|`Java RESTful Services 2.1`
+|feature:jaxrs-2.1[]
+|`jaxrs`
+|`Java RESTful Services Client 2.1`
+|feature:jaxrsClient-2.1[]
+|`jaxrsClient`
+|`Java Web Services 2.2`
+|feature:jaxws-2.2[]
+|`jaxws`
+|`Java Connector Architecture 1.7`
+|feature:jca-1.7[]
+|`jca`
+|`Java Connector Architecture Security Inflow 1.0`
+|feature:jcaInboundSecurity-1.0[]
+|`jcaInboundSecurity`
+|`Java Database Connectivity 4.2`
+|feature:jdbc-4.2[]
+|`jdbc`
+|`Java Message Service 2.0`
+|feature:jms-2.0[]
+|`jms`
+|`Java Persistence API 2.2`
+|feature:jpa-2.2[]
+|`jpa`
+|`Java Persistence API Container 2.2`
+|feature:jpaContainer-2.2[]
+|`jpaContainer`
+|`JavaServer Faces 2.3`
+|feature:jsf-2.3[]
+|`jsf`
+|`JavaServer Faces Container 2.3`
+|feature:jsfContainer-2.3[]
+|`jsfContainer`
+|`JavaScript Object Notation Binding 1.0`
+|feature:jsonb-1.0[]
+|`jsonb`
+|`JavaScript Object Notation Binding 1.0 via Bells`
+|feature:jsonbContainer-1.0[]
+|`jsonbContainer`
+|`JavaScript Object Notation Processing 1.1`
+|feature:jsonp-1.1[]
+|`jsonp`
+|`JavaScript Object Notation Processing 1.1 via Bells`
+|feature:jsonpContainer-1.1[]
+|`jsonpContainer`
+|`JavaServer Pages 2.3`
+|feature:jsp-2.3[]
+|`jsp`
+|`Java EE Managed Bean 1.0`
+|feature:managedBeans-1.0[]
+|`managedBeans`
+|`Message-Driven Beans 3.2`
+|feature:mdb-3.2[]
+|`mdb`
+|`Java Servlets 4.0`
+|feature:servlet-4.0[]
+|`servlet`
+|`JMS 2.0 Client for Message Server`
+|feature:wasJmsClient-2.0[]
+|`wasJmsClient`
+|`Message Server Security 1.0`
+|feature:wasJmsSecurity-1.0[]
+|`wasJmsSecurity`
+|`Message Server 1.0`
+|feature:wasJmsServer-1.0[]
+|`wasJmsServer`
+|`Java WebSocket 1.1`
+|feature:websocket-1.1[]
+|`websocket`
+|===

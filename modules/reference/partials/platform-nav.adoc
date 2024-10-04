@@ -1,0 +1,5 @@
+
+* xref:feature/versionless-features.adoc[Versionless features]
+** xref:platform/MicroProfile.adoc[MicroProfile platforms]
+** xref:platform/JavaEE.adoc[Java EE platforms]
+** xref:platform/JakartaEE.adoc[Jakarta EE platforms]
