@@ -75,7 +75,7 @@ Min: +1+
 
 |+loose+
 
-|+Indicates whether to loosely or strictly enforce maximum concurrency for tasks that run on the task submitter's thread. Tasks can run on the task submitter's thread when using the untimed invokeAll method, or, if only invoking a single task, the untimed invokeAny method. If the run-if-queue-full attribute is configured, it is also possible for tasks to run the task submitter's thread when using the execute and submit methods. In all of these cases, this attribute determines whether or not running on the submitter's thread counts against the maximum concurrency.+ +
+|+Indicates whether to loosely or strictly enforce maximum concurrency for tasks that run on the task submitter's thread. If the concurrency policy is not configured to run tasks on virtual threads, the invokeAll and invokeAny methods can sometimes run tasks on the task submitter's thread. This situation happens when you use the untimed invokeAll method, or, if you only supply a single task, when you use the untimed invokeAny method. If the run-if-queue-full attribute is configured, tasks can also run on the task submitter's thread when you use the execute and submit methods. In all of these cases, this attribute determines whether running on the submitter's thread counts against the maximum concurrency. Completion stage tasks that run inline do not count against the maximum concurrency, regardless of the maximum policy.+ +
 *+loose+* +
 +Maximum concurrency is loosely enforced. Tasks are allowed to run on the task submitter's thread without counting against maximum concurrency.+ +
 *+strict+* +
@@ -346,7 +346,7 @@ Min: +1+
 
 |+loose+
 
-|+Indicates whether to loosely or strictly enforce maximum concurrency for tasks that run on the task submitter's thread. Tasks can run on the task submitter's thread when using the untimed invokeAll method, or, if only invoking a single task, the untimed invokeAny method. If the run-if-queue-full attribute is configured, it is also possible for tasks to run the task submitter's thread when using the execute and submit methods. In all of these cases, this attribute determines whether or not running on the submitter's thread counts against the maximum concurrency.+ +
+|+Indicates whether to loosely or strictly enforce maximum concurrency for tasks that run on the task submitter's thread. If the concurrency policy is not configured to run tasks on virtual threads, the invokeAll and invokeAny methods can sometimes run tasks on the task submitter's thread. This situation happens when you use the untimed invokeAll method, or, if you only supply a single task, when you use the untimed invokeAny method. If the run-if-queue-full attribute is configured, tasks can also run on the task submitter's thread when you use the execute and submit methods. In all of these cases, this attribute determines whether running on the submitter's thread counts against the maximum concurrency. Completion stage tasks that run inline do not count against the maximum concurrency, regardless of the maximum policy.+ +
 *+loose+* +
 +Maximum concurrency is loosely enforced. Tasks are allowed to run on the task submitter's thread without counting against maximum concurrency.+ +
 *+strict+* +
